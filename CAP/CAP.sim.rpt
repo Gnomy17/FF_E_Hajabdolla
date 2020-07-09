@@ -1,0 +1,348 @@
+Simulator report for CAP
+Thu Jul 09 09:50:24 2020
+Quartus II Version 9.0 Build 132 02/25/2009 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|ALTSYNCRAM
+  6. Coverage Summary
+  7. Complete 1/0-Value Coverage
+  8. Missing 1-Value Coverage
+  9. Missing 0-Value Coverage
+ 10. Simulator INI Usage
+ 11. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 1.0 us       ;
+; Simulation Netlist Size     ; 85 nodes     ;
+; Simulation Coverage         ;      41.74 % ;
+; Total Number of Transitions ; 1740         ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Stratix II   ;
+; Device                      ; EP2S15F484C3 ;
++-----------------------------+--------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                      ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Option                                                                                     ; Setting    ; Default Value ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Simulation mode                                                                            ; Timing     ; Timing        ;
+; Start time                                                                                 ; 0 ns       ; 0 ns          ;
+; Simulation results format                                                                  ; CVWF       ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On         ; On            ;
+; Check outputs                                                                              ; Off        ; Off           ;
+; Report simulation coverage                                                                 ; On         ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On         ; On            ;
+; Display missing 1-value coverage report                                                    ; On         ; On            ;
+; Display missing 0-value coverage report                                                    ; On         ; On            ;
+; Detect setup and hold time violations                                                      ; Off        ; Off           ;
+; Detect glitches                                                                            ; Off        ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off        ; Off           ;
+; Generate Signal Activity File                                                              ; Off        ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off        ; Off           ;
+; Group bus channels in simulation results                                                   ; Off        ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On         ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off        ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off        ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto       ; Auto          ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II to view the waveform report data.
+
+
++------------------------------------------------------------------------------------------+
+; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|ALTSYNCRAM ;
++------------------------------------------------------------------------------------------+
+Memory report data cannot be output to ASCII.
+Please use Quartus II to view the memory report data.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;      41.74 % ;
+; Total nodes checked                                 ; 85           ;
+; Total output ports checked                          ; 115          ;
+; Total output ports with complete 1/0-value coverage ; 48           ;
+; Total output ports with no 1/0-value coverage       ; 64           ;
+; Total output ports with no 1-value coverage         ; 65           ;
+; Total output ports with no 0-value coverage         ; 66           ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                                                                                                                                                           ;
++--------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+------------------+
+; Node Name                                                                                  ; Output Port Name                                                                      ; Output Port Type ;
++--------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+------------------+
+; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|ram_block1a0 ; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|q_b[0]  ; portbdataout0    ;
+; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|ram_block1a0 ; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|q_b[1]  ; portbdataout1    ;
+; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|ram_block1a0 ; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|q_b[2]  ; portbdataout2    ;
+; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|ram_block1a0 ; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|q_b[3]  ; portbdataout3    ;
+; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|ram_block1a0 ; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|q_b[4]  ; portbdataout4    ;
+; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|ram_block1a0 ; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|q_b[5]  ; portbdataout5    ;
+; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|ram_block1a0 ; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|q_b[6]  ; portbdataout6    ;
+; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|ram_block1a0 ; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|q_b[7]  ; portbdataout7    ;
+; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|ram_block1a0 ; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|q_b[8]  ; portbdataout8    ;
+; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|ram_block1a0 ; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|q_b[9]  ; portbdataout9    ;
+; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|ram_block1a0 ; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|q_b[10] ; portbdataout10   ;
+; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|ram_block1a0 ; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|q_b[11] ; portbdataout11   ;
+; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|ram_block1a0 ; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|q_b[12] ; portbdataout12   ;
+; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|ram_block1a0 ; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|q_b[13] ; portbdataout13   ;
+; |CAP|data_out[13]                                                                          ; |CAP|data_out[13]                                                                     ; padio            ;
+; |CAP|data_out[12]                                                                          ; |CAP|data_out[12]                                                                     ; padio            ;
+; |CAP|data_out[11]                                                                          ; |CAP|data_out[11]                                                                     ; padio            ;
+; |CAP|data_out[10]                                                                          ; |CAP|data_out[10]                                                                     ; padio            ;
+; |CAP|data_out[9]                                                                           ; |CAP|data_out[9]                                                                      ; padio            ;
+; |CAP|data_out[8]                                                                           ; |CAP|data_out[8]                                                                      ; padio            ;
+; |CAP|data_out[7]                                                                           ; |CAP|data_out[7]                                                                      ; padio            ;
+; |CAP|data_out[6]                                                                           ; |CAP|data_out[6]                                                                      ; padio            ;
+; |CAP|data_out[5]                                                                           ; |CAP|data_out[5]                                                                      ; padio            ;
+; |CAP|data_out[4]                                                                           ; |CAP|data_out[4]                                                                      ; padio            ;
+; |CAP|data_out[3]                                                                           ; |CAP|data_out[3]                                                                      ; padio            ;
+; |CAP|data_out[2]                                                                           ; |CAP|data_out[2]                                                                      ; padio            ;
+; |CAP|data_out[1]                                                                           ; |CAP|data_out[1]                                                                      ; padio            ;
+; |CAP|data_out[0]                                                                           ; |CAP|data_out[0]                                                                      ; padio            ;
+; |CAP|clk                                                                                   ; |CAP|clk~corein                                                                       ; combout          ;
+; |CAP|waddress[2]                                                                           ; |CAP|waddress[2]~corein                                                               ; combout          ;
+; |CAP|waddress[3]                                                                           ; |CAP|waddress[3]~corein                                                               ; combout          ;
+; |CAP|waddress[4]                                                                           ; |CAP|waddress[4]~corein                                                               ; combout          ;
+; |CAP|waddress[5]                                                                           ; |CAP|waddress[5]~corein                                                               ; combout          ;
+; |CAP|waddress[6]                                                                           ; |CAP|waddress[6]~corein                                                               ; combout          ;
+; |CAP|waddress[7]                                                                           ; |CAP|waddress[7]~corein                                                               ; combout          ;
+; |CAP|raddress[0]                                                                           ; |CAP|raddress[0]~corein                                                               ; combout          ;
+; |CAP|raddress[1]                                                                           ; |CAP|raddress[1]~corein                                                               ; combout          ;
+; |CAP|raddress[2]                                                                           ; |CAP|raddress[2]~corein                                                               ; combout          ;
+; |CAP|raddress[3]                                                                           ; |CAP|raddress[3]~corein                                                               ; combout          ;
+; |CAP|raddress[4]                                                                           ; |CAP|raddress[4]~corein                                                               ; combout          ;
+; |CAP|raddress[5]                                                                           ; |CAP|raddress[5]~corein                                                               ; combout          ;
+; |CAP|data_in[7]                                                                            ; |CAP|data_in[7]~corein                                                                ; combout          ;
+; |CAP|data_in[6]                                                                            ; |CAP|data_in[6]~corein                                                                ; combout          ;
+; |CAP|data_in[5]                                                                            ; |CAP|data_in[5]~corein                                                                ; combout          ;
+; |CAP|data_in[4]                                                                            ; |CAP|data_in[4]~corein                                                                ; combout          ;
+; |CAP|data_in[3]                                                                            ; |CAP|data_in[3]~corein                                                                ; combout          ;
+; |CAP|data_in[2]                                                                            ; |CAP|data_in[2]~corein                                                                ; combout          ;
+; |CAP|clk~clkctrl                                                                           ; |CAP|clk~clkctrl                                                                      ; outclk           ;
++--------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Missing 1-Value Coverage                                                                                                                                                                               ;
++---------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+------------------+
+; Node Name                                                                                   ; Output Port Name                                                                      ; Output Port Type ;
++---------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+------------------+
+; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|ram_block1a14 ; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|q_b[14] ; portbdataout0    ;
+; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|ram_block1a14 ; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|q_b[15] ; portbdataout1    ;
+; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|ram_block1a14 ; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|q_b[16] ; portbdataout2    ;
+; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|ram_block1a14 ; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|q_b[17] ; portbdataout3    ;
+; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|ram_block1a14 ; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|q_b[18] ; portbdataout4    ;
+; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|ram_block1a14 ; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|q_b[19] ; portbdataout5    ;
+; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|ram_block1a14 ; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|q_b[20] ; portbdataout6    ;
+; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|ram_block1a14 ; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|q_b[21] ; portbdataout7    ;
+; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|ram_block1a14 ; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|q_b[22] ; portbdataout8    ;
+; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|ram_block1a14 ; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|q_b[23] ; portbdataout9    ;
+; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|ram_block1a14 ; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|q_b[24] ; portbdataout10   ;
+; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|ram_block1a14 ; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|q_b[25] ; portbdataout11   ;
+; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|ram_block1a14 ; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|q_b[26] ; portbdataout12   ;
+; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|ram_block1a14 ; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|q_b[27] ; portbdataout13   ;
+; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|ram_block1a14 ; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|q_b[28] ; portbdataout14   ;
+; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|ram_block1a14 ; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|q_b[29] ; portbdataout15   ;
+; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|ram_block1a14 ; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|q_b[30] ; portbdataout16   ;
+; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|ram_block1a14 ; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|q_b[31] ; portbdataout17   ;
+; |CAP|data_out[31]                                                                           ; |CAP|data_out[31]                                                                     ; padio            ;
+; |CAP|data_out[30]                                                                           ; |CAP|data_out[30]                                                                     ; padio            ;
+; |CAP|data_out[29]                                                                           ; |CAP|data_out[29]                                                                     ; padio            ;
+; |CAP|data_out[28]                                                                           ; |CAP|data_out[28]                                                                     ; padio            ;
+; |CAP|data_out[27]                                                                           ; |CAP|data_out[27]                                                                     ; padio            ;
+; |CAP|data_out[26]                                                                           ; |CAP|data_out[26]                                                                     ; padio            ;
+; |CAP|data_out[25]                                                                           ; |CAP|data_out[25]                                                                     ; padio            ;
+; |CAP|data_out[24]                                                                           ; |CAP|data_out[24]                                                                     ; padio            ;
+; |CAP|data_out[23]                                                                           ; |CAP|data_out[23]                                                                     ; padio            ;
+; |CAP|data_out[22]                                                                           ; |CAP|data_out[22]                                                                     ; padio            ;
+; |CAP|data_out[21]                                                                           ; |CAP|data_out[21]                                                                     ; padio            ;
+; |CAP|data_out[20]                                                                           ; |CAP|data_out[20]                                                                     ; padio            ;
+; |CAP|data_out[19]                                                                           ; |CAP|data_out[19]                                                                     ; padio            ;
+; |CAP|data_out[18]                                                                           ; |CAP|data_out[18]                                                                     ; padio            ;
+; |CAP|data_out[17]                                                                           ; |CAP|data_out[17]                                                                     ; padio            ;
+; |CAP|data_out[16]                                                                           ; |CAP|data_out[16]                                                                     ; padio            ;
+; |CAP|data_out[15]                                                                           ; |CAP|data_out[15]                                                                     ; padio            ;
+; |CAP|data_out[14]                                                                           ; |CAP|data_out[14]                                                                     ; padio            ;
+; |CAP|we                                                                                     ; |CAP|we~corein                                                                        ; combout          ;
+; |CAP|data_in[31]                                                                            ; |CAP|data_in[31]~corein                                                               ; combout          ;
+; |CAP|waddress[0]                                                                            ; |CAP|waddress[0]~corein                                                               ; combout          ;
+; |CAP|waddress[1]                                                                            ; |CAP|waddress[1]~corein                                                               ; combout          ;
+; |CAP|raddress[7]                                                                            ; |CAP|raddress[7]~corein                                                               ; combout          ;
+; |CAP|data_in[30]                                                                            ; |CAP|data_in[30]~corein                                                               ; combout          ;
+; |CAP|data_in[29]                                                                            ; |CAP|data_in[29]~corein                                                               ; combout          ;
+; |CAP|data_in[28]                                                                            ; |CAP|data_in[28]~corein                                                               ; combout          ;
+; |CAP|data_in[27]                                                                            ; |CAP|data_in[27]~corein                                                               ; combout          ;
+; |CAP|data_in[26]                                                                            ; |CAP|data_in[26]~corein                                                               ; combout          ;
+; |CAP|data_in[25]                                                                            ; |CAP|data_in[25]~corein                                                               ; combout          ;
+; |CAP|data_in[24]                                                                            ; |CAP|data_in[24]~corein                                                               ; combout          ;
+; |CAP|data_in[23]                                                                            ; |CAP|data_in[23]~corein                                                               ; combout          ;
+; |CAP|data_in[22]                                                                            ; |CAP|data_in[22]~corein                                                               ; combout          ;
+; |CAP|data_in[21]                                                                            ; |CAP|data_in[21]~corein                                                               ; combout          ;
+; |CAP|data_in[20]                                                                            ; |CAP|data_in[20]~corein                                                               ; combout          ;
+; |CAP|data_in[19]                                                                            ; |CAP|data_in[19]~corein                                                               ; combout          ;
+; |CAP|data_in[18]                                                                            ; |CAP|data_in[18]~corein                                                               ; combout          ;
+; |CAP|data_in[17]                                                                            ; |CAP|data_in[17]~corein                                                               ; combout          ;
+; |CAP|data_in[16]                                                                            ; |CAP|data_in[16]~corein                                                               ; combout          ;
+; |CAP|data_in[15]                                                                            ; |CAP|data_in[15]~corein                                                               ; combout          ;
+; |CAP|data_in[14]                                                                            ; |CAP|data_in[14]~corein                                                               ; combout          ;
+; |CAP|data_in[13]                                                                            ; |CAP|data_in[13]~corein                                                               ; combout          ;
+; |CAP|data_in[12]                                                                            ; |CAP|data_in[12]~corein                                                               ; combout          ;
+; |CAP|data_in[11]                                                                            ; |CAP|data_in[11]~corein                                                               ; combout          ;
+; |CAP|data_in[10]                                                                            ; |CAP|data_in[10]~corein                                                               ; combout          ;
+; |CAP|data_in[9]                                                                             ; |CAP|data_in[9]~corein                                                                ; combout          ;
+; |CAP|data_in[1]                                                                             ; |CAP|data_in[1]~corein                                                                ; combout          ;
+; |CAP|data_in[0]                                                                             ; |CAP|data_in[0]~corein                                                                ; combout          ;
++---------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Missing 0-Value Coverage                                                                                                                                                                               ;
++---------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+------------------+
+; Node Name                                                                                   ; Output Port Name                                                                      ; Output Port Type ;
++---------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+------------------+
+; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|ram_block1a14 ; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|q_b[14] ; portbdataout0    ;
+; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|ram_block1a14 ; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|q_b[15] ; portbdataout1    ;
+; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|ram_block1a14 ; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|q_b[16] ; portbdataout2    ;
+; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|ram_block1a14 ; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|q_b[17] ; portbdataout3    ;
+; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|ram_block1a14 ; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|q_b[18] ; portbdataout4    ;
+; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|ram_block1a14 ; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|q_b[19] ; portbdataout5    ;
+; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|ram_block1a14 ; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|q_b[20] ; portbdataout6    ;
+; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|ram_block1a14 ; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|q_b[21] ; portbdataout7    ;
+; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|ram_block1a14 ; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|q_b[22] ; portbdataout8    ;
+; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|ram_block1a14 ; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|q_b[23] ; portbdataout9    ;
+; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|ram_block1a14 ; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|q_b[24] ; portbdataout10   ;
+; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|ram_block1a14 ; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|q_b[25] ; portbdataout11   ;
+; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|ram_block1a14 ; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|q_b[26] ; portbdataout12   ;
+; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|ram_block1a14 ; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|q_b[27] ; portbdataout13   ;
+; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|ram_block1a14 ; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|q_b[28] ; portbdataout14   ;
+; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|ram_block1a14 ; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|q_b[29] ; portbdataout15   ;
+; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|ram_block1a14 ; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|q_b[30] ; portbdataout16   ;
+; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|ram_block1a14 ; |CAP|ram:inst1|altsyncram:altsyncram_component|altsyncram_i5m1:auto_generated|q_b[31] ; portbdataout17   ;
+; |CAP|data_out[31]                                                                           ; |CAP|data_out[31]                                                                     ; padio            ;
+; |CAP|data_out[30]                                                                           ; |CAP|data_out[30]                                                                     ; padio            ;
+; |CAP|data_out[29]                                                                           ; |CAP|data_out[29]                                                                     ; padio            ;
+; |CAP|data_out[28]                                                                           ; |CAP|data_out[28]                                                                     ; padio            ;
+; |CAP|data_out[27]                                                                           ; |CAP|data_out[27]                                                                     ; padio            ;
+; |CAP|data_out[26]                                                                           ; |CAP|data_out[26]                                                                     ; padio            ;
+; |CAP|data_out[25]                                                                           ; |CAP|data_out[25]                                                                     ; padio            ;
+; |CAP|data_out[24]                                                                           ; |CAP|data_out[24]                                                                     ; padio            ;
+; |CAP|data_out[23]                                                                           ; |CAP|data_out[23]                                                                     ; padio            ;
+; |CAP|data_out[22]                                                                           ; |CAP|data_out[22]                                                                     ; padio            ;
+; |CAP|data_out[21]                                                                           ; |CAP|data_out[21]                                                                     ; padio            ;
+; |CAP|data_out[20]                                                                           ; |CAP|data_out[20]                                                                     ; padio            ;
+; |CAP|data_out[19]                                                                           ; |CAP|data_out[19]                                                                     ; padio            ;
+; |CAP|data_out[18]                                                                           ; |CAP|data_out[18]                                                                     ; padio            ;
+; |CAP|data_out[17]                                                                           ; |CAP|data_out[17]                                                                     ; padio            ;
+; |CAP|data_out[16]                                                                           ; |CAP|data_out[16]                                                                     ; padio            ;
+; |CAP|data_out[15]                                                                           ; |CAP|data_out[15]                                                                     ; padio            ;
+; |CAP|data_out[14]                                                                           ; |CAP|data_out[14]                                                                     ; padio            ;
+; |CAP|data_in[31]                                                                            ; |CAP|data_in[31]~corein                                                               ; combout          ;
+; |CAP|waddress[0]                                                                            ; |CAP|waddress[0]~corein                                                               ; combout          ;
+; |CAP|waddress[1]                                                                            ; |CAP|waddress[1]~corein                                                               ; combout          ;
+; |CAP|raddress[6]                                                                            ; |CAP|raddress[6]~corein                                                               ; combout          ;
+; |CAP|raddress[7]                                                                            ; |CAP|raddress[7]~corein                                                               ; combout          ;
+; |CAP|data_in[30]                                                                            ; |CAP|data_in[30]~corein                                                               ; combout          ;
+; |CAP|data_in[29]                                                                            ; |CAP|data_in[29]~corein                                                               ; combout          ;
+; |CAP|data_in[28]                                                                            ; |CAP|data_in[28]~corein                                                               ; combout          ;
+; |CAP|data_in[27]                                                                            ; |CAP|data_in[27]~corein                                                               ; combout          ;
+; |CAP|data_in[26]                                                                            ; |CAP|data_in[26]~corein                                                               ; combout          ;
+; |CAP|data_in[25]                                                                            ; |CAP|data_in[25]~corein                                                               ; combout          ;
+; |CAP|data_in[24]                                                                            ; |CAP|data_in[24]~corein                                                               ; combout          ;
+; |CAP|data_in[23]                                                                            ; |CAP|data_in[23]~corein                                                               ; combout          ;
+; |CAP|data_in[22]                                                                            ; |CAP|data_in[22]~corein                                                               ; combout          ;
+; |CAP|data_in[21]                                                                            ; |CAP|data_in[21]~corein                                                               ; combout          ;
+; |CAP|data_in[20]                                                                            ; |CAP|data_in[20]~corein                                                               ; combout          ;
+; |CAP|data_in[19]                                                                            ; |CAP|data_in[19]~corein                                                               ; combout          ;
+; |CAP|data_in[18]                                                                            ; |CAP|data_in[18]~corein                                                               ; combout          ;
+; |CAP|data_in[17]                                                                            ; |CAP|data_in[17]~corein                                                               ; combout          ;
+; |CAP|data_in[16]                                                                            ; |CAP|data_in[16]~corein                                                               ; combout          ;
+; |CAP|data_in[15]                                                                            ; |CAP|data_in[15]~corein                                                               ; combout          ;
+; |CAP|data_in[14]                                                                            ; |CAP|data_in[14]~corein                                                               ; combout          ;
+; |CAP|data_in[13]                                                                            ; |CAP|data_in[13]~corein                                                               ; combout          ;
+; |CAP|data_in[12]                                                                            ; |CAP|data_in[12]~corein                                                               ; combout          ;
+; |CAP|data_in[11]                                                                            ; |CAP|data_in[11]~corein                                                               ; combout          ;
+; |CAP|data_in[10]                                                                            ; |CAP|data_in[10]~corein                                                               ; combout          ;
+; |CAP|data_in[9]                                                                             ; |CAP|data_in[9]~corein                                                                ; combout          ;
+; |CAP|data_in[8]                                                                             ; |CAP|data_in[8]~corein                                                                ; combout          ;
+; |CAP|data_in[1]                                                                             ; |CAP|data_in[1]~corein                                                                ; combout          ;
+; |CAP|data_in[0]                                                                             ; |CAP|data_in[0]~corein                                                                ; combout          ;
++---------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II Simulator
+    Info: Version 9.0 Build 132 02/25/2009 SJ Web Edition
+    Info: Processing started: Thu Jul 09 09:50:24 2020
+Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off CAP -c CAP
+Info: Using vector source file "C:/Users/Lenovo/Desktop/New folder/CAP/CAP.vwf"
+Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info: Simulation partitioned into 1 sub-simulations
+Info: Simulation coverage is      41.74 %
+Info: Number of transitions in simulation is 1740
+Info: Quartus II Simulator was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 169 megabytes
+    Info: Processing ended: Thu Jul 09 09:50:24 2020
+    Info: Elapsed time: 00:00:00
+    Info: Total CPU time (on all processors): 00:00:00
+
+
