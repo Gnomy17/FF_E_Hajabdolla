@@ -85,11 +85,6 @@ applicable agreement for further details.
 	)
 )
 (connector
-	(pt 336 112)
-	(pt 528 112)
-	(bus)
-)
-(connector
 	(pt 528 112)
 	(pt 528 136)
 	(bus)
