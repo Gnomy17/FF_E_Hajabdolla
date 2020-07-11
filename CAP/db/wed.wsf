@@ -3998,7 +3998,7 @@ VECTOR("C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/db/CAP.sim.cvwf")
 		ZEND = 41250;
 		NUMERATOR = 20;
 		DENOMINATOR = 1000;
-		TOP_INDEX = 12;
+		TOP_INDEX = 26;
 	}
 	CLOCK{
 		PERIOD = 10000;
@@ -4017,7 +4017,7 @@ VECTOR("C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/db/CAP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_in[15]";
+		SIGNAL = "data_in[31]";
 		INDEX = 1;
 		FORMAT = E;
 		SCALE = 1;
@@ -4025,7 +4025,7 @@ VECTOR("C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/db/CAP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_in[14]";
+		SIGNAL = "data_in[30]";
 		INDEX = 2;
 		FORMAT = E;
 		SCALE = 1;
@@ -4033,7 +4033,7 @@ VECTOR("C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/db/CAP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_in[13]";
+		SIGNAL = "data_in[29]";
 		INDEX = 3;
 		FORMAT = E;
 		SCALE = 1;
@@ -4041,7 +4041,7 @@ VECTOR("C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/db/CAP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_in[12]";
+		SIGNAL = "data_in[28]";
 		INDEX = 4;
 		FORMAT = E;
 		SCALE = 1;
@@ -4049,7 +4049,7 @@ VECTOR("C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/db/CAP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_in[11]";
+		SIGNAL = "data_in[27]";
 		INDEX = 5;
 		FORMAT = E;
 		SCALE = 1;
@@ -4057,7 +4057,7 @@ VECTOR("C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/db/CAP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_in[10]";
+		SIGNAL = "data_in[26]";
 		INDEX = 6;
 		FORMAT = E;
 		SCALE = 1;
@@ -4065,7 +4065,7 @@ VECTOR("C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/db/CAP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_in[9]";
+		SIGNAL = "data_in[25]";
 		INDEX = 7;
 		FORMAT = E;
 		SCALE = 1;
@@ -4073,7 +4073,7 @@ VECTOR("C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/db/CAP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_in[8]";
+		SIGNAL = "data_in[24]";
 		INDEX = 8;
 		FORMAT = E;
 		SCALE = 1;
@@ -4081,7 +4081,7 @@ VECTOR("C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/db/CAP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_in[7]";
+		SIGNAL = "data_in[23]";
 		INDEX = 9;
 		FORMAT = E;
 		SCALE = 1;
@@ -4089,7 +4089,7 @@ VECTOR("C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/db/CAP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_in[6]";
+		SIGNAL = "data_in[22]";
 		INDEX = 10;
 		FORMAT = E;
 		SCALE = 1;
@@ -4097,7 +4097,7 @@ VECTOR("C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/db/CAP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_in[5]";
+		SIGNAL = "data_in[21]";
 		INDEX = 11;
 		FORMAT = E;
 		SCALE = 1;
@@ -4105,7 +4105,7 @@ VECTOR("C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/db/CAP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_in[4]";
+		SIGNAL = "data_in[20]";
 		INDEX = 12;
 		FORMAT = E;
 		SCALE = 1;
@@ -4113,7 +4113,7 @@ VECTOR("C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/db/CAP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_in[3]";
+		SIGNAL = "data_in[19]";
 		INDEX = 13;
 		FORMAT = E;
 		SCALE = 1;
@@ -4121,7 +4121,7 @@ VECTOR("C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/db/CAP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_in[2]";
+		SIGNAL = "data_in[18]";
 		INDEX = 14;
 		FORMAT = E;
 		SCALE = 1;
@@ -4129,7 +4129,7 @@ VECTOR("C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/db/CAP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_in[1]";
+		SIGNAL = "data_in[17]";
 		INDEX = 15;
 		FORMAT = E;
 		SCALE = 1;
@@ -4137,7 +4137,7 @@ VECTOR("C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/db/CAP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_in[0]";
+		SIGNAL = "data_in[16]";
 		INDEX = 16;
 		FORMAT = E;
 		SCALE = 1;
@@ -4145,15 +4145,15 @@ VECTOR("C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/db/CAP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_out";
+		SIGNAL = "data_in[15]";
 		INDEX = 17;
-		FORMAT = T;
+		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_out[31]";
+		SIGNAL = "data_in[14]";
 		INDEX = 18;
 		FORMAT = E;
 		SCALE = 1;
@@ -4161,7 +4161,7 @@ VECTOR("C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/db/CAP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_out[30]";
+		SIGNAL = "data_in[13]";
 		INDEX = 19;
 		FORMAT = E;
 		SCALE = 1;
@@ -4169,7 +4169,7 @@ VECTOR("C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/db/CAP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_out[29]";
+		SIGNAL = "data_in[12]";
 		INDEX = 20;
 		FORMAT = E;
 		SCALE = 1;
@@ -4177,7 +4177,7 @@ VECTOR("C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/db/CAP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_out[28]";
+		SIGNAL = "data_in[11]";
 		INDEX = 21;
 		FORMAT = E;
 		SCALE = 1;
@@ -4185,7 +4185,7 @@ VECTOR("C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/db/CAP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_out[27]";
+		SIGNAL = "data_in[10]";
 		INDEX = 22;
 		FORMAT = E;
 		SCALE = 1;
@@ -4193,7 +4193,7 @@ VECTOR("C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/db/CAP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_out[26]";
+		SIGNAL = "data_in[9]";
 		INDEX = 23;
 		FORMAT = E;
 		SCALE = 1;
@@ -4201,7 +4201,7 @@ VECTOR("C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/db/CAP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_out[25]";
+		SIGNAL = "data_in[8]";
 		INDEX = 24;
 		FORMAT = E;
 		SCALE = 1;
@@ -4209,7 +4209,7 @@ VECTOR("C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/db/CAP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_out[24]";
+		SIGNAL = "data_in[7]";
 		INDEX = 25;
 		FORMAT = E;
 		SCALE = 1;
@@ -4217,7 +4217,7 @@ VECTOR("C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/db/CAP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_out[23]";
+		SIGNAL = "data_in[6]";
 		INDEX = 26;
 		FORMAT = E;
 		SCALE = 1;
@@ -4225,7 +4225,7 @@ VECTOR("C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/db/CAP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_out[22]";
+		SIGNAL = "data_in[5]";
 		INDEX = 27;
 		FORMAT = E;
 		SCALE = 1;
@@ -4233,7 +4233,7 @@ VECTOR("C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/db/CAP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_out[21]";
+		SIGNAL = "data_in[4]";
 		INDEX = 28;
 		FORMAT = E;
 		SCALE = 1;
@@ -4241,7 +4241,7 @@ VECTOR("C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/db/CAP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_out[20]";
+		SIGNAL = "data_in[3]";
 		INDEX = 29;
 		FORMAT = E;
 		SCALE = 1;
@@ -4249,7 +4249,7 @@ VECTOR("C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/db/CAP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_out[19]";
+		SIGNAL = "data_in[2]";
 		INDEX = 30;
 		FORMAT = E;
 		SCALE = 1;
@@ -4257,7 +4257,7 @@ VECTOR("C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/db/CAP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_out[18]";
+		SIGNAL = "data_in[1]";
 		INDEX = 31;
 		FORMAT = E;
 		SCALE = 1;
@@ -4265,7 +4265,7 @@ VECTOR("C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/db/CAP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_out[17]";
+		SIGNAL = "data_in[0]";
 		INDEX = 32;
 		FORMAT = E;
 		SCALE = 1;
@@ -4273,15 +4273,15 @@ VECTOR("C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/db/CAP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_out[16]";
+		SIGNAL = "data_out";
 		INDEX = 33;
-		FORMAT = E;
+		FORMAT = T;
 		SCALE = 1;
 		VISIBLE = Y;
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_out[15]";
+		SIGNAL = "data_out[31]";
 		INDEX = 34;
 		FORMAT = E;
 		SCALE = 1;
@@ -4289,7 +4289,7 @@ VECTOR("C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/db/CAP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_out[14]";
+		SIGNAL = "data_out[30]";
 		INDEX = 35;
 		FORMAT = E;
 		SCALE = 1;
@@ -4297,7 +4297,7 @@ VECTOR("C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/db/CAP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_out[13]";
+		SIGNAL = "data_out[29]";
 		INDEX = 36;
 		FORMAT = E;
 		SCALE = 1;
@@ -4305,7 +4305,7 @@ VECTOR("C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/db/CAP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_out[12]";
+		SIGNAL = "data_out[28]";
 		INDEX = 37;
 		FORMAT = E;
 		SCALE = 1;
@@ -4313,7 +4313,7 @@ VECTOR("C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/db/CAP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_out[11]";
+		SIGNAL = "data_out[27]";
 		INDEX = 38;
 		FORMAT = E;
 		SCALE = 1;
@@ -4321,7 +4321,7 @@ VECTOR("C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/db/CAP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_out[10]";
+		SIGNAL = "data_out[26]";
 		INDEX = 39;
 		FORMAT = E;
 		SCALE = 1;
@@ -4329,7 +4329,7 @@ VECTOR("C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/db/CAP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_out[9]";
+		SIGNAL = "data_out[25]";
 		INDEX = 40;
 		FORMAT = E;
 		SCALE = 1;
@@ -4337,7 +4337,7 @@ VECTOR("C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/db/CAP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_out[8]";
+		SIGNAL = "data_out[24]";
 		INDEX = 41;
 		FORMAT = E;
 		SCALE = 1;
@@ -4345,7 +4345,7 @@ VECTOR("C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/db/CAP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_out[7]";
+		SIGNAL = "data_out[23]";
 		INDEX = 42;
 		FORMAT = E;
 		SCALE = 1;
@@ -4353,7 +4353,7 @@ VECTOR("C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/db/CAP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_out[6]";
+		SIGNAL = "data_out[22]";
 		INDEX = 43;
 		FORMAT = E;
 		SCALE = 1;
@@ -4361,7 +4361,7 @@ VECTOR("C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/db/CAP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_out[5]";
+		SIGNAL = "data_out[21]";
 		INDEX = 44;
 		FORMAT = E;
 		SCALE = 1;
@@ -4369,7 +4369,7 @@ VECTOR("C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/db/CAP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_out[4]";
+		SIGNAL = "data_out[20]";
 		INDEX = 45;
 		FORMAT = E;
 		SCALE = 1;
@@ -4377,7 +4377,7 @@ VECTOR("C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/db/CAP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_out[3]";
+		SIGNAL = "data_out[19]";
 		INDEX = 46;
 		FORMAT = E;
 		SCALE = 1;
@@ -4385,7 +4385,7 @@ VECTOR("C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/db/CAP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_out[2]";
+		SIGNAL = "data_out[18]";
 		INDEX = 47;
 		FORMAT = E;
 		SCALE = 1;
@@ -4393,7 +4393,7 @@ VECTOR("C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/db/CAP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_out[1]";
+		SIGNAL = "data_out[17]";
 		INDEX = 48;
 		FORMAT = E;
 		SCALE = 1;
@@ -4401,7 +4401,7 @@ VECTOR("C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/db/CAP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "data_out[0]";
+		SIGNAL = "data_out[16]";
 		INDEX = 49;
 		FORMAT = E;
 		SCALE = 1;
@@ -4409,8 +4409,128 @@ VECTOR("C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/db/CAP.sim.cvwf")
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "se_en";
+		SIGNAL = "data_out[15]";
 		INDEX = 50;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data_out[14]";
+		INDEX = 51;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data_out[13]";
+		INDEX = 52;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data_out[12]";
+		INDEX = 53;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data_out[11]";
+		INDEX = 54;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data_out[10]";
+		INDEX = 55;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data_out[9]";
+		INDEX = 56;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data_out[8]";
+		INDEX = 57;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data_out[7]";
+		INDEX = 58;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data_out[6]";
+		INDEX = 59;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data_out[5]";
+		INDEX = 60;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data_out[4]";
+		INDEX = 61;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data_out[3]";
+		INDEX = 62;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data_out[2]";
+		INDEX = 63;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data_out[1]";
+		INDEX = 64;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "data_out[0]";
+		INDEX = 65;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;

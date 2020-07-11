@@ -1,6 +1,5 @@
 <?xml version="1.0" ?>
 <LOG_ROOT>
 	<PROJECT NAME="CAP">
-		<CBX_INST_ENTRY INSTANCE_NAME="|sign_extend|mux16x2x1:inst|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_dpc.tdf"/>
 	</PROJECT>
 </LOG_ROOT>

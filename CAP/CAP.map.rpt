@@ -1,5 +1,5 @@
 Analysis & Synthesis report for CAP
-Sat Jul 11 19:44:29 2020
+Sat Jul 11 20:11:56 2020
 Quartus II Version 9.0 Build 132 02/25/2009 SJ Web Edition
 
 
@@ -13,8 +13,7 @@ Quartus II Version 9.0 Build 132 02/25/2009 SJ Web Edition
   5. Analysis & Synthesis Resource Usage Summary
   6. Analysis & Synthesis Resource Utilization by Entity
   7. General Register Statistics
-  8. Parameter Settings for User Entity Instance: mux16x2x1:inst|lpm_mux:lpm_mux_component
-  9. Analysis & Synthesis Messages
+  8. Analysis & Synthesis Messages
 
 
 
@@ -40,16 +39,16 @@ applicable agreement for further details.
 +-------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                            ;
 +-------------------------------+-----------------------------------------+
-; Analysis & Synthesis Status   ; Successful - Sat Jul 11 19:44:29 2020   ;
+; Analysis & Synthesis Status   ; Successful - Sat Jul 11 20:11:56 2020   ;
 ; Quartus II Version            ; 9.0 Build 132 02/25/2009 SJ Web Edition ;
 ; Revision Name                 ; CAP                                     ;
-; Top-level Entity Name         ; sign_extend                             ;
+; Top-level Entity Name         ; shift2                                  ;
 ; Family                        ; Stratix II                              ;
 ; Logic utilization             ; N/A                                     ;
-;     Combinational ALUTs       ; 1                                       ;
+;     Combinational ALUTs       ; 0                                       ;
 ;     Dedicated logic registers ; 0                                       ;
 ; Total registers               ; 0                                       ;
-; Total pins                    ; 49                                      ;
+; Total pins                    ; 64                                      ;
 ; Total virtual pins            ; 0                                       ;
 ; Total block memory bits       ; 0                                       ;
 ; DSP block 9-bit elements      ; 0                                       ;
@@ -63,7 +62,7 @@ applicable agreement for further details.
 +----------------------------------------------------------------+--------------------+--------------------+
 ; Option                                                         ; Setting            ; Default Value      ;
 +----------------------------------------------------------------+--------------------+--------------------+
-; Top-level entity name                                          ; sign_extend        ; CAP                ;
+; Top-level entity name                                          ; shift2             ; CAP                ;
 ; Family name                                                    ; Stratix II         ; Stratix II         ;
 ; Use Generated Physical Constraints File                        ; Off                ;                    ;
 ; Use smart compilation                                          ; Off                ; Off                ;
@@ -134,72 +133,61 @@ applicable agreement for further details.
 +----------------------------------------------------------------+--------------------+--------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                   ;
-+----------------------------------+-----------------+------------------------------------+----------------------------------------------------------------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                   ;
-+----------------------------------+-----------------+------------------------------------+----------------------------------------------------------------+
-; sign_extend.bdf                  ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/sign_extend.bdf ;
-; mux16x2x1.v                      ; yes             ; Auto-Found Wizard-Generated File   ; C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/mux16x2x1.v     ;
-; lpm_mux.tdf                      ; yes             ; Megafunction                       ; c:/altera/90/quartus/libraries/megafunctions/lpm_mux.tdf       ;
-; aglobal90.inc                    ; yes             ; Megafunction                       ; c:/altera/90/quartus/libraries/megafunctions/aglobal90.inc     ;
-; muxlut.inc                       ; yes             ; Megafunction                       ; c:/altera/90/quartus/libraries/megafunctions/muxlut.inc        ;
-; bypassff.inc                     ; yes             ; Megafunction                       ; c:/altera/90/quartus/libraries/megafunctions/bypassff.inc      ;
-; altshift.inc                     ; yes             ; Megafunction                       ; c:/altera/90/quartus/libraries/megafunctions/altshift.inc      ;
-; db/mux_dpc.tdf                   ; yes             ; Auto-Generated Megafunction        ; C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/db/mux_dpc.tdf  ;
-+----------------------------------+-----------------+------------------------------------+----------------------------------------------------------------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                              ;
++----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                              ;
++----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------+
+; shift2.bdf                       ; yes             ; User Block Diagram/Schematic File  ; C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/shift2.bdf ;
++----------------------------------+-----------------+------------------------------------+-----------------------------------------------------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary                                                                                             ;
-+-----------------------------------------------+-----------------------------------------------------------------------------------------+
-; Resource                                      ; Usage                                                                                   ;
-+-----------------------------------------------+-----------------------------------------------------------------------------------------+
-; Estimated ALUTs Used                          ; 1                                                                                       ;
-; Dedicated logic registers                     ; 0                                                                                       ;
-;                                               ;                                                                                         ;
-; Estimated ALUTs Unavailable                   ; 0                                                                                       ;
-;                                               ;                                                                                         ;
-; Total combinational functions                 ; 1                                                                                       ;
-; Combinational ALUT usage by number of inputs  ;                                                                                         ;
-;     -- 7 input functions                      ; 0                                                                                       ;
-;     -- 6 input functions                      ; 0                                                                                       ;
-;     -- 5 input functions                      ; 0                                                                                       ;
-;     -- 4 input functions                      ; 0                                                                                       ;
-;     -- <=3 input functions                    ; 1                                                                                       ;
-;                                               ;                                                                                         ;
-; Combinational ALUTs by mode                   ;                                                                                         ;
-;     -- normal mode                            ; 1                                                                                       ;
-;     -- extended LUT mode                      ; 0                                                                                       ;
-;     -- arithmetic mode                        ; 0                                                                                       ;
-;     -- shared arithmetic mode                 ; 0                                                                                       ;
-;                                               ;                                                                                         ;
-; Estimated ALUT/register pairs used            ; 1                                                                                       ;
-;                                               ;                                                                                         ;
-; Total registers                               ; 0                                                                                       ;
-;     -- Dedicated logic registers              ; 0                                                                                       ;
-;     -- I/O registers                          ; 0                                                                                       ;
-;                                               ;                                                                                         ;
-; Estimated ALMs:  partially or completely used ; 1                                                                                       ;
-;                                               ;                                                                                         ;
-; I/O pins                                      ; 49                                                                                      ;
-; Maximum fan-out node                          ; mux16x2x1:inst|lpm_mux:lpm_mux_component|mux_dpc:auto_generated|l1_w15_n0_mux_dataout~0 ;
-; Maximum fan-out                               ; 16                                                                                      ;
-; Total fan-out                                 ; 34                                                                                      ;
-; Average fan-out                               ; 0.68                                                                                    ;
-+-----------------------------------------------+-----------------------------------------------------------------------------------------+
++------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                ;
++----------------------------------------------+-------------+
+; Resource                                     ; Usage       ;
++----------------------------------------------+-------------+
+; Estimated ALUTs Used                         ; 0           ;
+; Dedicated logic registers                    ; 0           ;
+;                                              ;             ;
+; Estimated ALUTs Unavailable                  ; 0           ;
+;                                              ;             ;
+; Total combinational functions                ; 0           ;
+; Combinational ALUT usage by number of inputs ;             ;
+;     -- 7 input functions                     ; 0           ;
+;     -- 6 input functions                     ; 0           ;
+;     -- 5 input functions                     ; 0           ;
+;     -- 4 input functions                     ; 0           ;
+;     -- <=3 input functions                   ; 0           ;
+;                                              ;             ;
+; Combinational ALUTs by mode                  ;             ;
+;     -- normal mode                           ; 0           ;
+;     -- extended LUT mode                     ; 0           ;
+;     -- arithmetic mode                       ; 0           ;
+;     -- shared arithmetic mode                ; 0           ;
+;                                              ;             ;
+; Estimated ALUT/register pairs used           ; 0           ;
+;                                              ;             ;
+; Total registers                              ; 0           ;
+;     -- Dedicated logic registers             ; 0           ;
+;     -- I/O registers                         ; 0           ;
+;                                              ;             ;
+;                                              ;             ;
+; I/O pins                                     ; 64          ;
+; Maximum fan-out node                         ; data_in[29] ;
+; Maximum fan-out                              ; 1           ;
+; Total fan-out                                ; 30          ;
+; Average fan-out                              ; 0.47        ;
++----------------------------------------------+-------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                           ;
-+-----------------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+------+--------------+------------------------------------------------------------------------------+--------------+
-; Compilation Hierarchy Node        ; LC Combinationals ; LC Registers ; Block Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; DSP 36x36 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                          ; Library Name ;
-+-----------------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+------+--------------+------------------------------------------------------------------------------+--------------+
-; |sign_extend                      ; 1 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 49   ; 0            ; |sign_extend                                                                 ; work         ;
-;    |mux16x2x1:inst|               ; 1 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |sign_extend|mux16x2x1:inst                                                  ; work         ;
-;       |lpm_mux:lpm_mux_component| ; 1 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |sign_extend|mux16x2x1:inst|lpm_mux:lpm_mux_component                        ; work         ;
-;          |mux_dpc:auto_generated| ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0    ; 0            ; |sign_extend|mux16x2x1:inst|lpm_mux:lpm_mux_component|mux_dpc:auto_generated ; work         ;
-+-----------------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+------+--------------+------------------------------------------------------------------------------+--------------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                           ;
++----------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+------+--------------+---------------------+--------------+
+; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Block Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; DSP 36x36 ; Pins ; Virtual Pins ; Full Hierarchy Name ; Library Name ;
++----------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+------+--------------+---------------------+--------------+
+; |shift2                    ; 0 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 64   ; 0            ; |shift2             ; work         ;
++----------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+------+--------------+---------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -218,32 +206,13 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 
 
-+---------------------------------------------------------------------------------------+
-; Parameter Settings for User Entity Instance: mux16x2x1:inst|lpm_mux:lpm_mux_component ;
-+------------------------+------------+-------------------------------------------------+
-; Parameter Name         ; Value      ; Type                                            ;
-+------------------------+------------+-------------------------------------------------+
-; AUTO_CARRY_CHAINS      ; ON         ; AUTO_CARRY                                      ;
-; IGNORE_CARRY_BUFFERS   ; OFF        ; IGNORE_CARRY                                    ;
-; AUTO_CASCADE_CHAINS    ; ON         ; AUTO_CASCADE                                    ;
-; IGNORE_CASCADE_BUFFERS ; OFF        ; IGNORE_CASCADE                                  ;
-; LPM_WIDTH              ; 16         ; Signed Integer                                  ;
-; LPM_SIZE               ; 2          ; Signed Integer                                  ;
-; LPM_WIDTHS             ; 1          ; Signed Integer                                  ;
-; LPM_PIPELINE           ; 0          ; Untyped                                         ;
-; CBXI_PARAMETER         ; mux_dpc    ; Untyped                                         ;
-; DEVICE_FAMILY          ; Stratix II ; Untyped                                         ;
-+------------------------+------------+-------------------------------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
 +-------------------------------+
 ; Analysis & Synthesis Messages ;
 +-------------------------------+
 Info: *******************************************************************
 Info: Running Quartus II Analysis & Synthesis
     Info: Version 9.0 Build 132 02/25/2009 SJ Web Edition
-    Info: Processing started: Sat Jul 11 19:44:28 2020
+    Info: Processing started: Sat Jul 11 20:11:55 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off CAP -c CAP
 Info: Found 1 design units, including 1 entities, in source file ram.v
     Info: Found entity 1: ram
@@ -296,27 +265,19 @@ Info: Found 1 design units, including 1 entities, in source file div32.v
     Info: Found entity 1: div32
 Info: Found 1 design units, including 1 entities, in source file decoder.v
     Info: Found entity 1: decoder
-Info: Elaborating entity "sign_extend" for the top level hierarchy
-Warning: Using design file mux16x2x1.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info: Found entity 1: mux16x2x1
-Info: Elaborating entity "mux16x2x1" for hierarchy "mux16x2x1:inst"
-Info: Elaborating entity "lpm_mux" for hierarchy "mux16x2x1:inst|lpm_mux:lpm_mux_component"
-Info: Elaborated megafunction instantiation "mux16x2x1:inst|lpm_mux:lpm_mux_component"
-Info: Instantiated megafunction "mux16x2x1:inst|lpm_mux:lpm_mux_component" with the following parameter:
-    Info: Parameter "lpm_size" = "2"
-    Info: Parameter "lpm_type" = "LPM_MUX"
-    Info: Parameter "lpm_width" = "16"
-    Info: Parameter "lpm_widths" = "1"
-Info: Found 1 design units, including 1 entities, in source file db/mux_dpc.tdf
-    Info: Found entity 1: mux_dpc
-Info: Elaborating entity "mux_dpc" for hierarchy "mux16x2x1:inst|lpm_mux:lpm_mux_component|mux_dpc:auto_generated"
-Info: Implemented 50 device resources after synthesis - the final resource count might be different
-    Info: Implemented 17 input pins
+Info: Elaborating entity "shift2" for the top level hierarchy
+Warning: Output pins are stuck at VCC or GND
+    Warning (13410): Pin "data_out[1]" is stuck at GND
+    Warning (13410): Pin "data_out[0]" is stuck at GND
+Warning: Design contains 2 input pin(s) that do not drive logic
+    Warning (15610): No output dependent on input pin "data_in[31]"
+    Warning (15610): No output dependent on input pin "data_in[30]"
+Info: Implemented 64 device resources after synthesis - the final resource count might be different
+    Info: Implemented 32 input pins
     Info: Implemented 32 output pins
-    Info: Implemented 1 logic cells
-Info: Quartus II Analysis & Synthesis was successful. 0 errors, 1 warning
+Info: Quartus II Analysis & Synthesis was successful. 0 errors, 6 warnings
     Info: Peak virtual memory: 240 megabytes
-    Info: Processing ended: Sat Jul 11 19:44:29 2020
+    Info: Processing ended: Sat Jul 11 20:11:56 2020
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 

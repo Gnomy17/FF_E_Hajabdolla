@@ -1,5 +1,5 @@
 Simulator report for CAP
-Sat Jul 11 19:47:35 2020
+Sat Jul 11 20:14:31 2020
 Quartus II Version 9.0 Build 132 02/25/2009 SJ Web Edition
 
 
@@ -45,7 +45,7 @@ applicable agreement for further details.
 +-----------------------------+--------------+
 ; Simulation Start Time       ; 0 ps         ;
 ; Simulation End Time         ; 1.0 us       ;
-; Simulation Netlist Size     ; 50 nodes     ;
+; Simulation Netlist Size     ; 64 nodes     ;
 ; Simulation Coverage         ;       0.00 % ;
 ; Total Number of Transitions ; 0            ;
 ; Simulation Breakpoints      ; 0            ;
@@ -54,33 +54,33 @@ applicable agreement for further details.
 +-----------------------------+--------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------+
-; Simulator Settings                                                                                                           ;
-+--------------------------------------------------------------------------------------------+-----------------+---------------+
-; Option                                                                                     ; Setting         ; Default Value ;
-+--------------------------------------------------------------------------------------------+-----------------+---------------+
-; Simulation mode                                                                            ; Timing          ; Timing        ;
-; Start time                                                                                 ; 0 ns            ; 0 ns          ;
-; Simulation results format                                                                  ; CVWF            ;               ;
-; Vector input source                                                                        ; sign_extend.vwf ;               ;
-; Add pins automatically to simulation output waveforms                                      ; On              ; On            ;
-; Check outputs                                                                              ; Off             ; Off           ;
-; Report simulation coverage                                                                 ; On              ; On            ;
-; Display complete 1/0 value coverage report                                                 ; On              ; On            ;
-; Display missing 1-value coverage report                                                    ; On              ; On            ;
-; Display missing 0-value coverage report                                                    ; On              ; On            ;
-; Detect setup and hold time violations                                                      ; Off             ; Off           ;
-; Detect glitches                                                                            ; Off             ; Off           ;
-; Disable timing delays in Timing Simulation                                                 ; Off             ; Off           ;
-; Generate Signal Activity File                                                              ; Off             ; Off           ;
-; Generate VCD File for PowerPlay Power Analyzer                                             ; Off             ; Off           ;
-; Group bus channels in simulation results                                                   ; Off             ; Off           ;
-; Preserve fewer signal transitions to reduce memory requirements                            ; On              ; On            ;
-; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE      ; INPUT_EDGE    ;
-; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off             ; Off           ;
-; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off             ;               ;
-; Perform Glitch Filtering in Timing Simulation                                              ; Auto            ; Auto          ;
-+--------------------------------------------------------------------------------------------+-----------------+---------------+
++-------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                      ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Option                                                                                     ; Setting    ; Default Value ;
++--------------------------------------------------------------------------------------------+------------+---------------+
+; Simulation mode                                                                            ; Timing     ; Timing        ;
+; Start time                                                                                 ; 0 ns       ; 0 ns          ;
+; Simulation results format                                                                  ; CVWF       ;               ;
+; Vector input source                                                                        ; shift2.vwf ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On         ; On            ;
+; Check outputs                                                                              ; Off        ; Off           ;
+; Report simulation coverage                                                                 ; On         ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On         ; On            ;
+; Display missing 1-value coverage report                                                    ; On         ; On            ;
+; Display missing 0-value coverage report                                                    ; On         ; On            ;
+; Detect setup and hold time violations                                                      ; Off        ; Off           ;
+; Detect glitches                                                                            ; Off        ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off        ; Off           ;
+; Generate Signal Activity File                                                              ; Off        ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off        ; Off           ;
+; Group bus channels in simulation results                                                   ; Off        ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On         ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off        ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off        ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto       ; Auto          ;
++--------------------------------------------------------------------------------------------+------------+---------------+
 
 
 +----------------------+
@@ -96,12 +96,12 @@ Please use Quartus II to view the waveform report data.
 ; Type                                                ; Value        ;
 +-----------------------------------------------------+--------------+
 ; Total coverage as a percentage                      ;       0.00 % ;
-; Total nodes checked                                 ; 50           ;
-; Total output ports checked                          ; 50           ;
+; Total nodes checked                                 ; 64           ;
+; Total output ports checked                          ; 62           ;
 ; Total output ports with complete 1/0-value coverage ; 0            ;
-; Total output ports with no 1/0-value coverage       ; 50           ;
-; Total output ports with no 1-value coverage         ; 50           ;
-; Total output ports with no 0-value coverage         ; 50           ;
+; Total output ports with no 1/0-value coverage       ; 62           ;
+; Total output ports with no 1-value coverage         ; 62           ;
+; Total output ports with no 0-value coverage         ; 62           ;
 +-----------------------------------------------------+--------------+
 
 
@@ -114,121 +114,145 @@ The following table displays output ports that toggle between 1 and 0 during sim
 
 
 The following table displays output ports that do not toggle to 1 during simulation.
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Missing 1-Value Coverage                                                                                                                                                                                                       ;
-+------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------+------------------+
-; Node Name                                                                                            ; Output Port Name                                                                                     ; Output Port Type ;
-+------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------+------------------+
-; |sign_extend|mux16x2x1:inst|lpm_mux:lpm_mux_component|mux_dpc:auto_generated|l1_w15_n0_mux_dataout~0 ; |sign_extend|mux16x2x1:inst|lpm_mux:lpm_mux_component|mux_dpc:auto_generated|l1_w15_n0_mux_dataout~0 ; combout          ;
-; |sign_extend|data_out[31]                                                                            ; |sign_extend|data_out[31]                                                                            ; padio            ;
-; |sign_extend|data_out[30]                                                                            ; |sign_extend|data_out[30]                                                                            ; padio            ;
-; |sign_extend|data_out[29]                                                                            ; |sign_extend|data_out[29]                                                                            ; padio            ;
-; |sign_extend|data_out[28]                                                                            ; |sign_extend|data_out[28]                                                                            ; padio            ;
-; |sign_extend|data_out[27]                                                                            ; |sign_extend|data_out[27]                                                                            ; padio            ;
-; |sign_extend|data_out[26]                                                                            ; |sign_extend|data_out[26]                                                                            ; padio            ;
-; |sign_extend|data_out[25]                                                                            ; |sign_extend|data_out[25]                                                                            ; padio            ;
-; |sign_extend|data_out[24]                                                                            ; |sign_extend|data_out[24]                                                                            ; padio            ;
-; |sign_extend|data_out[23]                                                                            ; |sign_extend|data_out[23]                                                                            ; padio            ;
-; |sign_extend|data_out[22]                                                                            ; |sign_extend|data_out[22]                                                                            ; padio            ;
-; |sign_extend|data_out[21]                                                                            ; |sign_extend|data_out[21]                                                                            ; padio            ;
-; |sign_extend|data_out[20]                                                                            ; |sign_extend|data_out[20]                                                                            ; padio            ;
-; |sign_extend|data_out[19]                                                                            ; |sign_extend|data_out[19]                                                                            ; padio            ;
-; |sign_extend|data_out[18]                                                                            ; |sign_extend|data_out[18]                                                                            ; padio            ;
-; |sign_extend|data_out[17]                                                                            ; |sign_extend|data_out[17]                                                                            ; padio            ;
-; |sign_extend|data_out[16]                                                                            ; |sign_extend|data_out[16]                                                                            ; padio            ;
-; |sign_extend|data_out[15]                                                                            ; |sign_extend|data_out[15]                                                                            ; padio            ;
-; |sign_extend|data_out[14]                                                                            ; |sign_extend|data_out[14]                                                                            ; padio            ;
-; |sign_extend|data_out[13]                                                                            ; |sign_extend|data_out[13]                                                                            ; padio            ;
-; |sign_extend|data_out[12]                                                                            ; |sign_extend|data_out[12]                                                                            ; padio            ;
-; |sign_extend|data_out[11]                                                                            ; |sign_extend|data_out[11]                                                                            ; padio            ;
-; |sign_extend|data_out[10]                                                                            ; |sign_extend|data_out[10]                                                                            ; padio            ;
-; |sign_extend|data_out[9]                                                                             ; |sign_extend|data_out[9]                                                                             ; padio            ;
-; |sign_extend|data_out[8]                                                                             ; |sign_extend|data_out[8]                                                                             ; padio            ;
-; |sign_extend|data_out[7]                                                                             ; |sign_extend|data_out[7]                                                                             ; padio            ;
-; |sign_extend|data_out[6]                                                                             ; |sign_extend|data_out[6]                                                                             ; padio            ;
-; |sign_extend|data_out[5]                                                                             ; |sign_extend|data_out[5]                                                                             ; padio            ;
-; |sign_extend|data_out[4]                                                                             ; |sign_extend|data_out[4]                                                                             ; padio            ;
-; |sign_extend|data_out[3]                                                                             ; |sign_extend|data_out[3]                                                                             ; padio            ;
-; |sign_extend|data_out[2]                                                                             ; |sign_extend|data_out[2]                                                                             ; padio            ;
-; |sign_extend|data_out[1]                                                                             ; |sign_extend|data_out[1]                                                                             ; padio            ;
-; |sign_extend|data_out[0]                                                                             ; |sign_extend|data_out[0]                                                                             ; padio            ;
-; |sign_extend|se_en                                                                                   ; |sign_extend|se_en~corein                                                                            ; combout          ;
-; |sign_extend|data_in[15]                                                                             ; |sign_extend|data_in[15]~corein                                                                      ; combout          ;
-; |sign_extend|data_in[14]                                                                             ; |sign_extend|data_in[14]~corein                                                                      ; combout          ;
-; |sign_extend|data_in[13]                                                                             ; |sign_extend|data_in[13]~corein                                                                      ; combout          ;
-; |sign_extend|data_in[12]                                                                             ; |sign_extend|data_in[12]~corein                                                                      ; combout          ;
-; |sign_extend|data_in[11]                                                                             ; |sign_extend|data_in[11]~corein                                                                      ; combout          ;
-; |sign_extend|data_in[10]                                                                             ; |sign_extend|data_in[10]~corein                                                                      ; combout          ;
-; |sign_extend|data_in[9]                                                                              ; |sign_extend|data_in[9]~corein                                                                       ; combout          ;
-; |sign_extend|data_in[8]                                                                              ; |sign_extend|data_in[8]~corein                                                                       ; combout          ;
-; |sign_extend|data_in[7]                                                                              ; |sign_extend|data_in[7]~corein                                                                       ; combout          ;
-; |sign_extend|data_in[6]                                                                              ; |sign_extend|data_in[6]~corein                                                                       ; combout          ;
-; |sign_extend|data_in[5]                                                                              ; |sign_extend|data_in[5]~corein                                                                       ; combout          ;
-; |sign_extend|data_in[4]                                                                              ; |sign_extend|data_in[4]~corein                                                                       ; combout          ;
-; |sign_extend|data_in[3]                                                                              ; |sign_extend|data_in[3]~corein                                                                       ; combout          ;
-; |sign_extend|data_in[2]                                                                              ; |sign_extend|data_in[2]~corein                                                                       ; combout          ;
-; |sign_extend|data_in[1]                                                                              ; |sign_extend|data_in[1]~corein                                                                       ; combout          ;
-; |sign_extend|data_in[0]                                                                              ; |sign_extend|data_in[0]~corein                                                                       ; combout          ;
-+------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------+------------------+
++----------------------------------------------------------------------+
+; Missing 1-Value Coverage                                             ;
++----------------------+----------------------------+------------------+
+; Node Name            ; Output Port Name           ; Output Port Type ;
++----------------------+----------------------------+------------------+
+; |shift2|data_out[31] ; |shift2|data_out[31]       ; padio            ;
+; |shift2|data_out[30] ; |shift2|data_out[30]       ; padio            ;
+; |shift2|data_out[29] ; |shift2|data_out[29]       ; padio            ;
+; |shift2|data_out[28] ; |shift2|data_out[28]       ; padio            ;
+; |shift2|data_out[27] ; |shift2|data_out[27]       ; padio            ;
+; |shift2|data_out[26] ; |shift2|data_out[26]       ; padio            ;
+; |shift2|data_out[25] ; |shift2|data_out[25]       ; padio            ;
+; |shift2|data_out[24] ; |shift2|data_out[24]       ; padio            ;
+; |shift2|data_out[23] ; |shift2|data_out[23]       ; padio            ;
+; |shift2|data_out[22] ; |shift2|data_out[22]       ; padio            ;
+; |shift2|data_out[21] ; |shift2|data_out[21]       ; padio            ;
+; |shift2|data_out[20] ; |shift2|data_out[20]       ; padio            ;
+; |shift2|data_out[19] ; |shift2|data_out[19]       ; padio            ;
+; |shift2|data_out[18] ; |shift2|data_out[18]       ; padio            ;
+; |shift2|data_out[17] ; |shift2|data_out[17]       ; padio            ;
+; |shift2|data_out[16] ; |shift2|data_out[16]       ; padio            ;
+; |shift2|data_out[15] ; |shift2|data_out[15]       ; padio            ;
+; |shift2|data_out[14] ; |shift2|data_out[14]       ; padio            ;
+; |shift2|data_out[13] ; |shift2|data_out[13]       ; padio            ;
+; |shift2|data_out[12] ; |shift2|data_out[12]       ; padio            ;
+; |shift2|data_out[11] ; |shift2|data_out[11]       ; padio            ;
+; |shift2|data_out[10] ; |shift2|data_out[10]       ; padio            ;
+; |shift2|data_out[9]  ; |shift2|data_out[9]        ; padio            ;
+; |shift2|data_out[8]  ; |shift2|data_out[8]        ; padio            ;
+; |shift2|data_out[7]  ; |shift2|data_out[7]        ; padio            ;
+; |shift2|data_out[6]  ; |shift2|data_out[6]        ; padio            ;
+; |shift2|data_out[5]  ; |shift2|data_out[5]        ; padio            ;
+; |shift2|data_out[4]  ; |shift2|data_out[4]        ; padio            ;
+; |shift2|data_out[3]  ; |shift2|data_out[3]        ; padio            ;
+; |shift2|data_out[2]  ; |shift2|data_out[2]        ; padio            ;
+; |shift2|data_out[1]  ; |shift2|data_out[1]        ; padio            ;
+; |shift2|data_out[0]  ; |shift2|data_out[0]        ; padio            ;
+; |shift2|data_in[29]  ; |shift2|data_in[29]~corein ; combout          ;
+; |shift2|data_in[28]  ; |shift2|data_in[28]~corein ; combout          ;
+; |shift2|data_in[27]  ; |shift2|data_in[27]~corein ; combout          ;
+; |shift2|data_in[26]  ; |shift2|data_in[26]~corein ; combout          ;
+; |shift2|data_in[25]  ; |shift2|data_in[25]~corein ; combout          ;
+; |shift2|data_in[24]  ; |shift2|data_in[24]~corein ; combout          ;
+; |shift2|data_in[23]  ; |shift2|data_in[23]~corein ; combout          ;
+; |shift2|data_in[22]  ; |shift2|data_in[22]~corein ; combout          ;
+; |shift2|data_in[21]  ; |shift2|data_in[21]~corein ; combout          ;
+; |shift2|data_in[20]  ; |shift2|data_in[20]~corein ; combout          ;
+; |shift2|data_in[19]  ; |shift2|data_in[19]~corein ; combout          ;
+; |shift2|data_in[18]  ; |shift2|data_in[18]~corein ; combout          ;
+; |shift2|data_in[17]  ; |shift2|data_in[17]~corein ; combout          ;
+; |shift2|data_in[16]  ; |shift2|data_in[16]~corein ; combout          ;
+; |shift2|data_in[15]  ; |shift2|data_in[15]~corein ; combout          ;
+; |shift2|data_in[14]  ; |shift2|data_in[14]~corein ; combout          ;
+; |shift2|data_in[13]  ; |shift2|data_in[13]~corein ; combout          ;
+; |shift2|data_in[12]  ; |shift2|data_in[12]~corein ; combout          ;
+; |shift2|data_in[11]  ; |shift2|data_in[11]~corein ; combout          ;
+; |shift2|data_in[10]  ; |shift2|data_in[10]~corein ; combout          ;
+; |shift2|data_in[9]   ; |shift2|data_in[9]~corein  ; combout          ;
+; |shift2|data_in[8]   ; |shift2|data_in[8]~corein  ; combout          ;
+; |shift2|data_in[7]   ; |shift2|data_in[7]~corein  ; combout          ;
+; |shift2|data_in[6]   ; |shift2|data_in[6]~corein  ; combout          ;
+; |shift2|data_in[5]   ; |shift2|data_in[5]~corein  ; combout          ;
+; |shift2|data_in[4]   ; |shift2|data_in[4]~corein  ; combout          ;
+; |shift2|data_in[3]   ; |shift2|data_in[3]~corein  ; combout          ;
+; |shift2|data_in[2]   ; |shift2|data_in[2]~corein  ; combout          ;
+; |shift2|data_in[1]   ; |shift2|data_in[1]~corein  ; combout          ;
+; |shift2|data_in[0]   ; |shift2|data_in[0]~corein  ; combout          ;
++----------------------+----------------------------+------------------+
 
 
 The following table displays output ports that do not toggle to 0 during simulation.
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Missing 0-Value Coverage                                                                                                                                                                                                       ;
-+------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------+------------------+
-; Node Name                                                                                            ; Output Port Name                                                                                     ; Output Port Type ;
-+------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------+------------------+
-; |sign_extend|mux16x2x1:inst|lpm_mux:lpm_mux_component|mux_dpc:auto_generated|l1_w15_n0_mux_dataout~0 ; |sign_extend|mux16x2x1:inst|lpm_mux:lpm_mux_component|mux_dpc:auto_generated|l1_w15_n0_mux_dataout~0 ; combout          ;
-; |sign_extend|data_out[31]                                                                            ; |sign_extend|data_out[31]                                                                            ; padio            ;
-; |sign_extend|data_out[30]                                                                            ; |sign_extend|data_out[30]                                                                            ; padio            ;
-; |sign_extend|data_out[29]                                                                            ; |sign_extend|data_out[29]                                                                            ; padio            ;
-; |sign_extend|data_out[28]                                                                            ; |sign_extend|data_out[28]                                                                            ; padio            ;
-; |sign_extend|data_out[27]                                                                            ; |sign_extend|data_out[27]                                                                            ; padio            ;
-; |sign_extend|data_out[26]                                                                            ; |sign_extend|data_out[26]                                                                            ; padio            ;
-; |sign_extend|data_out[25]                                                                            ; |sign_extend|data_out[25]                                                                            ; padio            ;
-; |sign_extend|data_out[24]                                                                            ; |sign_extend|data_out[24]                                                                            ; padio            ;
-; |sign_extend|data_out[23]                                                                            ; |sign_extend|data_out[23]                                                                            ; padio            ;
-; |sign_extend|data_out[22]                                                                            ; |sign_extend|data_out[22]                                                                            ; padio            ;
-; |sign_extend|data_out[21]                                                                            ; |sign_extend|data_out[21]                                                                            ; padio            ;
-; |sign_extend|data_out[20]                                                                            ; |sign_extend|data_out[20]                                                                            ; padio            ;
-; |sign_extend|data_out[19]                                                                            ; |sign_extend|data_out[19]                                                                            ; padio            ;
-; |sign_extend|data_out[18]                                                                            ; |sign_extend|data_out[18]                                                                            ; padio            ;
-; |sign_extend|data_out[17]                                                                            ; |sign_extend|data_out[17]                                                                            ; padio            ;
-; |sign_extend|data_out[16]                                                                            ; |sign_extend|data_out[16]                                                                            ; padio            ;
-; |sign_extend|data_out[15]                                                                            ; |sign_extend|data_out[15]                                                                            ; padio            ;
-; |sign_extend|data_out[14]                                                                            ; |sign_extend|data_out[14]                                                                            ; padio            ;
-; |sign_extend|data_out[13]                                                                            ; |sign_extend|data_out[13]                                                                            ; padio            ;
-; |sign_extend|data_out[12]                                                                            ; |sign_extend|data_out[12]                                                                            ; padio            ;
-; |sign_extend|data_out[11]                                                                            ; |sign_extend|data_out[11]                                                                            ; padio            ;
-; |sign_extend|data_out[10]                                                                            ; |sign_extend|data_out[10]                                                                            ; padio            ;
-; |sign_extend|data_out[9]                                                                             ; |sign_extend|data_out[9]                                                                             ; padio            ;
-; |sign_extend|data_out[8]                                                                             ; |sign_extend|data_out[8]                                                                             ; padio            ;
-; |sign_extend|data_out[7]                                                                             ; |sign_extend|data_out[7]                                                                             ; padio            ;
-; |sign_extend|data_out[6]                                                                             ; |sign_extend|data_out[6]                                                                             ; padio            ;
-; |sign_extend|data_out[5]                                                                             ; |sign_extend|data_out[5]                                                                             ; padio            ;
-; |sign_extend|data_out[4]                                                                             ; |sign_extend|data_out[4]                                                                             ; padio            ;
-; |sign_extend|data_out[3]                                                                             ; |sign_extend|data_out[3]                                                                             ; padio            ;
-; |sign_extend|data_out[2]                                                                             ; |sign_extend|data_out[2]                                                                             ; padio            ;
-; |sign_extend|data_out[1]                                                                             ; |sign_extend|data_out[1]                                                                             ; padio            ;
-; |sign_extend|data_out[0]                                                                             ; |sign_extend|data_out[0]                                                                             ; padio            ;
-; |sign_extend|se_en                                                                                   ; |sign_extend|se_en~corein                                                                            ; combout          ;
-; |sign_extend|data_in[15]                                                                             ; |sign_extend|data_in[15]~corein                                                                      ; combout          ;
-; |sign_extend|data_in[14]                                                                             ; |sign_extend|data_in[14]~corein                                                                      ; combout          ;
-; |sign_extend|data_in[13]                                                                             ; |sign_extend|data_in[13]~corein                                                                      ; combout          ;
-; |sign_extend|data_in[12]                                                                             ; |sign_extend|data_in[12]~corein                                                                      ; combout          ;
-; |sign_extend|data_in[11]                                                                             ; |sign_extend|data_in[11]~corein                                                                      ; combout          ;
-; |sign_extend|data_in[10]                                                                             ; |sign_extend|data_in[10]~corein                                                                      ; combout          ;
-; |sign_extend|data_in[9]                                                                              ; |sign_extend|data_in[9]~corein                                                                       ; combout          ;
-; |sign_extend|data_in[8]                                                                              ; |sign_extend|data_in[8]~corein                                                                       ; combout          ;
-; |sign_extend|data_in[7]                                                                              ; |sign_extend|data_in[7]~corein                                                                       ; combout          ;
-; |sign_extend|data_in[6]                                                                              ; |sign_extend|data_in[6]~corein                                                                       ; combout          ;
-; |sign_extend|data_in[5]                                                                              ; |sign_extend|data_in[5]~corein                                                                       ; combout          ;
-; |sign_extend|data_in[4]                                                                              ; |sign_extend|data_in[4]~corein                                                                       ; combout          ;
-; |sign_extend|data_in[3]                                                                              ; |sign_extend|data_in[3]~corein                                                                       ; combout          ;
-; |sign_extend|data_in[2]                                                                              ; |sign_extend|data_in[2]~corein                                                                       ; combout          ;
-; |sign_extend|data_in[1]                                                                              ; |sign_extend|data_in[1]~corein                                                                       ; combout          ;
-; |sign_extend|data_in[0]                                                                              ; |sign_extend|data_in[0]~corein                                                                       ; combout          ;
-+------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------+------------------+
++----------------------------------------------------------------------+
+; Missing 0-Value Coverage                                             ;
++----------------------+----------------------------+------------------+
+; Node Name            ; Output Port Name           ; Output Port Type ;
++----------------------+----------------------------+------------------+
+; |shift2|data_out[31] ; |shift2|data_out[31]       ; padio            ;
+; |shift2|data_out[30] ; |shift2|data_out[30]       ; padio            ;
+; |shift2|data_out[29] ; |shift2|data_out[29]       ; padio            ;
+; |shift2|data_out[28] ; |shift2|data_out[28]       ; padio            ;
+; |shift2|data_out[27] ; |shift2|data_out[27]       ; padio            ;
+; |shift2|data_out[26] ; |shift2|data_out[26]       ; padio            ;
+; |shift2|data_out[25] ; |shift2|data_out[25]       ; padio            ;
+; |shift2|data_out[24] ; |shift2|data_out[24]       ; padio            ;
+; |shift2|data_out[23] ; |shift2|data_out[23]       ; padio            ;
+; |shift2|data_out[22] ; |shift2|data_out[22]       ; padio            ;
+; |shift2|data_out[21] ; |shift2|data_out[21]       ; padio            ;
+; |shift2|data_out[20] ; |shift2|data_out[20]       ; padio            ;
+; |shift2|data_out[19] ; |shift2|data_out[19]       ; padio            ;
+; |shift2|data_out[18] ; |shift2|data_out[18]       ; padio            ;
+; |shift2|data_out[17] ; |shift2|data_out[17]       ; padio            ;
+; |shift2|data_out[16] ; |shift2|data_out[16]       ; padio            ;
+; |shift2|data_out[15] ; |shift2|data_out[15]       ; padio            ;
+; |shift2|data_out[14] ; |shift2|data_out[14]       ; padio            ;
+; |shift2|data_out[13] ; |shift2|data_out[13]       ; padio            ;
+; |shift2|data_out[12] ; |shift2|data_out[12]       ; padio            ;
+; |shift2|data_out[11] ; |shift2|data_out[11]       ; padio            ;
+; |shift2|data_out[10] ; |shift2|data_out[10]       ; padio            ;
+; |shift2|data_out[9]  ; |shift2|data_out[9]        ; padio            ;
+; |shift2|data_out[8]  ; |shift2|data_out[8]        ; padio            ;
+; |shift2|data_out[7]  ; |shift2|data_out[7]        ; padio            ;
+; |shift2|data_out[6]  ; |shift2|data_out[6]        ; padio            ;
+; |shift2|data_out[5]  ; |shift2|data_out[5]        ; padio            ;
+; |shift2|data_out[4]  ; |shift2|data_out[4]        ; padio            ;
+; |shift2|data_out[3]  ; |shift2|data_out[3]        ; padio            ;
+; |shift2|data_out[2]  ; |shift2|data_out[2]        ; padio            ;
+; |shift2|data_out[1]  ; |shift2|data_out[1]        ; padio            ;
+; |shift2|data_out[0]  ; |shift2|data_out[0]        ; padio            ;
+; |shift2|data_in[29]  ; |shift2|data_in[29]~corein ; combout          ;
+; |shift2|data_in[28]  ; |shift2|data_in[28]~corein ; combout          ;
+; |shift2|data_in[27]  ; |shift2|data_in[27]~corein ; combout          ;
+; |shift2|data_in[26]  ; |shift2|data_in[26]~corein ; combout          ;
+; |shift2|data_in[25]  ; |shift2|data_in[25]~corein ; combout          ;
+; |shift2|data_in[24]  ; |shift2|data_in[24]~corein ; combout          ;
+; |shift2|data_in[23]  ; |shift2|data_in[23]~corein ; combout          ;
+; |shift2|data_in[22]  ; |shift2|data_in[22]~corein ; combout          ;
+; |shift2|data_in[21]  ; |shift2|data_in[21]~corein ; combout          ;
+; |shift2|data_in[20]  ; |shift2|data_in[20]~corein ; combout          ;
+; |shift2|data_in[19]  ; |shift2|data_in[19]~corein ; combout          ;
+; |shift2|data_in[18]  ; |shift2|data_in[18]~corein ; combout          ;
+; |shift2|data_in[17]  ; |shift2|data_in[17]~corein ; combout          ;
+; |shift2|data_in[16]  ; |shift2|data_in[16]~corein ; combout          ;
+; |shift2|data_in[15]  ; |shift2|data_in[15]~corein ; combout          ;
+; |shift2|data_in[14]  ; |shift2|data_in[14]~corein ; combout          ;
+; |shift2|data_in[13]  ; |shift2|data_in[13]~corein ; combout          ;
+; |shift2|data_in[12]  ; |shift2|data_in[12]~corein ; combout          ;
+; |shift2|data_in[11]  ; |shift2|data_in[11]~corein ; combout          ;
+; |shift2|data_in[10]  ; |shift2|data_in[10]~corein ; combout          ;
+; |shift2|data_in[9]   ; |shift2|data_in[9]~corein  ; combout          ;
+; |shift2|data_in[8]   ; |shift2|data_in[8]~corein  ; combout          ;
+; |shift2|data_in[7]   ; |shift2|data_in[7]~corein  ; combout          ;
+; |shift2|data_in[6]   ; |shift2|data_in[6]~corein  ; combout          ;
+; |shift2|data_in[5]   ; |shift2|data_in[5]~corein  ; combout          ;
+; |shift2|data_in[4]   ; |shift2|data_in[4]~corein  ; combout          ;
+; |shift2|data_in[3]   ; |shift2|data_in[3]~corein  ; combout          ;
+; |shift2|data_in[2]   ; |shift2|data_in[2]~corein  ; combout          ;
+; |shift2|data_in[1]   ; |shift2|data_in[1]~corein  ; combout          ;
+; |shift2|data_in[0]   ; |shift2|data_in[0]~corein  ; combout          ;
++----------------------+----------------------------+------------------+
 
 
 +---------------------+
@@ -244,9 +268,9 @@ The following table displays output ports that do not toggle to 0 during simulat
 Info: *******************************************************************
 Info: Running Quartus II Simulator
     Info: Version 9.0 Build 132 02/25/2009 SJ Web Edition
-    Info: Processing started: Sat Jul 11 19:47:35 2020
+    Info: Processing started: Sat Jul 11 20:14:31 2020
 Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off CAP -c CAP
-Info: Using vector source file "C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/sign_extend.vwf"
+Info: Using vector source file "C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/shift2.vwf"
 Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
     Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
 Info: Simulation partitioned into 1 sub-simulations
@@ -254,7 +278,7 @@ Info: Simulation coverage is       0.00 %
 Info: Number of transitions in simulation is 0
 Info: Quartus II Simulator was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 171 megabytes
-    Info: Processing ended: Sat Jul 11 19:47:35 2020
+    Info: Processing ended: Sat Jul 11 20:14:31 2020
     Info: Elapsed time: 00:00:00
     Info: Total CPU time (on all processors): 00:00:00
 
