@@ -38,6 +38,7 @@ INCLUDE "lpm_ff.inc";
 
 SUBDESIGN reg
 (
+	aclr	 : INPUT;
 	clock	 : INPUT;
 	data[31..0]	 : INPUT;
 	q[31..0]	 : OUTPUT;
@@ -54,6 +55,7 @@ VARIABLE
 BEGIN
 
 	q[31..0] = lpm_ff_component.q[31..0];
+	lpm_ff_component.aclr = aclr;
 	lpm_ff_component.clock = clock;
 	lpm_ff_component.data[31..0] = data[31..0];
 END;
@@ -63,7 +65,7 @@ END;
 -- ============================================================
 -- CNX file retrieval info
 -- ============================================================
--- Retrieval info: PRIVATE: ACLR NUMERIC "0"
+-- Retrieval info: PRIVATE: ACLR NUMERIC "1"
 -- Retrieval info: PRIVATE: ALOAD NUMERIC "0"
 -- Retrieval info: PRIVATE: ASET NUMERIC "0"
 -- Retrieval info: PRIVATE: ASET_ALL1 NUMERIC "1"
@@ -80,11 +82,13 @@ END;
 -- Retrieval info: CONSTANT: LPM_FFTYPE STRING "DFF"
 -- Retrieval info: CONSTANT: LPM_TYPE STRING "LPM_FF"
 -- Retrieval info: CONSTANT: LPM_WIDTH NUMERIC "32"
+-- Retrieval info: USED_PORT: aclr 0 0 0 0 INPUT NODEFVAL aclr
 -- Retrieval info: USED_PORT: clock 0 0 0 0 INPUT NODEFVAL clock
 -- Retrieval info: USED_PORT: data 0 0 32 0 INPUT NODEFVAL data[31..0]
 -- Retrieval info: USED_PORT: q 0 0 32 0 OUTPUT NODEFVAL q[31..0]
 -- Retrieval info: CONNECT: @clock 0 0 0 0 clock 0 0 0 0
 -- Retrieval info: CONNECT: q 0 0 32 0 @q 0 0 32 0
+-- Retrieval info: CONNECT: @aclr 0 0 0 0 aclr 0 0 0 0
 -- Retrieval info: CONNECT: @data 0 0 32 0 data 0 0 32 0
 -- Retrieval info: LIBRARY: lpm lpm.lpm_components.all
 -- Retrieval info: GEN_FILE: TYPE_NORMAL reg.tdf TRUE

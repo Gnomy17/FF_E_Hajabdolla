@@ -15,6 +15,7 @@
 
 FUNCTION reg 
 (
+	aclr,
 	clock,
 	data[31..0]
 )
