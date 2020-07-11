@@ -1,0 +1,8 @@
+set_global_assignment -name IP_TOOL_NAME "LPM_MUX"
+set_global_assignment -name IP_TOOL_VERSION "9.0"
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) "mux32o16o4.v"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "mux32o16o4.bsf"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "mux32o16o4_inst.v"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "mux32o16o4_bb.v"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "mux32o16o4.inc"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "mux32o16o4.cmp"]

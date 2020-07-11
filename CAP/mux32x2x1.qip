@@ -6,4 +6,3 @@ set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "mux32x2x1
 set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "mux32x2x1_bb.v"]
 set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "mux32x2x1.inc"]
 set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "mux32x2x1.cmp"]
-set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "mux32x2x1_syn.v"]

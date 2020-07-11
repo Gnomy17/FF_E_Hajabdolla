@@ -48,7 +48,7 @@ endmodule
 // CNX file retrieval info
 // ============================================================
 // Retrieval info: PRIVATE: INTENDED_DEVICE_FAMILY STRING "Stratix II"
-// Retrieval info: PRIVATE: SYNTH_WRAPPER_GEN_POSTFIX STRING "1"
+// Retrieval info: PRIVATE: SYNTH_WRAPPER_GEN_POSTFIX STRING "0"
 // Retrieval info: CONSTANT: LPM_SIZE NUMERIC "2"
 // Retrieval info: CONSTANT: LPM_TYPE STRING "LPM_MUX"
 // Retrieval info: CONSTANT: LPM_WIDTH NUMERIC "32"
@@ -68,5 +68,4 @@ endmodule
 // Retrieval info: GEN_FILE: TYPE_NORMAL mux32x2x1.bsf TRUE FALSE
 // Retrieval info: GEN_FILE: TYPE_NORMAL mux32x2x1_inst.v TRUE
 // Retrieval info: GEN_FILE: TYPE_NORMAL mux32x2x1_bb.v TRUE
-// Retrieval info: GEN_FILE: TYPE_NORMAL mux32x2x1_syn.v TRUE
 // Retrieval info: LIB_FILE: lpm
