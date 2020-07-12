@@ -718,7 +718,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect -16 200 184 296)
+	(rect -40 200 168 296)
 	(text "RS_decode" (rect 5 0 71 14)(font "Arial" (font_size 8)))
 	(text "inst27" (rect 8 80 37 92)(font "Arial" ))
 	(port
@@ -729,21 +729,28 @@ applicable agreement for further details.
 		(line (pt 0 32)(pt 16 32)(line_width 3))
 	)
 	(port
-		(pt 200 32)
+		(pt 208 32)
 		(output)
 		(text "RS1[4..0]" (rect 0 0 51 14)(font "Arial" (font_size 8)))
-		(text "RS1[4..0]" (rect 128 27 179 41)(font "Arial" (font_size 8)))
-		(line (pt 200 32)(pt 184 32)(line_width 3))
+		(text "RS1[4..0]" (rect 136 27 187 41)(font "Arial" (font_size 8)))
+		(line (pt 208 32)(pt 192 32)(line_width 3))
 	)
 	(port
-		(pt 200 48)
+		(pt 208 48)
 		(output)
 		(text "RS2[4..0]" (rect 0 0 51 14)(font "Arial" (font_size 8)))
-		(text "RS2[4..0]" (rect 128 43 179 57)(font "Arial" (font_size 8)))
-		(line (pt 200 48)(pt 184 48)(line_width 3))
+		(text "RS2[4..0]" (rect 136 43 187 57)(font "Arial" (font_size 8)))
+		(line (pt 208 48)(pt 192 48)(line_width 3))
+	)
+	(port
+		(pt 208 64)
+		(output)
+		(text "Rdest[4..0]" (rect 0 0 61 14)(font "Arial" (font_size 8)))
+		(text "Rdest[4..0]" (rect 126 59 187 73)(font "Arial" (font_size 8)))
+		(line (pt 208 64)(pt 192 64)(line_width 3))
 	)
 	(drawing
-		(rectangle (rect 16 16 184 80)(line_width 1))
+		(rectangle (rect 16 16 192 80)(line_width 1))
 	)
 )
 (symbol
@@ -1452,16 +1459,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 184 232)
-	(pt 256 232)
-	(bus)
-)
-(connector
-	(pt 184 248)
-	(pt 256 248)
-	(bus)
-)
-(connector
 	(pt -152 -64)
 	(pt 608 -64)
 	(bus)
@@ -1677,11 +1674,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt -16 232)
-	(pt -136 232)
-	(bus)
-)
-(connector
 	(pt 752 -216)
 	(pt 1520 -216)
 	(bus)
@@ -1689,12 +1681,6 @@ applicable agreement for further details.
 (connector
 	(pt 1664 -208)
 	(pt 2384 -208)
-	(bus)
-)
-(connector
-	(text "<<__$DEF_ALIAS604>>" (rect -89 216 29 228)(font "Arial" )(invisible))
-	(pt -136 232)
-	(pt -152 232)
 	(bus)
 )
 (connector
@@ -1707,13 +1693,34 @@ applicable agreement for further details.
 	(pt 1240 144)
 	(bus)
 )
+(connector
+	(pt -152 232)
+	(pt -136 232)
+	(bus)
+)
+(connector
+	(text "<<__$DEF_ALIAS604>>" (rect -97 216 21 228)(font "Arial" )(invisible))
+	(pt -136 232)
+	(pt -40 232)
+	(bus)
+)
+(connector
+	(pt 168 232)
+	(pt 256 232)
+	(bus)
+)
+(connector
+	(pt 168 248)
+	(pt 256 248)
+	(bus)
+)
 (junction (pt 872 192))
 (junction (pt 848 256))
 (junction (pt -912 272))
 (junction (pt -384 -72))
 (junction (pt 1992 120))
 (junction (pt -136 232))
-(rectangle (rect -136 -56 96 1104))
+(rectangle (rect 576 -280 808 880))
 (rectangle (rect 1472 -304 1728 856))
 (rectangle (rect -344 -304 -96 856))
 (rectangle (rect 2336 -312 2600 824))

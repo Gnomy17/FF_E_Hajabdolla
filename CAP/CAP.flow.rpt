@@ -1,5 +1,5 @@
 Flow report for CAP
-Sat Jul 11 20:12:03 2020
+Sun Jul 12 14:54:39 2020
 Quartus II Version 9.0 Build 132 02/25/2009 SJ Web Edition
 
 
@@ -38,17 +38,17 @@ applicable agreement for further details.
 +-------------------------------------------------------------------------+
 ; Flow Summary                                                            ;
 +-------------------------------+-----------------------------------------+
-; Flow Status                   ; Successful - Sat Jul 11 20:12:03 2020   ;
+; Flow Status                   ; Successful - Sun Jul 12 14:54:39 2020   ;
 ; Quartus II Version            ; 9.0 Build 132 02/25/2009 SJ Web Edition ;
 ; Revision Name                 ; CAP                                     ;
-; Top-level Entity Name         ; shift2                                  ;
+; Top-level Entity Name         ; RS_decode                               ;
 ; Family                        ; Stratix II                              ;
 ; Met timing requirements       ; Yes                                     ;
-; Logic utilization             ; 0 %                                     ;
-;     Combinational ALUTs       ; 0 / 12,480 ( 0 % )                      ;
+; Logic utilization             ; < 1 %                                   ;
+;     Combinational ALUTs       ; 16 / 12,480 ( < 1 % )                   ;
 ;     Dedicated logic registers ; 0 / 12,480 ( 0 % )                      ;
 ; Total registers               ; 0                                       ;
-; Total pins                    ; 64 / 343 ( 19 % )                       ;
+; Total pins                    ; 47 / 343 ( 14 % )                       ;
 ; Total virtual pins            ; 0                                       ;
 ; Total block memory bits       ; 0 / 419,328 ( 0 % )                     ;
 ; DSP block 9-bit elements      ; 0 / 96 ( 0 % )                          ;
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 07/11/2020 20:11:56 ;
+; Start date & time ; 07/12/2020 14:54:29 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; CAP                 ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ applicable agreement for further details.
 +------------------------------------+--------------------------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                    ; Value                                                  ; Default Value ; Entity Name ; Section Id     ;
 +------------------------------------+--------------------------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID              ; 93047528926370.159448211602408                         ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID              ; 93047528926370.159454946905180                         ; --            ; --          ; --             ;
 ; IP_TOOL_NAME                       ; RAM: 2-PORT                                            ; --            ; --          ; --             ;
 ; IP_TOOL_NAME                       ; LPM_FF                                                 ; --            ; --          ; --             ;
 ; IP_TOOL_NAME                       ; LPM_MUX                                                ; --            ; --          ; --             ;
@@ -190,9 +190,9 @@ applicable agreement for further details.
 ; MISC_FILE                          ; decoder_bb.v                                           ; --            ; --          ; --             ;
 ; MISC_FILE                          ; decoder.inc                                            ; --            ; --          ; --             ;
 ; MISC_FILE                          ; C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/CAP.dpf ; --            ; --          ; --             ;
-; PARTITION_COLOR                    ; 16764057                                               ; --            ; shift2      ; Top            ;
-; PARTITION_NETLIST_TYPE             ; SOURCE                                                 ; --            ; shift2      ; Top            ;
-; TOP_LEVEL_ENTITY                   ; shift2                                                 ; CAP           ; --          ; --             ;
+; PARTITION_COLOR                    ; 16764057                                               ; --            ; RS_decode   ; Top            ;
+; PARTITION_NETLIST_TYPE             ; SOURCE                                                 ; --            ; RS_decode   ; Top            ;
+; TOP_LEVEL_ENTITY                   ; RS_decode                                              ; CAP           ; --          ; --             ;
 ; USE_GENERATED_PHYSICAL_CONSTRAINTS ; Off                                                    ; --            ; --          ; eda_blast_fpga ;
 +------------------------------------+--------------------------------------------------------+---------------+-------------+----------------+
 
@@ -202,7 +202,7 @@ applicable agreement for further details.
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name             ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +-------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis    ; 00:00:01     ; 1.0                     ; 238 MB              ; 00:00:01                           ;
+; Analysis & Synthesis    ; 00:00:01     ; 1.0                     ; 240 MB              ; 00:00:01                           ;
 ; Fitter                  ; 00:00:02     ; 1.0                     ; 282 MB              ; 00:00:02                           ;
 ; Assembler               ; 00:00:02     ; 1.0                     ; 250 MB              ; 00:00:02                           ;
 ; Classic Timing Analyzer ; 00:00:00     ; 1.0                     ; 180 MB              ; 00:00:00                           ;

@@ -7181,8 +7181,212 @@ shift2.bdf
 BLOCK_DESIGN_NAMING
 AUTO
 }
+# macro_sequence
+
+# end
+# entity
+RS_decode
+# storage
+db|CAP.(46).cnf
+db|CAP.(46).cnf
+# case_insensitive
+# source_file
+RS_decode.bdf
+a57fb4f4d688691ab9519f9f37e6548
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
 # hierarchies {
 |
+}
+# macro_sequence
+
+# end
+# entity
+mux5x2x1
+# storage
+db|CAP.(47).cnf
+db|CAP.(47).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+mux5x2x1.v
+667ad1e4d4e034627aed6e3d66143
+8
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+IGNORE_VERILOG_INITIAL_CONSTRUCTS
+OFF
+VERILOG_CONSTANT_LOOP_LIMIT
+5000
+VERILOG_NON_CONSTANT_LOOP_LIMIT
+250
+}
+# hierarchies {
+mux5x2x1:inst2
+mux5x2x1:inst
+mux5x2x1:inst1
+}
+# macro_sequence
+
+# end
+# entity
+lpm_mux
+# storage
+db|CAP.(48).cnf
+db|CAP.(48).cnf
+# case_insensitive
+# source_file
+..|..|..|..|..|..|altera|90|quartus|libraries|megafunctions|lpm_mux.tdf
+5fa3ca616f64a75f3772b4506ca8e87
+7
+# user_parameter {
+AUTO_CARRY_CHAINS
+ON
+AUTO_CARRY
+USR
+IGNORE_CARRY_BUFFERS
+OFF
+IGNORE_CARRY
+USR
+AUTO_CASCADE_CHAINS
+ON
+AUTO_CASCADE
+USR
+IGNORE_CASCADE_BUFFERS
+OFF
+IGNORE_CASCADE
+USR
+LPM_WIDTH
+5
+PARAMETER_SIGNED_DEC
+USR
+LPM_SIZE
+2
+PARAMETER_SIGNED_DEC
+USR
+LPM_WIDTHS
+1
+PARAMETER_SIGNED_DEC
+USR
+LPM_PIPELINE
+0
+PARAMETER_UNKNOWN
+DEF
+CBXI_PARAMETER
+mux_rnc
+PARAMETER_UNKNOWN
+USR
+DEVICE_FAMILY
+Stratix II
+PARAMETER_UNKNOWN
+USR
+}
+# used_port {
+sel
+-1
+3
+result
+-1
+3
+data
+-1
+3
+}
+# include_file {
+..|..|..|..|..|..|altera|90|quartus|libraries|megafunctions|altshift.inc
+70fa13aee7d6d160ef20b2de32813a
+..|..|..|..|..|..|altera|90|quartus|libraries|megafunctions|bypassff.inc
+8e8df160d449a63ec15dc86ecf2b373f
+..|..|..|..|..|..|altera|90|quartus|libraries|megafunctions|aglobal90.inc
+99832fdf63412df51d7531202d74e75
+..|..|..|..|..|..|altera|90|quartus|libraries|megafunctions|muxlut.inc
+f172666ca13e5e31e17e3f6cb35af52
+}
+# hierarchies {
+mux5x2x1:inst2|lpm_mux:lpm_mux_component
+mux5x2x1:inst|lpm_mux:lpm_mux_component
+mux5x2x1:inst1|lpm_mux:lpm_mux_component
+}
+# macro_sequence
+
+# end
+# entity
+mux_rnc
+# storage
+db|CAP.(49).cnf
+db|CAP.(49).cnf
+# case_insensitive
+# source_file
+db|mux_rnc.tdf
+709f59e294d9ef76a43643139b3929a
+7
+# used_port {
+sel0
+-1
+3
+result4
+-1
+3
+result3
+-1
+3
+result2
+-1
+3
+result1
+-1
+3
+result0
+-1
+3
+data9
+-1
+3
+data8
+-1
+3
+data7
+-1
+3
+data6
+-1
+3
+data5
+-1
+3
+data4
+-1
+3
+data3
+-1
+3
+data2
+-1
+3
+data1
+-1
+3
+data0
+-1
+3
+}
+# hierarchies {
+mux5x2x1:inst2|lpm_mux:lpm_mux_component|mux_rnc:auto_generated
+mux5x2x1:inst|lpm_mux:lpm_mux_component|mux_rnc:auto_generated
+mux5x2x1:inst1|lpm_mux:lpm_mux_component|mux_rnc:auto_generated
 }
 # macro_sequence
 
