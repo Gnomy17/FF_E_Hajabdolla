@@ -79,7 +79,6 @@ TEMPDIODEp                   : A2        :        :                   :         
 VCCIO4                       : A3        : power  :                   : 3.3V    : 4         :                
 MSEL3                        : A4        :        :                   :         : 4         :                
 <<<<<<< HEAD
-<<<<<<< HEAD
 GND*                         : A5        :        :                   :         : 4         :                
 GND*                         : A6        :        :                   :         : 4         :                
 GND*                         : A7        :        :                   :         : 4         :                
@@ -90,8 +89,6 @@ VCCIO4                       : A11       : power  :                   : 3.3V    
 VCCIO3                       : A12       : power  :                   : 3.3V    : 3         :                
 instruction[20]              : A13       : input  : 3.3-V LVTTL       :         : 3         : N              
 =======
-=======
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 A[22]                        : A5        : input  : 3.3-V LVTTL       :         : 4         : N              
 A[23]                        : A6        : input  : 3.3-V LVTTL       :         : 4         : N              
 A[27]                        : A7        : input  : 3.3-V LVTTL       :         : 4         : N              
@@ -101,9 +98,6 @@ S[7]                         : A10       : output : 3.3-V LVTTL       :         
 VCCIO4                       : A11       : power  :                   : 3.3V    : 4         :                
 VCCIO3                       : A12       : power  :                   : 3.3V    : 3         :                
 GND*                         : A13       :        :                   :         : 3         :                
-<<<<<<< HEAD
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 GND                          : A14       : gnd    :                   :         :           :                
 GND*                         : A15       :        :                   :         : 3         :                
@@ -119,7 +113,6 @@ GND                          : AA2       : gnd    :                   :         
 nCEO                         : AA3       :        :                   :         : 7         :                
 GND*                         : AA4       :        :                   :         : 7         :                
 <<<<<<< HEAD
-<<<<<<< HEAD
 GND*                         : AA5       :        :                   :         : 7         :                
 GND*                         : AA6       :        :                   :         : 7         :                
 GND*                         : AA7       :        :                   :         : 7         :                
@@ -130,8 +123,6 @@ GND*                         : AA11      :        :                   :         
 RS2[2]                       : AA12      : output : 3.3-V LVTTL       :         : 8         : N              
 Rdest[4]                     : AA13      : output : 3.3-V LVTTL       :         : 8         : N              
 =======
-=======
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 B[29]                        : AA5       : input  : 3.3-V LVTTL       :         : 7         : N              
 A[17]                        : AA6       : input  : 3.3-V LVTTL       :         : 7         : N              
 B[28]                        : AA7       : input  : 3.3-V LVTTL       :         : 7         : N              
@@ -141,9 +132,6 @@ GND*                         : AA10      :        :                   :         
 GND*                         : AA11      :        :                   :         : 7         :                
 GND*                         : AA12      :        :                   :         : 8         :                
 GND*                         : AA13      :        :                   :         : 8         :                
-<<<<<<< HEAD
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 VREFB8                       : AA14      : power  :                   :         : 8         :                
 GND*                         : AA15      :        :                   :         : 8         :                
@@ -160,7 +148,6 @@ VCCIO7                       : AB3       : power  :                   : 3.3V    
 GND                          : AB4       : gnd    :                   :         :           :                
 GND*                         : AB5       :        :                   :         : 7         :                
 <<<<<<< HEAD
-<<<<<<< HEAD
 GND*                         : AB6       :        :                   :         : 7         :                
 GND*                         : AB7       :        :                   :         : 7         :                
 RS1[1]                       : AB8       : output : 3.3-V LVTTL       :         : 7         : N              
@@ -174,19 +161,10 @@ A[28]                        : AB6       : input  : 3.3-V LVTTL       :         
 S[6]                         : AB7       : output : 3.3-V LVTTL       :         : 7         : N              
 S[29]                        : AB8       : output : 3.3-V LVTTL       :         : 7         : N              
 GND                          : AB9       : gnd    :                   :         :           :                
-=======
-A[28]                        : AB6       : input  : 3.3-V LVTTL       :         : 7         : N              
-S[6]                         : AB7       : output : 3.3-V LVTTL       :         : 7         : N              
-S[29]                        : AB8       : output : 3.3-V LVTTL       :         : 7         : N              
-GND                          : AB9       : gnd    :                   :         :           :                
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 select[0]                    : AB10      : input  : 3.3-V LVTTL       :         : 10        : N              
 VCCIO7                       : AB11      : power  :                   : 3.3V    : 7         :                
 VCCIO8                       : AB12      : power  :                   : 3.3V    : 8         :                
 GND*                         : AB13      :        :                   :         : 8         :                
-<<<<<<< HEAD
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 GND                          : AB14      : gnd    :                   :         :           :                
 GND*                         : AB15      :        :                   :         : 8         :                
@@ -202,7 +180,6 @@ GND                          : B2        : gnd    :                   :         
 TDO                          : B3        : output :                   :         : 4         :                
 MSEL2                        : B4        :        :                   :         : 4         :                
 <<<<<<< HEAD
-<<<<<<< HEAD
 GND*                         : B5        :        :                   :         : 4         :                
 GND*                         : B6        :        :                   :         : 4         :                
 GND*                         : B7        :        :                   :         : 4         :                
@@ -213,8 +190,6 @@ GND*                         : B11       :        :                   :         
 instruction[14]              : B12       : input  : 3.3-V LVTTL       :         : 4         : N              
 instruction[31]              : B13       : input  : 3.3-V LVTTL       :         : 3         : N              
 =======
-=======
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 S[9]                         : B5        : output : 3.3-V LVTTL       :         : 4         : N              
 select[3]                    : B6        : input  : 3.3-V LVTTL       :         : 4         : N              
 A[25]                        : B7        : input  : 3.3-V LVTTL       :         : 4         : N              
@@ -224,9 +199,6 @@ B[4]                         : B10       : input  : 3.3-V LVTTL       :         
 S[14]                        : B11       : output : 3.3-V LVTTL       :         : 4         : N              
 GND*                         : B12       :        :                   :         : 4         :                
 GND*                         : B13       :        :                   :         : 3         :                
-<<<<<<< HEAD
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 VREFB3                       : B14       : power  :                   :         : 3         :                
 GND*                         : B15       :        :                   :         : 3         :                
@@ -240,7 +212,6 @@ VCCIO2                       : B22       : power  :                   : 3.3V    
 GND*                         : C1        :        :                   :         : 5         :                
 GND*                         : C2        :        :                   :         : 5         :                
 TEMPDIODEn                   : C3        :        :                   :         :           :                
-<<<<<<< HEAD
 <<<<<<< HEAD
 instruction[21]              : C4        : input  : 3.3-V LVTTL       :         : 4         : N              
 GND*                         : C5        :        :                   :         : 4         :                
@@ -275,8 +246,6 @@ GND*                         : D11       :        :                   :         
 instruction[30]              : D12       : input  : 3.3-V LVTTL       :         : 3         : N              
 instruction[22]              : D13       : input  : 3.3-V LVTTL       :         : 3         : N              
 =======
-=======
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 GND*                         : C4        :        :                   :         : 4         :                
 S[2]                         : C5        : output : 3.3-V LVTTL       :         : 4         : N              
 S[27]                        : C6        : output : 3.3-V LVTTL       :         : 4         : N              
@@ -309,9 +278,6 @@ B[9]                         : D10       : input  : 3.3-V LVTTL       :         
 GND*                         : D11       :        :                   :         : 3         :                
 GND*                         : D12       :        :                   :         : 3         :                
 GND*                         : D13       :        :                   :         : 3         :                
-<<<<<<< HEAD
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 GND*                         : D14       :        :                   :         : 3         :                
 GND*                         : D15       :        :                   :         : 3         :                
@@ -322,7 +288,6 @@ DCLK                         : D19       :        :                   :         
 GND*                         : D20       :        :                   :         : 3         :                
 GND*                         : D21       :        :                   :         : 2         :                
 GND*                         : D22       :        :                   :         : 2         :                
-<<<<<<< HEAD
 <<<<<<< HEAD
 instruction[3]               : E1        : input  : 3.3-V LVTTL       :         : 5         : N              
 GND*                         : E2        :        :                   :         : 5         :                
@@ -336,8 +301,6 @@ GND*                         : E9        :        :                   :         
 GND*                         : E10       :        :                   :         : 4         :                
 Rdest[1]                     : E11       : output : 3.3-V LVTTL       :         : 3         : N              
 =======
-=======
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 GND*                         : E1        :        :                   :         : 5         :                
 GND*                         : E2        :        :                   :         : 5         :                
 GND*                         : E3        :        :                   :         : 5         :                
@@ -349,9 +312,6 @@ B[12]                        : E8        : input  : 3.3-V LVTTL       :         
 A[12]                        : E9        : input  : 3.3-V LVTTL       :         : 4         : N              
 A[10]                        : E10       : input  : 3.3-V LVTTL       :         : 4         : N              
 GND*                         : E11       :        :                   :         : 3         :                
-<<<<<<< HEAD
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 GND*                         : E12       :        :                   :         : 3         :                
 ~DATA0~ / RESERVED_INPUT     : E13       : input  : 3.3-V LVTTL       :         : 3         : N              
@@ -373,11 +333,7 @@ GND*                         : F6        :        :                   :         
 GND*                         : F7        :        :                   :         : 4         :                
 GND*                         : F8        :        :                   :         : 4         :                
 <<<<<<< HEAD
-<<<<<<< HEAD
 instruction[8]               : F9        : input  : 3.3-V LVTTL       :         : 4         : N              
-=======
-B[15]                        : F9        : input  : 3.3-V LVTTL       :         : 4         : N              
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 B[15]                        : F9        : input  : 3.3-V LVTTL       :         : 4         : N              
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -391,11 +347,7 @@ GND*                         : F16       :        :                   :         
 GND*                         : F17       :        :                   :         : 3         :                
 VREFB2                       : F18       : power  :                   :         : 2         :                
 <<<<<<< HEAD
-<<<<<<< HEAD
 instruction[9]               : F19       : input  : 3.3-V LVTTL       :         : 2         : N              
-=======
-GND*                         : F19       :        :                   :         : 2         :                
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 GND*                         : F19       :        :                   :         : 2         :                
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -409,11 +361,7 @@ GND*                         : G4        :        :                   :         
 GND*                         : G5        :        :                   :         : 5         :                
 GND*                         : G6        :        :                   :         : 5         :                
 <<<<<<< HEAD
-<<<<<<< HEAD
 GND*                         : G7        :        :                   :         : 4         :                
-=======
-A[3]                         : G7        : input  : 3.3-V LVTTL       :         : 4         : N              
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 A[3]                         : G7        : input  : 3.3-V LVTTL       :         : 4         : N              
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -422,11 +370,7 @@ GND*                         : G9        :        :                   :         
 VCC_PLL5_OUT                 : G10       : power  :                   : 3.3V    : 9         :                
 VCCD_PLL5                    : G11       : power  :                   : 1.2V    :           :                
 <<<<<<< HEAD
-<<<<<<< HEAD
 RS1[3]                       : G12       : output : 3.3-V LVTTL       :         : 3         : N              
-=======
-GND*                         : G12       :        :                   :         : 3         :                
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 GND*                         : G12       :        :                   :         : 3         :                
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -441,11 +385,7 @@ GND*                         : G20       :        :                   :         
 GND*                         : G21       :        :                   :         : 2         :                
 GND*                         : G22       :        :                   :         : 2         :                
 <<<<<<< HEAD
-<<<<<<< HEAD
 GND*                         : H1        :        :                   :         : 5         :                
-=======
-B[5]                         : H1        : input  : 3.3-V LVTTL       :         : 5         : N              
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 B[5]                         : H1        : input  : 3.3-V LVTTL       :         : 5         : N              
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -454,7 +394,6 @@ GND*                         : H3        :        :                   :         
 GND*                         : H4        :        :                   :         : 5         :                
 GND*                         : H5        :        :                   :         : 5         :                
 <<<<<<< HEAD
-<<<<<<< HEAD
 GND*                         : H6        :        :                   :         : 5         :                
 GND*                         : H7        :        :                   :         : 4         :                
 VCCINT                       : H8        : power  :                   : 1.2V    :           :                
@@ -462,17 +401,12 @@ GND*                         : H9        :        :                   :         
 VCCPD4                       : H10       : power  :                   : 3.3V    : 4         :                
 instruction[19]              : H11       : input  : 3.3-V LVTTL       :         : 3         : N              
 =======
-=======
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 S[28]                        : H6        : output : 3.3-V LVTTL       :         : 5         : N              
 GND*                         : H7        :        :                   :         : 4         :                
 VCCINT                       : H8        : power  :                   : 1.2V    :           :                
 B[0]                         : H9        : input  : 3.3-V LVTTL       :         : 4         : N              
 VCCPD4                       : H10       : power  :                   : 3.3V    : 4         :                
 GND*                         : H11       :        :                   :         : 3         :                
-<<<<<<< HEAD
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 GND*                         : H12       :        :                   :         : 3         :                
 VCCPD3                       : H13       : power  :                   : 3.3V    : 3         :                
@@ -487,21 +421,15 @@ GND*                         : H21       :        :                   :         
 GND*                         : H22       :        :                   :         : 2         :                
 GND                          : J1        : gnd    :                   :         :           :                
 <<<<<<< HEAD
-<<<<<<< HEAD
 RS1[2]                       : J2        : output : 3.3-V LVTTL       :         : 5         : N              
 Rdest[0]                     : J3        : output : 3.3-V LVTTL       :         : 5         : N              
 VREFB5                       : J4        : power  :                   :         : 5         :                
 GND*                         : J5        :        :                   :         : 5         :                
 =======
-=======
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 B[21]                        : J2        : input  : 3.3-V LVTTL       :         : 5         : N              
 B[30]                        : J3        : input  : 3.3-V LVTTL       :         : 5         : N              
 VREFB5                       : J4        : power  :                   :         : 5         :                
 B[22]                        : J5        : input  : 3.3-V LVTTL       :         : 5         : N              
-<<<<<<< HEAD
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 GND*                         : J6        :        :                   :         : 5         :                
 GND*                         : J7        :        :                   :         : 5         :                
@@ -518,7 +446,6 @@ GND*                         : J17       :        :                   :         
 GND*                         : J18       :        :                   :         : 2         :                
 GND*                         : J19       :        :                   :         : 2         :                
 <<<<<<< HEAD
-<<<<<<< HEAD
 RS1[4]                       : J20       : output : 3.3-V LVTTL       :         : 2         : N              
 RS2[4]                       : J21       : output : 3.3-V LVTTL       :         : 2         : N              
 GND                          : J22       : gnd    :                   :         :           :                
@@ -531,8 +458,6 @@ GND*                         : K6        :        :                   :         
 GND*                         : K7        :        :                   :         : 5         :                
 GND*                         : K8        :        :                   :         : 5         :                
 =======
-=======
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 GND*                         : J20       :        :                   :         : 2         :                
 GND*                         : J21       :        :                   :         : 2         :                
 GND                          : J22       : gnd    :                   :         :           :                
@@ -544,9 +469,6 @@ A[16]                        : K5        : input  : 3.3-V LVTTL       :         
 B[10]                        : K6        : input  : 3.3-V LVTTL       :         : 5         : N              
 B[2]                         : K7        : input  : 3.3-V LVTTL       :         : 5         : N              
 A[18]                        : K8        : input  : 3.3-V LVTTL       :         : 5         : N              
-<<<<<<< HEAD
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 GND                          : K9        : gnd    :                   :         :           :                
 VCCINT                       : K10       : power  :                   : 1.2V    :           :                
@@ -554,7 +476,6 @@ GND                          : K11       : gnd    :                   :         
 VCCINT                       : K12       : power  :                   : 1.2V    :           :                
 GND                          : K13       : gnd    :                   :         :           :                
 VCCPD2                       : K14       : power  :                   : 3.3V    : 2         :                
-<<<<<<< HEAD
 <<<<<<< HEAD
 GND*                         : K15       :        :                   :         : 2         :                
 GND*                         : K16       :        :                   :         : 2         :                
@@ -573,8 +494,6 @@ VCCD_PLL4                    : L6        : power  :                   : 1.2V    
 instruction[5]               : L7        : input  : 3.3-V LVTTL       :         : 5         : N              
 GND*                         : L8        :        :                   :         : 5         :                
 =======
-=======
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 A[6]                         : K15       : input  : 3.3-V LVTTL       :         : 2         : N              
 B[14]                        : K16       : input  : 3.3-V LVTTL       :         : 2         : N              
 GND*                         : K17       :        :                   :         : 2         :                
@@ -591,9 +510,6 @@ GNDA_PLL4                    : L5        : gnd    :                   :         
 VCCD_PLL4                    : L6        : power  :                   : 1.2V    :           :                
 S[25]                        : L7        : output : 3.3-V LVTTL       :         : 5         : N              
 A[8]                         : L8        : input  : 3.3-V LVTTL       :         : 5         : N              
-<<<<<<< HEAD
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 VCCPD5                       : L9        : power  :                   : 3.3V    : 5         :                
 GND                          : L10       : gnd    :                   :         :           :                
@@ -601,7 +517,6 @@ VCCINT                       : L11       : power  :                   : 1.2V    
 GND                          : L12       : gnd    :                   :         :           :                
 VCCINT                       : L13       : power  :                   : 1.2V    :           :                
 GND                          : L14       : gnd    :                   :         :           :                
-<<<<<<< HEAD
 <<<<<<< HEAD
 GND*                         : L15       :        :                   :         : 2         :                
 GND*                         : L16       :        :                   :         : 2         :                
@@ -615,8 +530,6 @@ VCCIO6                       : M1        : power  :                   : 3.3V    
 GND+                         : M2        :        :                   :         : 5         :                
 GND+                         : M3        :        :                   :         : 5         :                
 =======
-=======
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 B[7]                         : L15       : input  : 3.3-V LVTTL       :         : 2         : N              
 S[16]                        : L16       : output : 3.3-V LVTTL       :         : 2         : N              
 GNDA_PLL1                    : L17       : gnd    :                   :         :           :                
@@ -628,9 +541,6 @@ VCCIO2                       : L22       : power  :                   : 3.3V    
 VCCIO6                       : M1        : power  :                   : 3.3V    : 6         :                
 A[19]                        : M2        : input  : 3.3-V LVTTL       :         : 5         : N              
 B[27]                        : M3        : input  : 3.3-V LVTTL       :         : 5         : N              
-<<<<<<< HEAD
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 VCCA_PLL3                    : M4        : power  :                   : 1.2V    :           :                
 VCCD_PLL3                    : M5        : power  :                   : 1.2V    :           :                
@@ -649,7 +559,6 @@ VCCA_PLL1                    : M17       : power  :                   : 1.2V    
 VCCD_PLL2                    : M18       : power  :                   : 1.2V    :           :                
 VCCA_PLL2                    : M19       : power  :                   : 1.2V    :           :                
 <<<<<<< HEAD
-<<<<<<< HEAD
 GND+                         : M20       :        :                   :         : 2         :                
 GND+                         : M21       :        :                   :         : 2         :                
 VCCIO1                       : M22       : power  :                   : 3.3V    : 1         :                
@@ -662,8 +571,6 @@ GNDA_PLL3                    : N6        : gnd    :                   :         
 GND*                         : N7        :        :                   :         : 6         :                
 GND*                         : N8        :        :                   :         : 6         :                
 =======
-=======
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 A[11]                        : M20       : input  : 3.3-V LVTTL       :         : 2         : N              
 B[26]                        : M21       : input  : 3.3-V LVTTL       :         : 2         : N              
 VCCIO1                       : M22       : power  :                   : 3.3V    : 1         :                
@@ -675,9 +582,6 @@ GNDA_PLL3                    : N5        : gnd    :                   :         
 GNDA_PLL3                    : N6        : gnd    :                   :         :           :                
 select[2]                    : N7        : input  : 3.3-V LVTTL       :         : 6         : N              
 B[25]                        : N8        : input  : 3.3-V LVTTL       :         : 6         : N              
-<<<<<<< HEAD
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 VCCPD6                       : N9        : power  :                   : 3.3V    : 6         :                
 GND                          : N10       : gnd    :                   :         :           :                
@@ -685,7 +589,6 @@ VCCINT                       : N11       : power  :                   : 1.2V    
 GND                          : N12       : gnd    :                   :         :           :                
 VCCINT                       : N13       : power  :                   : 1.2V    :           :                
 GND                          : N14       : gnd    :                   :         :           :                
-<<<<<<< HEAD
 <<<<<<< HEAD
 GND*                         : N15       :        :                   :         : 1         :                
 GND*                         : N16       :        :                   :         : 1         :                
@@ -699,8 +602,6 @@ GND                          : P1        : gnd    :                   :         
 GND*                         : P2        :        :                   :         : 6         :                
 GND*                         : P3        :        :                   :         : 6         :                
 =======
-=======
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 S[1]                         : N15       : output : 3.3-V LVTTL       :         : 1         : N              
 S[15]                        : N16       : output : 3.3-V LVTTL       :         : 1         : N              
 GNDA_PLL2                    : N17       : gnd    :                   :         :           :                
@@ -712,20 +613,13 @@ S[17]                        : N22       : output : 3.3-V LVTTL       :         
 GND                          : P1        : gnd    :                   :         :           :                
 B[23]                        : P2        : input  : 3.3-V LVTTL       :         : 6         : N              
 S[0]                         : P3        : output : 3.3-V LVTTL       :         : 6         : N              
-<<<<<<< HEAD
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 VREFB6                       : P4        : power  :                   :         : 6         :                
 GND*                         : P5        :        :                   :         : 6         :                
 GND*                         : P6        :        :                   :         : 6         :                
 GND*                         : P7        :        :                   :         : 6         :                
 <<<<<<< HEAD
-<<<<<<< HEAD
 GND*                         : P8        :        :                   :         : 6         :                
-=======
-B[16]                        : P8        : input  : 3.3-V LVTTL       :         : 6         : N              
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 B[16]                        : P8        : input  : 3.3-V LVTTL       :         : 6         : N              
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -740,7 +634,6 @@ GND*                         : P16       :        :                   :         
 GND*                         : P17       :        :                   :         : 1         :                
 GND*                         : P18       :        :                   :         : 1         :                
 <<<<<<< HEAD
-<<<<<<< HEAD
 instruction[4]               : P19       : input  : 3.3-V LVTTL       :         : 1         : N              
 GND*                         : P20       :        :                   :         : 1         :                
 GND*                         : P21       :        :                   :         : 1         :                
@@ -748,17 +641,12 @@ GND                          : P22       : gnd    :                   :         
 GND*                         : R1        :        :                   :         : 6         :                
 GND*                         : R2        :        :                   :         : 6         :                
 =======
-=======
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 GND*                         : P19       :        :                   :         : 1         :                
 GND*                         : P20       :        :                   :         : 1         :                
 GND*                         : P21       :        :                   :         : 1         :                
 GND                          : P22       : gnd    :                   :         :           :                
 S[26]                        : R1        : output : 3.3-V LVTTL       :         : 6         : N              
 S[10]                        : R2        : output : 3.3-V LVTTL       :         : 6         : N              
-<<<<<<< HEAD
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 GND*                         : R3        :        :                   :         : 6         :                
 GND*                         : R4        :        :                   :         : 6         :                
@@ -766,13 +654,8 @@ GND*                         : R5        :        :                   :         
 GND*                         : R6        :        :                   :         : 6         :                
 GND*                         : R7        :        :                   :         : 6         :                
 <<<<<<< HEAD
-<<<<<<< HEAD
 instruction[1]               : R8        : input  : 3.3-V LVTTL       :         : 6         : N              
 GND*                         : R9        :        :                   :         : 7         :                
-=======
-GND*                         : R8        :        :                   :         : 6         :                
-S[30]                        : R9        : output : 3.3-V LVTTL       :         : 7         : N              
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 GND*                         : R8        :        :                   :         : 6         :                
 S[30]                        : R9        : output : 3.3-V LVTTL       :         : 7         : N              
@@ -798,15 +681,9 @@ GND*                         : T5        :        :                   :         
 GND*                         : T6        :        :                   :         : 6         :                
 GND*                         : T7        :        :                   :         : 7         :                
 <<<<<<< HEAD
-<<<<<<< HEAD
 GND*                         : T8        :        :                   :         : 7         :                
 GND*                         : T9        :        :                   :         : 7         :                
 GND*                         : T10       :        :                   :         : 7         :                
-=======
-B[6]                         : T8        : input  : 3.3-V LVTTL       :         : 7         : N              
-S[20]                        : T9        : output : 3.3-V LVTTL       :         : 7         : N              
-B[1]                         : T10       : input  : 3.3-V LVTTL       :         : 7         : N              
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 B[6]                         : T8        : input  : 3.3-V LVTTL       :         : 7         : N              
 S[20]                        : T9        : output : 3.3-V LVTTL       :         : 7         : N              
@@ -818,11 +695,7 @@ GND*                         : T13       :        :                   :         
 GND*                         : T14       :        :                   :         : 8         :                
 GND*                         : T15       :        :                   :         : 8         :                
 <<<<<<< HEAD
-<<<<<<< HEAD
 instruction[10]              : T16       : input  : 3.3-V LVTTL       :         : 8         : N              
-=======
-GND*                         : T16       :        :                   :         : 8         :                
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 GND*                         : T16       :        :                   :         : 8         :                
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -834,11 +707,7 @@ GND*                         : T21       :        :                   :         
 GND*                         : T22       :        :                   :         : 1         :                
 GND*                         : U1        :        :                   :         : 6         :                
 <<<<<<< HEAD
-<<<<<<< HEAD
 instruction[16]              : U2        : input  : 3.3-V LVTTL       :         : 6         : N              
-=======
-S[8]                         : U2        : output : 3.3-V LVTTL       :         : 6         : N              
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 S[8]                         : U2        : output : 3.3-V LVTTL       :         : 6         : N              
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -850,11 +719,7 @@ GND*                         : U7        :        :                   :         
 GND*                         : U8        :        :                   :         : 7         :                
 GND*                         : U9        :        :                   :         : 7         :                
 <<<<<<< HEAD
-<<<<<<< HEAD
 GND*                         : U10       :        :                   :         : 7         :                
-=======
-S[24]                        : U10       : output : 3.3-V LVTTL       :         : 7         : N              
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 S[24]                        : U10       : output : 3.3-V LVTTL       :         : 7         : N              
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -871,11 +736,7 @@ GND*                         : U20       :        :                   :         
 GND*                         : U21       :        :                   :         : 1         :                
 GND*                         : U22       :        :                   :         : 1         :                
 <<<<<<< HEAD
-<<<<<<< HEAD
 instruction[6]               : V1        : input  : 3.3-V LVTTL       :         : 6         : N              
-=======
-GND*                         : V1        :        :                   :         : 6         :                
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 GND*                         : V1        :        :                   :         : 6         :                
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -885,7 +746,6 @@ GND*                         : V4        :        :                   :         
 PORSEL                       : V5        :        :                   :         : 7         :                
 GND*                         : V6        :        :                   :         : 7         :                
 <<<<<<< HEAD
-<<<<<<< HEAD
 GND*                         : V7        :        :                   :         : 7         :                
 GND*                         : V8        :        :                   :         : 7         :                
 GND*                         : V9        :        :                   :         : 10        :                
@@ -893,17 +753,12 @@ GND*                         : V10       :        :                   :         
 Rdest[2]                     : V11       : output : 3.3-V LVTTL       :         : 8         : N              
 instruction[17]              : V12       : input  : 3.3-V LVTTL       :         : 8         : N              
 =======
-=======
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 S[19]                        : V7        : output : 3.3-V LVTTL       :         : 7         : N              
 S[22]                        : V8        : output : 3.3-V LVTTL       :         : 7         : N              
 A[29]                        : V9        : input  : 3.3-V LVTTL       :         : 10        : N              
 S[3]                         : V10       : output : 3.3-V LVTTL       :         : 7         : N              
 GND*                         : V11       :        :                   :         : 8         :                
 GND*                         : V12       :        :                   :         : 8         :                
-<<<<<<< HEAD
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 GND*                         : V13       :        :                   :         : 8         :                
 GND*                         : V14       :        :                   :         : 8         :                
@@ -911,21 +766,15 @@ GND*                         : V15       :        :                   :         
 GND*                         : V16       :        :                   :         : 8         :                
 VCCSEL                       : V17       :        :                   :         : 8         :                
 <<<<<<< HEAD
-<<<<<<< HEAD
 instruction[7]               : V18       : input  : 3.3-V LVTTL       :         : 1         : N              
 GND*                         : V19       :        :                   :         : 1         :                
 VREFB1                       : V20       : power  :                   :         : 1         :                
 instruction[2]               : V21       : input  : 3.3-V LVTTL       :         : 1         : N              
 =======
-=======
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 GND*                         : V18       :        :                   :         : 1         :                
 GND*                         : V19       :        :                   :         : 1         :                
 VREFB1                       : V20       : power  :                   :         : 1         :                
 GND*                         : V21       :        :                   :         : 1         :                
-<<<<<<< HEAD
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 GND*                         : V22       :        :                   :         : 1         :                
 GND*                         : W1        :        :                   :         : 6         :                
@@ -937,21 +786,15 @@ VREFB7                       : W6        : power  :                   :         
 GND*                         : W7        :        :                   :         : 7         :                
 VREFB7                       : W8        : power  :                   :         : 7         :                
 <<<<<<< HEAD
-<<<<<<< HEAD
 GND*                         : W9        :        :                   :         : 10        :                
 GND*                         : W10       :        :                   :         : 7         :                
 GND*                         : W11       :        :                   :         : 8         :                
 instruction[29]              : W12       : input  : 3.3-V LVTTL       :         : 8         : N              
 =======
-=======
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 A[20]                        : W9        : input  : 3.3-V LVTTL       :         : 10        : N              
 S[11]                        : W10       : output : 3.3-V LVTTL       :         : 7         : N              
 GND*                         : W11       :        :                   :         : 8         :                
 GND*                         : W12       :        :                   :         : 8         :                
-<<<<<<< HEAD
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 GND*                         : W13       :        :                   :         : 8         :                
 GND*                         : W14       :        :                   :         : 8         :                
@@ -968,7 +811,6 @@ GND*                         : Y2        :        :                   :         
 GND*                         : Y3        :        :                   :         : 7         :                
 PLL_ENA                      : Y4        :        :                   :         : 7         :                
 <<<<<<< HEAD
-<<<<<<< HEAD
 GND*                         : Y5        :        :                   :         : 7         :                
 GND*                         : Y6        :        :                   :         : 7         :                
 GND*                         : Y7        :        :                   :         : 7         :                
@@ -978,8 +820,6 @@ RS2[3]                       : Y10       : output : 3.3-V LVTTL       :         
 GND*                         : Y11       :        :                   :         : 7         :                
 RS2[0]                       : Y12       : output : 3.3-V LVTTL       :         : 8         : N              
 =======
-=======
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 B[18]                        : Y5        : input  : 3.3-V LVTTL       :         : 7         : N              
 S[12]                        : Y6        : output : 3.3-V LVTTL       :         : 7         : N              
 A[2]                         : Y7        : input  : 3.3-V LVTTL       :         : 7         : N              
@@ -988,9 +828,6 @@ GND*                         : Y9        :        :                   :         
 S[4]                         : Y10       : output : 3.3-V LVTTL       :         : 7         : N              
 S[18]                        : Y11       : output : 3.3-V LVTTL       :         : 7         : N              
 GND*                         : Y12       :        :                   :         : 8         :                
-<<<<<<< HEAD
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 GND*                         : Y13       :        :                   :         : 8         :                
 GND*                         : Y14       :        :                   :         : 8         :                

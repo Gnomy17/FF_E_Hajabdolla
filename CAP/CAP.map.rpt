@@ -1,10 +1,6 @@
 Analysis & Synthesis report for CAP
 <<<<<<< HEAD
-<<<<<<< HEAD
 Sun Jul 12 14:54:30 2020
-=======
-Sat Jul 11 16:26:59 2020
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 Sat Jul 11 16:26:59 2020
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -21,15 +17,12 @@ Quartus II Version 9.0 Build 132 02/25/2009 SJ Web Edition
   5. Analysis & Synthesis Resource Usage Summary
   6. Analysis & Synthesis Resource Utilization by Entity
 <<<<<<< HEAD
-<<<<<<< HEAD
   7. General Register Statistics
   8. Parameter Settings for User Entity Instance: mux5x2x1:inst2|lpm_mux:lpm_mux_component
   9. Parameter Settings for User Entity Instance: mux5x2x1:inst|lpm_mux:lpm_mux_component
  10. Parameter Settings for User Entity Instance: mux5x2x1:inst1|lpm_mux:lpm_mux_component
  11. Analysis & Synthesis Messages
 =======
-=======
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
   7. Analysis & Synthesis DSP Block Usage Summary
   8. General Register Statistics
   9. Multiplexer Restructuring Statistics (Restructuring Performed)
@@ -52,9 +45,6 @@ Quartus II Version 9.0 Build 132 02/25/2009 SJ Web Edition
  26. Parameter Settings for User Entity Instance: and32:inst20|lpm_and:lpm_and_component
  27. lpm_mult Parameter Settings by Entity Instance
  28. Analysis & Synthesis Messages
-<<<<<<< HEAD
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 
 
@@ -82,7 +72,6 @@ applicable agreement for further details.
 ; Analysis & Synthesis Summary                                            ;
 +-------------------------------+-----------------------------------------+
 <<<<<<< HEAD
-<<<<<<< HEAD
 ; Analysis & Synthesis Status   ; Successful - Sun Jul 12 14:54:30 2020   ;
 ; Quartus II Version            ; 9.0 Build 132 02/25/2009 SJ Web Edition ;
 ; Revision Name                 ; CAP                                     ;
@@ -97,8 +86,6 @@ applicable agreement for further details.
 ; Total block memory bits       ; 0                                       ;
 ; DSP block 9-bit elements      ; 0                                       ;
 =======
-=======
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 ; Analysis & Synthesis Status   ; Successful - Sat Jul 11 16:26:58 2020   ;
 ; Quartus II Version            ; 9.0 Build 132 02/25/2009 SJ Web Edition ;
 ; Revision Name                 ; CAP                                     ;
@@ -112,9 +99,6 @@ applicable agreement for further details.
 ; Total virtual pins            ; 0                                       ;
 ; Total block memory bits       ; 0                                       ;
 ; DSP block 9-bit elements      ; 8                                       ;
-<<<<<<< HEAD
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 ; Total PLLs                    ; 0                                       ;
 ; Total DLLs                    ; 0                                       ;
@@ -127,11 +111,7 @@ applicable agreement for further details.
 ; Option                                                         ; Setting            ; Default Value      ;
 +----------------------------------------------------------------+--------------------+--------------------+
 <<<<<<< HEAD
-<<<<<<< HEAD
 ; Top-level entity name                                          ; RS_decode          ; CAP                ;
-=======
-; Top-level entity name                                          ; ALU                ; CAP                ;
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 ; Top-level entity name                                          ; ALU                ; CAP                ;
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -205,7 +185,6 @@ applicable agreement for further details.
 +----------------------------------------------------------------+--------------------+--------------------+
 
 
-<<<<<<< HEAD
 <<<<<<< HEAD
 +---------------------------------------------------------------------------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Source Files Read                                                                                                                  ;
@@ -283,8 +262,6 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 
 
 =======
-=======
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 +----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Source Files Read                                                                                                                               ;
 +----------------------------------+-----------------+------------------------------------+----------------------------------------------------------------------------+
@@ -464,7 +441,6 @@ Note: number of DSP Blocks used is only available after a successful fit.
 
 
 <<<<<<< HEAD
-<<<<<<< HEAD
 +---------------------------------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: mux5x2x1:inst2|lpm_mux:lpm_mux_component ;
 +------------------------+------------+-------------------------------------------------+
@@ -501,8 +477,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; DEVICE_FAMILY          ; Stratix II ; Untyped                                        ;
 +------------------------+------------+------------------------------------------------+
 =======
-=======
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 ; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                                                             ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------------------------------------------------------------------------+
@@ -686,15 +660,11 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; AUTO_CASCADE_CHAINS    ; ON          ; AUTO_CASCADE                                           ;
 ; IGNORE_CASCADE_BUFFERS ; OFF         ; IGNORE_CASCADE                                         ;
 +------------------------+-------------+--------------------------------------------------------+
-<<<<<<< HEAD
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
 +---------------------------------------------------------------------------------------+
-<<<<<<< HEAD
 <<<<<<< HEAD
 ; Parameter Settings for User Entity Instance: mux5x2x1:inst1|lpm_mux:lpm_mux_component ;
 +------------------------+------------+-------------------------------------------------+
@@ -713,8 +683,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 +------------------------+------------+-------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings Tables in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 =======
-=======
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 ; Parameter Settings for User Entity Instance: mult32:inst3|lpm_mult:lpm_mult_component ;
 +------------------------------------------------+------------+-------------------------+
 ; Parameter Name                                 ; Value      ; Type                    ;
@@ -867,9 +835,6 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;     -- INPUT_A_FIXED_VALUE            ; Bx                                       ;
 ;     -- INPUT_B_FIXED_VALUE            ; Bx                                       ;
 +---------------------------------------+------------------------------------------+
-<<<<<<< HEAD
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 
 
@@ -880,11 +845,7 @@ Info: *******************************************************************
 Info: Running Quartus II Analysis & Synthesis
     Info: Version 9.0 Build 132 02/25/2009 SJ Web Edition
 <<<<<<< HEAD
-<<<<<<< HEAD
     Info: Processing started: Sun Jul 12 14:54:29 2020
-=======
-    Info: Processing started: Sat Jul 11 16:26:48 2020
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
     Info: Processing started: Sat Jul 11 16:26:48 2020
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -906,11 +867,6 @@ Info: Found 1 design units, including 1 entities, in source file Register_File.b
 Info: Found 1 design units, including 1 entities, in source file ff.v
     Info: Found entity 1: ff
 <<<<<<< HEAD
-<<<<<<< HEAD
-=======
-Info: Found 1 design units, including 1 entities, in source file mux32x2x1.v
-    Info: Found entity 1: mux32x2x1
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 Info: Found 1 design units, including 1 entities, in source file mux32x2x1.v
     Info: Found entity 1: mux32x2x1
@@ -949,7 +905,6 @@ Info: Found 2 design units, including 2 entities, in source file const32.v
 Info: Found 1 design units, including 1 entities, in source file div32.v
     Info: Found entity 1: div32
 <<<<<<< HEAD
-<<<<<<< HEAD
 Info: Found 1 design units, including 1 entities, in source file decoder.v
     Info: Found entity 1: decoder
 Info: Elaborating entity "RS_decode" for the top level hierarchy
@@ -987,8 +942,6 @@ Info: Quartus II Analysis & Synthesis was successful. 0 errors, 13 warnings
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 =======
-=======
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 Info: Elaborating entity "ALU" for the top level hierarchy
 Warning: Using design file mux32o16o4.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info: Found entity 1: mux32o16o4
@@ -1133,9 +1086,6 @@ Info: Quartus II Analysis & Synthesis was successful. 0 errors, 3 warnings
     Info: Processing ended: Sat Jul 11 16:26:59 2020
     Info: Elapsed time: 00:00:11
     Info: Total CPU time (on all processors): 00:00:11
-<<<<<<< HEAD
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 
 
