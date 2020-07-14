@@ -1,6 +1,6 @@
 Flow report for CAP
-Sun Jul 12 16:46:20 2020
-Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
+Sun Jul 12 14:54:39 2020
+Quartus II Version 9.0 Build 132 02/25/2009 SJ Web Edition
 
 
 ---------------------
@@ -13,53 +13,50 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
   5. Flow Elapsed Time
   6. Flow OS Summary
   7. Flow Log
-  8. Flow Messages
-  9. Flow Suppressed Messages
 
 
 
 ----------------
 ; Legal Notice ;
 ----------------
-Copyright (C) 2018  Intel Corporation. All rights reserved.
-Your use of Intel Corporation's design tools, logic functions 
+Copyright (C) 1991-2009 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
 and other software and tools, and its AMPP partner logic 
 functions, and any output files from any of the foregoing 
 (including device programming or simulation files), and any 
 associated documentation or information are expressly subject 
-to the terms and conditions of the Intel Program License 
-Subscription Agreement, the Intel Quartus Prime License Agreement,
-the Intel FPGA IP License Agreement, or other applicable license
-agreement, including, without limitation, that your use is for
-the sole purpose of programming logic devices manufactured by
-Intel and sold by Intel or its authorized distributors.  Please
-refer to the applicable agreement for further details.
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
 
 
 
-+-----------------------------------------------------------------------------------+
-; Flow Summary                                                                      ;
-+---------------------------------+-------------------------------------------------+
-; Flow Status                     ; Successful - Sun Jul 12 16:46:20 2020           ;
-; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Standard Edition ;
-; Revision Name                   ; CAP                                             ;
-; Top-level Entity Name           ; data_MEM                                        ;
-; Family                          ; Cyclone V                                       ;
-; Device                          ; 5CGXFC7C7F23C8                                  ;
-; Timing Models                   ; Final                                           ;
-; Logic utilization (in ALMs)     ; 1 / 56,480 ( < 1 % )                            ;
-; Total registers                 ; 0                                               ;
-; Total pins                      ; 69 / 268 ( 26 % )                               ;
-; Total virtual pins              ; 0                                               ;
-; Total block memory bits         ; 256 / 7,024,640 ( < 1 % )                       ;
-; Total DSP Blocks                ; 0 / 156 ( 0 % )                                 ;
-; Total HSSI RX PCSs              ; 0 / 6 ( 0 % )                                   ;
-; Total HSSI PMA RX Deserializers ; 0 / 6 ( 0 % )                                   ;
-; Total HSSI TX PCSs              ; 0 / 6 ( 0 % )                                   ;
-; Total HSSI PMA TX Serializers   ; 0 / 6 ( 0 % )                                   ;
-; Total PLLs                      ; 0 / 13 ( 0 % )                                  ;
-; Total DLLs                      ; 0 / 4 ( 0 % )                                   ;
-+---------------------------------+-------------------------------------------------+
++-------------------------------------------------------------------------+
+; Flow Summary                                                            ;
++-------------------------------+-----------------------------------------+
+; Flow Status                   ; Successful - Sun Jul 12 14:54:39 2020   ;
+; Quartus II Version            ; 9.0 Build 132 02/25/2009 SJ Web Edition ;
+; Revision Name                 ; CAP                                     ;
+; Top-level Entity Name         ; RS_decode                               ;
+; Family                        ; Stratix II                              ;
+; Met timing requirements       ; Yes                                     ;
+; Logic utilization             ; < 1 %                                   ;
+;     Combinational ALUTs       ; 16 / 12,480 ( < 1 % )                   ;
+;     Dedicated logic registers ; 0 / 12,480 ( 0 % )                      ;
+; Total registers               ; 0                                       ;
+; Total pins                    ; 47 / 343 ( 14 % )                       ;
+; Total virtual pins            ; 0                                       ;
+; Total block memory bits       ; 0 / 419,328 ( 0 % )                     ;
+; DSP block 9-bit elements      ; 0 / 96 ( 0 % )                          ;
+; Total PLLs                    ; 0 / 6 ( 0 % )                           ;
+; Total DLLs                    ; 0 / 2 ( 0 % )                           ;
+; Device                        ; EP2S15F484C3                            ;
+; Timing Models                 ; Final                                   ;
++-------------------------------+-----------------------------------------+
 
 
 +-----------------------------------------+
@@ -67,141 +64,162 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 07/12/2020 16:24:12 ;
+; Start date & time ; 07/12/2020 14:54:29 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; CAP                 ;
 +-------------------+---------------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                                            ;
-+-------------------------------------+--------------------------------------------------------+---------------+-------------+----------------+
-; Assignment Name                     ; Value                                                  ; Default Value ; Entity Name ; Section Id     ;
-+-------------------------------------+--------------------------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 57827285557951.159455485110172                         ; --            ; --          ; --             ;
-; MISC_FILE                           ; ram.bsf                                                ; --            ; --          ; --             ;
-; MISC_FILE                           ; ram_inst.v                                             ; --            ; --          ; --             ;
-; MISC_FILE                           ; ram_bb.v                                               ; --            ; --          ; --             ;
-; MISC_FILE                           ; ram.inc                                                ; --            ; --          ; --             ;
-; MISC_FILE                           ; ram.cmp                                                ; --            ; --          ; --             ;
-; MISC_FILE                           ; ram_syn.v                                              ; --            ; --          ; --             ;
-; MISC_FILE                           ; ff.bsf                                                 ; --            ; --          ; --             ;
-; MISC_FILE                           ; ff_inst.v                                              ; --            ; --          ; --             ;
-; MISC_FILE                           ; ff_bb.v                                                ; --            ; --          ; --             ;
-; MISC_FILE                           ; ff.inc                                                 ; --            ; --          ; --             ;
-; MISC_FILE                           ; ff.cmp                                                 ; --            ; --          ; --             ;
-; MISC_FILE                           ; ff_syn.v                                               ; --            ; --          ; --             ;
-; MISC_FILE                           ; mux32x2x1.tdf                                          ; --            ; --          ; --             ;
-; MISC_FILE                           ; mux32x2x1.bsf                                          ; --            ; --          ; --             ;
-; MISC_FILE                           ; mux32x2x1.inc                                          ; --            ; --          ; --             ;
-; MISC_FILE                           ; adder.bsf                                              ; --            ; --          ; --             ;
-; MISC_FILE                           ; adder_inst.v                                           ; --            ; --          ; --             ;
-; MISC_FILE                           ; adder_bb.v                                             ; --            ; --          ; --             ;
-; MISC_FILE                           ; adder.inc                                              ; --            ; --          ; --             ;
-; MISC_FILE                           ; adder.cmp                                              ; --            ; --          ; --             ;
-; MISC_FILE                           ; adder_syn.v                                            ; --            ; --          ; --             ;
-; MISC_FILE                           ; ff5.bsf                                                ; --            ; --          ; --             ;
-; MISC_FILE                           ; ff5_inst.v                                             ; --            ; --          ; --             ;
-; MISC_FILE                           ; ff5_bb.v                                               ; --            ; --          ; --             ;
-; MISC_FILE                           ; ff5.inc                                                ; --            ; --          ; --             ;
-; MISC_FILE                           ; ff5.cmp                                                ; --            ; --          ; --             ;
-; MISC_FILE                           ; ff5_syn.v                                              ; --            ; --          ; --             ;
-; MISC_FILE                           ; mux5x2x1.bsf                                           ; --            ; --          ; --             ;
-; MISC_FILE                           ; mux5x2x1_inst.v                                        ; --            ; --          ; --             ;
-; MISC_FILE                           ; mux5x2x1_bb.v                                          ; --            ; --          ; --             ;
-; MISC_FILE                           ; mux5x2x1.inc                                           ; --            ; --          ; --             ;
-; MISC_FILE                           ; mux5x2x1.cmp                                           ; --            ; --          ; --             ;
-; MISC_FILE                           ; mux5x2x1_syn.v                                         ; --            ; --          ; --             ;
-; MISC_FILE                           ; PCAdd.bsf                                              ; --            ; --          ; --             ;
-; MISC_FILE                           ; PCAdd_inst.v                                           ; --            ; --          ; --             ;
-; MISC_FILE                           ; PCAdd_bb.v                                             ; --            ; --          ; --             ;
-; MISC_FILE                           ; PCAdd.inc                                              ; --            ; --          ; --             ;
-; MISC_FILE                           ; PCAdd.cmp                                              ; --            ; --          ; --             ;
-; MISC_FILE                           ; comparator32.bsf                                       ; --            ; --          ; --             ;
-; MISC_FILE                           ; comparator32_inst.v                                    ; --            ; --          ; --             ;
-; MISC_FILE                           ; comparator32_bb.v                                      ; --            ; --          ; --             ;
-; MISC_FILE                           ; comparator32.inc                                       ; --            ; --          ; --             ;
-; MISC_FILE                           ; comparator32.cmp                                       ; --            ; --          ; --             ;
-; MISC_FILE                           ; xor32.bsf                                              ; --            ; --          ; --             ;
-; MISC_FILE                           ; xor32_inst.v                                           ; --            ; --          ; --             ;
-; MISC_FILE                           ; xor32_bb.v                                             ; --            ; --          ; --             ;
-; MISC_FILE                           ; xor32.inc                                              ; --            ; --          ; --             ;
-; MISC_FILE                           ; xor32.cmp                                              ; --            ; --          ; --             ;
-; MISC_FILE                           ; not32.bsf                                              ; --            ; --          ; --             ;
-; MISC_FILE                           ; not32_inst.v                                           ; --            ; --          ; --             ;
-; MISC_FILE                           ; not32_bb.v                                             ; --            ; --          ; --             ;
-; MISC_FILE                           ; not32.inc                                              ; --            ; --          ; --             ;
-; MISC_FILE                           ; not32.cmp                                              ; --            ; --          ; --             ;
-; MISC_FILE                           ; and32.bsf                                              ; --            ; --          ; --             ;
-; MISC_FILE                           ; and32_inst.v                                           ; --            ; --          ; --             ;
-; MISC_FILE                           ; and32_bb.v                                             ; --            ; --          ; --             ;
-; MISC_FILE                           ; and32.inc                                              ; --            ; --          ; --             ;
-; MISC_FILE                           ; and32.cmp                                              ; --            ; --          ; --             ;
-; MISC_FILE                           ; shift32.bsf                                            ; --            ; --          ; --             ;
-; MISC_FILE                           ; shift32_inst.v                                         ; --            ; --          ; --             ;
-; MISC_FILE                           ; shift32_bb.v                                           ; --            ; --          ; --             ;
-; MISC_FILE                           ; shift32.inc                                            ; --            ; --          ; --             ;
-; MISC_FILE                           ; shift32.cmp                                            ; --            ; --          ; --             ;
-; MISC_FILE                           ; rotate32.bsf                                           ; --            ; --          ; --             ;
-; MISC_FILE                           ; rotate32_inst.v                                        ; --            ; --          ; --             ;
-; MISC_FILE                           ; rotate32_bb.v                                          ; --            ; --          ; --             ;
-; MISC_FILE                           ; rotate32.inc                                           ; --            ; --          ; --             ;
-; MISC_FILE                           ; rotate32.cmp                                           ; --            ; --          ; --             ;
-; MISC_FILE                           ; const32.bsf                                            ; --            ; --          ; --             ;
-; MISC_FILE                           ; const32_inst.v                                         ; --            ; --          ; --             ;
-; MISC_FILE                           ; const32_bb.v                                           ; --            ; --          ; --             ;
-; MISC_FILE                           ; const32.inc                                            ; --            ; --          ; --             ;
-; MISC_FILE                           ; const32.cmp                                            ; --            ; --          ; --             ;
-; MISC_FILE                           ; div32.bsf                                              ; --            ; --          ; --             ;
-; MISC_FILE                           ; div32_inst.v                                           ; --            ; --          ; --             ;
-; MISC_FILE                           ; div32_bb.v                                             ; --            ; --          ; --             ;
-; MISC_FILE                           ; div32.inc                                              ; --            ; --          ; --             ;
-; MISC_FILE                           ; div32.cmp                                              ; --            ; --          ; --             ;
-; MISC_FILE                           ; decoder.bsf                                            ; --            ; --          ; --             ;
-; MISC_FILE                           ; decoder_bb.v                                           ; --            ; --          ; --             ;
-; MISC_FILE                           ; decoder.inc                                            ; --            ; --          ; --             ;
-; MISC_FILE                           ; C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/CAP.dpf ; --            ; --          ; --             ;
-; PARTITION_COLOR                     ; -- (Not supported for targeted family)                 ; --            ; data_MEM    ; Top            ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family)                 ; --            ; data_MEM    ; Top            ;
-; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family)                 ; --            ; data_MEM    ; Top            ;
-; TOP_LEVEL_ENTITY                    ; data_MEM                                               ; CAP           ; --          ; --             ;
-; USE_GENERATED_PHYSICAL_CONSTRAINTS  ; Off                                                    ; --            ; --          ; eda_blast_fpga ;
-+-------------------------------------+--------------------------------------------------------+---------------+-------------+----------------+
++--------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                           ;
++------------------------------------+--------------------------------------------------------+---------------+-------------+----------------+
+; Assignment Name                    ; Value                                                  ; Default Value ; Entity Name ; Section Id     ;
++------------------------------------+--------------------------------------------------------+---------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID              ; 93047528926370.159454946905180                         ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; RAM: 2-PORT                                            ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_FF                                                 ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_MUX                                                ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_ADD_SUB                                            ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_FF                                                 ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_MUX                                                ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_ADD_SUB                                            ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_COMPARE                                            ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_XOR                                                ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_INV                                                ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_AND                                                ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_CLSHIFT                                            ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_CLSHIFT                                            ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_CONSTANT                                           ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_DIVIDE                                             ; --            ; --          ; --             ;
+; IP_TOOL_NAME                       ; LPM_DECODE                                             ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.0                                                    ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.0                                                    ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.0                                                    ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.0                                                    ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.0                                                    ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.0                                                    ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.0                                                    ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.0                                                    ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.0                                                    ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.0                                                    ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.0                                                    ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.0                                                    ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.0                                                    ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.0                                                    ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.0                                                    ; --            ; --          ; --             ;
+; IP_TOOL_VERSION                    ; 9.0                                                    ; --            ; --          ; --             ;
+; MISC_FILE                          ; ram.bsf                                                ; --            ; --          ; --             ;
+; MISC_FILE                          ; ram_inst.v                                             ; --            ; --          ; --             ;
+; MISC_FILE                          ; ram_bb.v                                               ; --            ; --          ; --             ;
+; MISC_FILE                          ; ram.inc                                                ; --            ; --          ; --             ;
+; MISC_FILE                          ; ram.cmp                                                ; --            ; --          ; --             ;
+; MISC_FILE                          ; ram_syn.v                                              ; --            ; --          ; --             ;
+; MISC_FILE                          ; ff.bsf                                                 ; --            ; --          ; --             ;
+; MISC_FILE                          ; ff_inst.v                                              ; --            ; --          ; --             ;
+; MISC_FILE                          ; ff_bb.v                                                ; --            ; --          ; --             ;
+; MISC_FILE                          ; ff.inc                                                 ; --            ; --          ; --             ;
+; MISC_FILE                          ; ff.cmp                                                 ; --            ; --          ; --             ;
+; MISC_FILE                          ; ff_syn.v                                               ; --            ; --          ; --             ;
+; MISC_FILE                          ; mux32x2x1.tdf                                          ; --            ; --          ; --             ;
+; MISC_FILE                          ; mux32x2x1.bsf                                          ; --            ; --          ; --             ;
+; MISC_FILE                          ; mux32x2x1.inc                                          ; --            ; --          ; --             ;
+; MISC_FILE                          ; adder.bsf                                              ; --            ; --          ; --             ;
+; MISC_FILE                          ; adder_inst.v                                           ; --            ; --          ; --             ;
+; MISC_FILE                          ; adder_bb.v                                             ; --            ; --          ; --             ;
+; MISC_FILE                          ; adder.inc                                              ; --            ; --          ; --             ;
+; MISC_FILE                          ; adder.cmp                                              ; --            ; --          ; --             ;
+; MISC_FILE                          ; adder_syn.v                                            ; --            ; --          ; --             ;
+; MISC_FILE                          ; ff5.bsf                                                ; --            ; --          ; --             ;
+; MISC_FILE                          ; ff5_inst.v                                             ; --            ; --          ; --             ;
+; MISC_FILE                          ; ff5_bb.v                                               ; --            ; --          ; --             ;
+; MISC_FILE                          ; ff5.inc                                                ; --            ; --          ; --             ;
+; MISC_FILE                          ; ff5.cmp                                                ; --            ; --          ; --             ;
+; MISC_FILE                          ; ff5_syn.v                                              ; --            ; --          ; --             ;
+; MISC_FILE                          ; mux5x2x1.bsf                                           ; --            ; --          ; --             ;
+; MISC_FILE                          ; mux5x2x1_inst.v                                        ; --            ; --          ; --             ;
+; MISC_FILE                          ; mux5x2x1_bb.v                                          ; --            ; --          ; --             ;
+; MISC_FILE                          ; mux5x2x1.inc                                           ; --            ; --          ; --             ;
+; MISC_FILE                          ; mux5x2x1.cmp                                           ; --            ; --          ; --             ;
+; MISC_FILE                          ; mux5x2x1_syn.v                                         ; --            ; --          ; --             ;
+; MISC_FILE                          ; PCAdd.bsf                                              ; --            ; --          ; --             ;
+; MISC_FILE                          ; PCAdd_inst.v                                           ; --            ; --          ; --             ;
+; MISC_FILE                          ; PCAdd_bb.v                                             ; --            ; --          ; --             ;
+; MISC_FILE                          ; PCAdd.inc                                              ; --            ; --          ; --             ;
+; MISC_FILE                          ; PCAdd.cmp                                              ; --            ; --          ; --             ;
+; MISC_FILE                          ; comparator32.bsf                                       ; --            ; --          ; --             ;
+; MISC_FILE                          ; comparator32_inst.v                                    ; --            ; --          ; --             ;
+; MISC_FILE                          ; comparator32_bb.v                                      ; --            ; --          ; --             ;
+; MISC_FILE                          ; comparator32.inc                                       ; --            ; --          ; --             ;
+; MISC_FILE                          ; comparator32.cmp                                       ; --            ; --          ; --             ;
+; MISC_FILE                          ; xor32.bsf                                              ; --            ; --          ; --             ;
+; MISC_FILE                          ; xor32_inst.v                                           ; --            ; --          ; --             ;
+; MISC_FILE                          ; xor32_bb.v                                             ; --            ; --          ; --             ;
+; MISC_FILE                          ; xor32.inc                                              ; --            ; --          ; --             ;
+; MISC_FILE                          ; xor32.cmp                                              ; --            ; --          ; --             ;
+; MISC_FILE                          ; not32.bsf                                              ; --            ; --          ; --             ;
+; MISC_FILE                          ; not32_inst.v                                           ; --            ; --          ; --             ;
+; MISC_FILE                          ; not32_bb.v                                             ; --            ; --          ; --             ;
+; MISC_FILE                          ; not32.inc                                              ; --            ; --          ; --             ;
+; MISC_FILE                          ; not32.cmp                                              ; --            ; --          ; --             ;
+; MISC_FILE                          ; and32.bsf                                              ; --            ; --          ; --             ;
+; MISC_FILE                          ; and32_inst.v                                           ; --            ; --          ; --             ;
+; MISC_FILE                          ; and32_bb.v                                             ; --            ; --          ; --             ;
+; MISC_FILE                          ; and32.inc                                              ; --            ; --          ; --             ;
+; MISC_FILE                          ; and32.cmp                                              ; --            ; --          ; --             ;
+; MISC_FILE                          ; shift32.bsf                                            ; --            ; --          ; --             ;
+; MISC_FILE                          ; shift32_inst.v                                         ; --            ; --          ; --             ;
+; MISC_FILE                          ; shift32_bb.v                                           ; --            ; --          ; --             ;
+; MISC_FILE                          ; shift32.inc                                            ; --            ; --          ; --             ;
+; MISC_FILE                          ; shift32.cmp                                            ; --            ; --          ; --             ;
+; MISC_FILE                          ; rotate32.bsf                                           ; --            ; --          ; --             ;
+; MISC_FILE                          ; rotate32_inst.v                                        ; --            ; --          ; --             ;
+; MISC_FILE                          ; rotate32_bb.v                                          ; --            ; --          ; --             ;
+; MISC_FILE                          ; rotate32.inc                                           ; --            ; --          ; --             ;
+; MISC_FILE                          ; rotate32.cmp                                           ; --            ; --          ; --             ;
+; MISC_FILE                          ; const32.bsf                                            ; --            ; --          ; --             ;
+; MISC_FILE                          ; const32_inst.v                                         ; --            ; --          ; --             ;
+; MISC_FILE                          ; const32_bb.v                                           ; --            ; --          ; --             ;
+; MISC_FILE                          ; const32.inc                                            ; --            ; --          ; --             ;
+; MISC_FILE                          ; const32.cmp                                            ; --            ; --          ; --             ;
+; MISC_FILE                          ; div32.bsf                                              ; --            ; --          ; --             ;
+; MISC_FILE                          ; div32_inst.v                                           ; --            ; --          ; --             ;
+; MISC_FILE                          ; div32_bb.v                                             ; --            ; --          ; --             ;
+; MISC_FILE                          ; div32.inc                                              ; --            ; --          ; --             ;
+; MISC_FILE                          ; div32.cmp                                              ; --            ; --          ; --             ;
+; MISC_FILE                          ; decoder.bsf                                            ; --            ; --          ; --             ;
+; MISC_FILE                          ; decoder_bb.v                                           ; --            ; --          ; --             ;
+; MISC_FILE                          ; decoder.inc                                            ; --            ; --          ; --             ;
+; MISC_FILE                          ; C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/CAP.dpf ; --            ; --          ; --             ;
+; PARTITION_COLOR                    ; 16764057                                               ; --            ; RS_decode   ; Top            ;
+; PARTITION_NETLIST_TYPE             ; SOURCE                                                 ; --            ; RS_decode   ; Top            ;
+; TOP_LEVEL_ENTITY                   ; RS_decode                                              ; CAP           ; --          ; --             ;
+; USE_GENERATED_PHYSICAL_CONSTRAINTS ; Off                                                    ; --            ; --          ; eda_blast_fpga ;
++------------------------------------+--------------------------------------------------------+---------------+-------------+----------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------+
-; Flow Elapsed Time                                                                                                        ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:22     ; 1.0                     ; 4807 MB             ; 00:00:42                           ;
-; Fitter               ; 00:00:52     ; 1.0                     ; 6817 MB             ; 00:01:29                           ;
-; Assembler            ; 00:00:13     ; 1.0                     ; 4834 MB             ; 00:00:12                           ;
-; Timing Analyzer      ; 00:00:12     ; 1.0                     ; 5190 MB             ; 00:00:12                           ;
-; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4718 MB             ; 00:00:02                           ;
-; EDA Netlist Writer   ; 00:00:03     ; 1.0                     ; 4727 MB             ; 00:00:03                           ;
-; EDA Netlist Writer   ; 00:00:03     ; 1.0                     ; 4716 MB             ; 00:00:02                           ;
-; EDA Netlist Writer   ; 00:00:03     ; 1.0                     ; 4718 MB             ; 00:00:02                           ;
-; EDA Netlist Writer   ; 00:00:03     ; 1.0                     ; 4727 MB             ; 00:00:03                           ;
-; Total                ; 00:01:53     ; --                      ; --                  ; 00:02:47                           ;
-+----------------------+--------------+-------------------------+---------------------+------------------------------------+
++-----------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                           ;
++-------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name             ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++-------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis    ; 00:00:01     ; 1.0                     ; 240 MB              ; 00:00:01                           ;
+; Fitter                  ; 00:00:02     ; 1.0                     ; 282 MB              ; 00:00:02                           ;
+; Assembler               ; 00:00:02     ; 1.0                     ; 250 MB              ; 00:00:02                           ;
+; Classic Timing Analyzer ; 00:00:00     ; 1.0                     ; 180 MB              ; 00:00:00                           ;
+; Total                   ; 00:00:05     ; --                      ; --                  ; 00:00:05                           ;
++-------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
-+------------------------------------------------------------------------------------+
-; Flow OS Summary                                                                    ;
-+----------------------+------------------+------------+------------+----------------+
-; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
-+----------------------+------------------+------------+------------+----------------+
-; Analysis & Synthesis ; DESKTOP-THLOTR1  ; Windows 10 ; 10.0       ; x86_64         ;
-; Fitter               ; DESKTOP-THLOTR1  ; Windows 10 ; 10.0       ; x86_64         ;
-; Assembler            ; DESKTOP-THLOTR1  ; Windows 10 ; 10.0       ; x86_64         ;
-; Timing Analyzer      ; DESKTOP-THLOTR1  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-THLOTR1  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-THLOTR1  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-THLOTR1  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-THLOTR1  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-THLOTR1  ; Windows 10 ; 10.0       ; x86_64         ;
-+----------------------+------------------+------------+------------+----------------+
++------------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                          ;
++-------------------------+------------------+---------------+------------+----------------+
+; Module Name             ; Machine Hostname ; OS Name       ; OS Version ; Processor type ;
++-------------------------+------------------+---------------+------------+----------------+
+; Analysis & Synthesis    ; DESKTOP-HGQIPKC  ; Windows Vista ; 6.2        ; x86_64         ;
+; Fitter                  ; DESKTOP-HGQIPKC  ; Windows Vista ; 6.2        ; x86_64         ;
+; Assembler               ; DESKTOP-HGQIPKC  ; Windows Vista ; 6.2        ; x86_64         ;
+; Classic Timing Analyzer ; DESKTOP-HGQIPKC  ; Windows Vista ; 6.2        ; x86_64         ;
++-------------------------+------------------+---------------+------------+----------------+
 
 
 ------------
@@ -210,12 +228,7 @@ refer to the applicable agreement for further details.
 quartus_map --read_settings_files=on --write_settings_files=off CAP -c CAP
 quartus_fit --read_settings_files=off --write_settings_files=off CAP -c CAP
 quartus_asm --read_settings_files=off --write_settings_files=off CAP -c CAP
-quartus_sta CAP -c CAP
-quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off CAP -c CAP --vector_source=C:/Users/Mehrdad/Desktop/CAP/FF_E_Hajabdolla/CAP/Waveform.vwf --testbench_file=C:/Users/Mehrdad/Desktop/CAP/FF_E_Hajabdolla/CAP/simulation/qsim/Waveform.vwf.vt
-quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=C:/Users/Mehrdad/Desktop/CAP/FF_E_Hajabdolla/CAP/simulation/qsim/ CAP -c CAP
-quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off CAP -c CAP --vector_source=C:/Users/Mehrdad/Desktop/CAP/FF_E_Hajabdolla/CAP/Waveform.vwf --testbench_file=C:/Users/Mehrdad/Desktop/CAP/FF_E_Hajabdolla/CAP/simulation/qsim/Waveform.vwf.vt
-quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off CAP -c CAP --vector_source=C:/Users/Mehrdad/Desktop/CAP/FF_E_Hajabdolla/CAP/Waveform.vwf --testbench_file=C:/Users/Mehrdad/Desktop/CAP/FF_E_Hajabdolla/CAP/simulation/qsim/Waveform.vwf.vt
-quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=C:/Users/Mehrdad/Desktop/CAP/FF_E_Hajabdolla/CAP/simulation/qsim/ CAP -c CAP
+quartus_tan --read_settings_files=off --write_settings_files=off CAP -c CAP --timing_analysis_only
 
 
 
