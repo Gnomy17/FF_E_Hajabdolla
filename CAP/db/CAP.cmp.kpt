@@ -2,10 +2,7 @@
   <key_points_set type="reference" hier_sep="|">
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 =======
-=======
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
     <key_point id="1" type="register">
@@ -201,9 +198,6 @@
       <name>ff:inst6|lpm_ff:lpm_ff_component|dffs[31]</name>
     </key_point>
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -213,12 +207,9 @@
   <key_points_set type="transformed" hier_sep="|">
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
   </key_points_set>
   <transformations_set hier_sep="|">
 =======
-=======
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
     <key_point id="65" type="register">
@@ -1696,9 +1687,6 @@
       </kp_set>
     </transformation>
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla

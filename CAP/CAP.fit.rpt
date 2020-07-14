@@ -1,11 +1,7 @@
 Fitter report for CAP
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 Sun Jul 12 14:54:33 2020
-=======
-Sat Jul 11 16:27:05 2020
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 Sat Jul 11 16:27:05 2020
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -23,7 +19,6 @@ Quartus II Version 9.0 Build 132 02/25/2009 SJ Web Edition
   3. Fitter Settings
   4. Parallel Compilation
   5. I/O Assignment Warnings
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   6. Incremental Compilation Preservation Summary
@@ -53,8 +48,6 @@ Quartus II Version 9.0 Build 132 02/25/2009 SJ Web Edition
  30. Estimated Delay Added for Hold Timing
  31. Fitter Messages
 =======
-=======
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
   6. Fitter Netlist Optimizations
@@ -94,9 +87,6 @@ Quartus II Version 9.0 Build 132 02/25/2009 SJ Web Edition
  40. Advanced Data - Routing
  41. Fitter Messages
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -119,7 +109,6 @@ without limitation, that your use is for the sole purpose of
 programming logic devices manufactured by Altera and sold by 
 Altera or its authorized distributors.  Please refer to the 
 applicable agreement for further details.
-<<<<<<< HEAD
 
 
 
@@ -170,34 +159,6 @@ applicable agreement for further details.
 +-------------------------------+-----------------------------------------+
 
 
-=======
-
-
-
-+-------------------------------------------------------------------------+
-; Fitter Summary                                                          ;
-+-------------------------------+-----------------------------------------+
-; Fitter Status                 ; Successful - Sat Jul 11 16:27:05 2020   ;
-; Quartus II Version            ; 9.0 Build 132 02/25/2009 SJ Web Edition ;
-; Revision Name                 ; CAP                                     ;
-; Top-level Entity Name         ; ALU                                     ;
-; Family                        ; Stratix II                              ;
-; Device                        ; EP2S15F484C3                            ;
-; Timing Models                 ; Final                                   ;
-; Logic utilization             ; 16 %                                    ;
-;     Combinational ALUTs       ; 1,752 / 12,480 ( 14 % )                 ;
-;     Dedicated logic registers ; 64 / 12,480 ( < 1 % )                   ;
-; Total registers               ; 64                                      ;
-; Total pins                    ; 101 / 343 ( 29 % )                      ;
-; Total virtual pins            ; 0                                       ;
-; Total block memory bits       ; 0 / 419,328 ( 0 % )                     ;
-; DSP block 9-bit elements      ; 8 / 96 ( 8 % )                          ;
-; Total PLLs                    ; 0 / 6 ( 0 % )                           ;
-; Total DLLs                    ; 0 / 2 ( 0 % )                           ;
-+-------------------------------+-----------------------------------------+
-
-
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 +--------------------------------------------------------------------------------------------------------------------------------------+
 ; Fitter Settings                                                                                                                      ;
 +--------------------------------------------------------------------+--------------------------------+--------------------------------+
@@ -255,11 +216,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+--------+
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 ; Number detected on machine ; 2      ;
-=======
-; Number detected on machine ; 4      ;
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 ; Number detected on machine ; 4      ;
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -270,7 +227,6 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+--------+
 
 
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 +-------------------------------------------------+
@@ -342,8 +298,6 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;     -- Achieved         ; 0 / 0 ( 0.00 % )   ;
 +-------------------------+--------------------+
 =======
-=======
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 +-------------------------------------------+
@@ -733,9 +687,6 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;     -- Achieved         ; 0 / 0 ( 0.00 % )    ;
 +-------------------------+---------------------+
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -757,11 +708,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------+---------+-------------------+-------------------------+-------------------+
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 ; Top            ; 63      ; 0                 ; N/A                     ; Source File       ;
-=======
-; Top            ; 1922    ; 0                 ; N/A                     ; Source File       ;
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 ; Top            ; 1922    ; 0                 ; N/A                     ; Source File       ;
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -774,7 +721,6 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +--------------+
 ; Pin-Out File ;
 +--------------+
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 The pin-out file can be found in C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/CAP.pin.
@@ -854,8 +800,6 @@ The pin-out file can be found in C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/
 =======
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP/CAP.pin.
 
 
@@ -931,9 +875,6 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 ; Average fan-out                                                                   ; 4.10                                                   ;
 +-----------------------------------------------------------------------------------+--------------------------------------------------------+
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -941,7 +882,6 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 
 
 
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -1006,8 +946,6 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 ; Rdest[4] ; AA13  ; 8        ; 18           ; 0            ; 3           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ;
 +----------+-------+----------+--------------+--------------+-------------+-----------------+------------------------+---------------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-------------+----------------------+------+
 =======
-=======
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -1126,9 +1064,6 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 ; S[9]  ; B5    ; 4        ; 31           ; 27           ; 0           ; no              ; no                     ; no            ; no              ; no         ; no            ; no       ; Off          ; 3.3-V LVTTL  ; 24mA             ; Off         ; Fitter               ; 0 pF ;
 +-------+-------+----------+--------------+--------------+-------------+-----------------+------------------------+---------------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-------------+----------------------+------+
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -1139,7 +1074,6 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 +----------+------------------+---------------+--------------+
 ; I/O Bank ; Usage            ; VCCIO Voltage ; VREF Voltage ;
 +----------+------------------+---------------+--------------+
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 ; 1        ; 3 / 40 ( 8 % )   ; 3.3V          ; --           ;
@@ -1155,8 +1089,6 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 =======
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 ; 1        ; 5 / 40 ( 13 % )  ; 3.3V          ; --           ;
 ; 2        ; 12 / 44 ( 27 % ) ; 3.3V          ; --           ;
 ; 3        ; 2 / 50 ( 4 % )   ; 3.3V          ; --           ;
@@ -1168,9 +1100,6 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 ; 9        ; 5 / 6 ( 83 % )   ; 3.3V          ; --           ;
 ; 10       ; 3 / 6 ( 50 % )   ; 3.3V          ; --           ;
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -1188,7 +1117,6 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 ; A4       ; 277        ; 4        ; ^MSEL3                   ;        ;              ;         ; --         ;                 ; --       ; --           ;
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 ; A5       ; 307        ; 4        ; GND*                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; A6       ; 311        ; 4        ; GND*                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; A7       ; 315        ; 4        ; GND*                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
@@ -1201,8 +1129,6 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 =======
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 ; A5       ; 307        ; 4        ; A[22]                    ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; A6       ; 311        ; 4        ; A[23]                    ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; A7       ; 315        ; 4        ; A[27]                    ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
@@ -1213,9 +1139,6 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 ; A12      ;            ; 3        ; VCCIO3                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; A13      ; 329        ; 3        ; GND*                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -1234,7 +1157,6 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 ; AA4      ; 181        ; 7        ; GND*                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 ; AA5      ; 163        ; 7        ; GND*                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AA6      ; 159        ; 7        ; GND*                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AA7      ; 155        ; 7        ; GND*                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
@@ -1247,8 +1169,6 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 =======
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 ; AA5      ; 163        ; 7        ; B[29]                    ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; AA6      ; 159        ; 7        ; A[17]                    ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; AA7      ; 155        ; 7        ; B[28]                    ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
@@ -1259,9 +1179,6 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 ; AA12     ; 138        ; 8        ; GND*                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AA13     ; 137        ; 8        ; GND*                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -1281,7 +1198,6 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 ; AB5      ; 161        ; 7        ; GND*                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 ; AB6      ; 157        ; 7        ; GND*                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AB7      ; 153        ; 7        ; GND*                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; AB8      ; 150        ; 7        ; RS1[1]                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
@@ -1293,8 +1209,6 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 =======
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 ; AB6      ; 157        ; 7        ; A[28]                    ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; AB7      ; 153        ; 7        ; S[6]                     ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; AB8      ; 150        ; 7        ; S[29]                    ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
@@ -1304,9 +1218,6 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 ; AB12     ;            ; 8        ; VCCIO8                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; AB13     ; 139        ; 8        ; GND*                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -1325,7 +1236,6 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 ; B4       ; 279        ; 4        ; ^MSEL2                   ;        ;              ;         ; --         ;                 ; --       ; --           ;
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 ; B5       ; 305        ; 4        ; GND*                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; B6       ; 309        ; 4        ; GND*                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; B7       ; 313        ; 4        ; GND*                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
@@ -1338,8 +1248,6 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 =======
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 ; B5       ; 305        ; 4        ; S[9]                     ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; B6       ; 309        ; 4        ; select[3]                ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; B7       ; 313        ; 4        ; A[25]                    ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
@@ -1350,9 +1258,6 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 ; B12      ; 328        ; 4        ; GND*                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; B13      ; 331        ; 3        ; GND*                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -1368,7 +1273,6 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 ; C1       ; 275        ; 5        ; GND*                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; C2       ; 273        ; 5        ; GND*                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; C3       ;            ;          ; TEMPDIODEn               ;        ;              ;         ; --         ;                 ; --       ; --           ;
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 ; C4       ; 285        ; 4        ; instruction[21]          ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
@@ -1406,8 +1310,6 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 =======
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 ; C4       ; 285        ; 4        ; GND*                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; C5       ; 306        ; 4        ; S[2]                     ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; C6       ; 308        ; 4        ; S[27]                    ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
@@ -1441,9 +1343,6 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 ; D12      ; 333        ; 3        ; GND*                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; D13      ; 332        ; 3        ; GND*                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -1456,7 +1355,6 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 ; D20      ; 371        ; 3        ; GND*                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; D21      ; 6          ; 2        ; GND*                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; D22      ; 4          ; 2        ; GND*                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 ; E1       ; 267        ; 5        ; instruction[3]           ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
@@ -1473,8 +1371,6 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 =======
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 ; E1       ; 267        ; 5        ; GND*                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; E2       ; 265        ; 5        ; GND*                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; E3       ; 274        ; 5        ; GND*                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
@@ -1487,9 +1383,6 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 ; E10      ; 312        ; 4        ; A[10]                    ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; E11      ; 335        ; 3        ; GND*                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -1514,11 +1407,7 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 ; F8       ; 294        ; 4        ; GND*                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 ; F9       ; 300        ; 4        ; instruction[8]           ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-=======
-; F9       ; 300        ; 4        ; B[15]                    ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 ; F9       ; 300        ; 4        ; B[15]                    ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -1536,11 +1425,7 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 ; F18      ;            ; 2        ; VREFB2                   ; power  ;              ;         ; --         ;                 ; --       ; --           ;
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 ; F19      ; 11         ; 2        ; instruction[9]           ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
-=======
-; F19      ; 11         ; 2        ; GND*                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 ; F19      ; 11         ; 2        ; GND*                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -1558,11 +1443,7 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 ; G6       ; 264        ; 5        ; GND*                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 ; G7       ; 286        ; 4        ; GND*                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-=======
-; G7       ; 286        ; 4        ; A[3]                     ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 ; G7       ; 286        ; 4        ; A[3]                     ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -1575,11 +1456,7 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 ; G11      ;            ;          ; VCCD_PLL5                ; power  ;              ; 1.2V    ; --         ;                 ; --       ; --           ;
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 ; G12      ; 336        ; 3        ; RS1[3]                   ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-=======
-; G12      ; 336        ; 3        ; GND*                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 ; G12      ; 336        ; 3        ; GND*                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -1598,11 +1475,7 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 ; G22      ; 20         ; 2        ; GND*                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 ; H1       ; 251        ; 5        ; GND*                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
-=======
-; H1       ; 251        ; 5        ; B[5]                     ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 ; H1       ; 251        ; 5        ; B[5]                     ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -1615,7 +1488,6 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 ; H5       ; 254        ; 5        ; GND*                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 ; H6       ; 252        ; 5        ; GND*                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; H7       ; 284        ; 4        ; GND*                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; H8       ;            ;          ; VCCINT                   ; power  ;              ; 1.2V    ; --         ;                 ; --       ; --           ;
@@ -1625,8 +1497,6 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 =======
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 ; H6       ; 252        ; 5        ; S[28]                    ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; H7       ; 284        ; 4        ; GND*                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; H8       ;            ;          ; VCCINT                   ; power  ;              ; 1.2V    ; --         ;                 ; --       ; --           ;
@@ -1634,9 +1504,6 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 ; H10      ;            ; 4        ; VCCPD4                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
 ; H11      ; 334        ; 3        ; GND*                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -1654,7 +1521,6 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 ; J1       ;            ;          ; GND                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 ; J2       ; 247        ; 5        ; RS1[2]                   ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; J3       ; 245        ; 5        ; Rdest[0]                 ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; J4       ;            ; 5        ; VREFB5                   ; power  ;              ;         ; --         ;                 ; --       ; --           ;
@@ -1662,16 +1528,11 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 =======
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 ; J2       ; 247        ; 5        ; B[21]                    ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; J3       ; 245        ; 5        ; B[30]                    ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; J4       ;            ; 5        ; VREFB5                   ; power  ;              ;         ; --         ;                 ; --       ; --           ;
 ; J5       ; 250        ; 5        ; B[22]                    ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -1691,7 +1552,6 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 ; J19      ; 25         ; 2        ; GND*                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 ; J20      ; 30         ; 2        ; RS1[4]                   ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; J21      ; 28         ; 2        ; RS2[4]                   ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; J22      ;            ;          ; GND                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
@@ -1706,8 +1566,6 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 =======
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 ; J20      ; 30         ; 2        ; GND*                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; J21      ; 28         ; 2        ; GND*                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; J22      ;            ;          ; GND                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
@@ -1720,9 +1578,6 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 ; K7       ; 242        ; 5        ; B[2]                     ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; K8       ; 240        ; 5        ; A[18]                    ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -1732,7 +1587,6 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 ; K12      ;            ;          ; VCCINT                   ; power  ;              ; 1.2V    ; --         ;                 ; --       ; --           ;
 ; K13      ;            ;          ; GND                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; K14      ;            ; 2        ; VCCPD2                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 ; K15      ; 35         ; 2        ; GND*                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
@@ -1754,8 +1608,6 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 =======
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 ; K15      ; 35         ; 2        ; A[6]                     ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; K16      ; 33         ; 2        ; B[14]                    ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; K17      ; 31         ; 2        ; GND*                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
@@ -1773,9 +1625,6 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 ; L7       ; 238        ; 5        ; S[25]                    ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; L8       ; 236        ; 5        ; A[8]                     ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -1785,7 +1634,6 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 ; L12      ;            ;          ; GND                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; L13      ;            ;          ; VCCINT                   ; power  ;              ; 1.2V    ; --         ;                 ; --       ; --           ;
 ; L14      ;            ;          ; GND                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 ; L15      ; 39         ; 2        ; GND*                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
@@ -1802,8 +1650,6 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 =======
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 ; L15      ; 39         ; 2        ; B[7]                     ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; L16      ; 37         ; 2        ; S[16]                    ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; L17      ;            ;          ; GNDA_PLL1                ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
@@ -1816,9 +1662,6 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 ; M2       ; 232        ; 5        ; A[19]                    ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; M3       ; 234        ; 5        ; B[27]                    ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -1840,7 +1683,6 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 ; M19      ;            ;          ; VCCA_PLL2                ; power  ;              ; 1.2V    ; --         ;                 ; --       ; --           ;
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 ; M20      ; 41         ; 2        ; GND+                     ;        ;              ;         ; Row I/O    ;                 ; --       ; --           ;
 ; M21      ; 43         ; 2        ; GND+                     ;        ;              ;         ; Row I/O    ;                 ; --       ; --           ;
 ; M22      ;            ; 1        ; VCCIO1                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
@@ -1855,8 +1697,6 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 =======
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 ; M20      ; 41         ; 2        ; A[11]                    ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; M21      ; 43         ; 2        ; B[26]                    ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; M22      ;            ; 1        ; VCCIO1                   ; power  ;              ; 3.3V    ; --         ;                 ; --       ; --           ;
@@ -1869,9 +1709,6 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 ; N7       ; 226        ; 6        ; select[2]                ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; N8       ; 224        ; 6        ; B[25]                    ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -1881,7 +1718,6 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 ; N12      ;            ;          ; GND                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
 ; N13      ;            ;          ; VCCINT                   ; power  ;              ; 1.2V    ; --         ;                 ; --       ; --           ;
 ; N14      ;            ;          ; GND                      ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 ; N15      ; 51         ; 1        ; GND*                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
@@ -1898,8 +1734,6 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 =======
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 ; N15      ; 51         ; 1        ; S[1]                     ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; N16      ; 49         ; 1        ; S[15]                    ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; N17      ;            ;          ; GNDA_PLL2                ; gnd    ;              ;         ; --         ;                 ; --       ; --           ;
@@ -1912,9 +1746,6 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 ; P2       ; 227        ; 6        ; B[23]                    ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; P3       ; 225        ; 6        ; S[0]                     ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -1924,11 +1755,7 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 ; P7       ; 218        ; 6        ; GND*                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 ; P8       ; 216        ; 6        ; GND*                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
-=======
-; P8       ; 216        ; 6        ; B[16]                    ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 ; P8       ; 216        ; 6        ; B[16]                    ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -1947,7 +1774,6 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 ; P18      ; 55         ; 1        ; GND*                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 ; P19      ; 53         ; 1        ; instruction[4]           ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; P20      ; 50         ; 1        ; GND*                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; P21      ; 48         ; 1        ; GND*                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
@@ -1957,8 +1783,6 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 =======
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 ; P19      ; 53         ; 1        ; GND*                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; P20      ; 50         ; 1        ; GND*                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; P21      ; 48         ; 1        ; GND*                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
@@ -1966,9 +1790,6 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 ; R1       ; 223        ; 6        ; S[26]                    ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; R2       ; 221        ; 6        ; S[10]                    ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -1979,13 +1800,8 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 ; R7       ; 202        ; 6        ; GND*                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 ; R8       ; 200        ; 6        ; instruction[1]           ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; R9       ; 168        ; 7        ; GND*                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-=======
-; R8       ; 200        ; 6        ; GND*                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
-; R9       ; 168        ; 7        ; S[30]                    ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 ; R8       ; 200        ; 6        ; GND*                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; R9       ; 168        ; 7        ; S[30]                    ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
@@ -2016,15 +1832,9 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 ; T7       ; 186        ; 7        ; GND*                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 ; T8       ; 172        ; 7        ; GND*                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; T9       ; 170        ; 7        ; GND*                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; T10      ; 156        ; 7        ; GND*                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-=======
-; T8       ; 172        ; 7        ; B[6]                     ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; T9       ; 170        ; 7        ; S[20]                    ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-; T10      ; 156        ; 7        ; B[1]                     ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 ; T8       ; 172        ; 7        ; B[6]                     ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; T9       ; 170        ; 7        ; S[20]                    ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
@@ -2042,11 +1852,7 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 ; T15      ; 98         ; 8        ; GND*                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 ; T16      ; 92         ; 8        ; instruction[10]          ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
-=======
-; T16      ; 92         ; 8        ; GND*                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 ; T16      ; 92         ; 8        ; GND*                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -2062,11 +1868,7 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 ; U1       ; 211        ; 6        ; GND*                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 ; U2       ; 209        ; 6        ; instruction[16]          ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
-=======
-; U2       ; 209        ; 6        ; S[8]                     ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 ; U2       ; 209        ; 6        ; S[8]                     ; output ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -2082,11 +1884,7 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 ; U9       ; 171        ; 7        ; GND*                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 ; U10      ; 158        ; 7        ; GND*                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
-=======
-; U10      ; 158        ; 7        ; S[24]                    ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 ; U10      ; 158        ; 7        ; S[24]                    ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -2107,11 +1905,7 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 ; U22      ; 60         ; 1        ; GND*                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 ; V1       ; 203        ; 6        ; instruction[6]           ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
-=======
-; V1       ; 203        ; 6        ; GND*                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 ; V1       ; 203        ; 6        ; GND*                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -2125,7 +1919,6 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 ; V6       ; 185        ; 7        ; GND*                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 ; V7       ; 175        ; 7        ; GND*                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; V8       ; 166        ; 7        ; GND*                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; V9       ; 149        ; 10       ; GND*                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
@@ -2135,8 +1928,6 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 =======
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 ; V7       ; 175        ; 7        ; S[19]                    ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; V8       ; 166        ; 7        ; S[22]                    ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; V9       ; 149        ; 10       ; A[29]                    ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
@@ -2144,9 +1935,6 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 ; V11      ; 132        ; 8        ; GND*                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; V12      ; 134        ; 8        ; GND*                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -2157,7 +1945,6 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 ; V17      ; 90         ; 8        ; ^VCCSEL                  ;        ;              ;         ; --         ;                 ; --       ; --           ;
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 ; V18      ; 75         ; 1        ; instruction[7]           ; input  ; 3.3-V LVTTL  ;         ; Row I/O    ; N               ; no       ; Off          ;
 ; V19      ; 73         ; 1        ; GND*                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; V20      ;            ; 1        ; VREFB1                   ; power  ;              ;         ; --         ;                 ; --       ; --           ;
@@ -2165,16 +1952,11 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 =======
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 ; V18      ; 75         ; 1        ; GND*                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; V19      ; 73         ; 1        ; GND*                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 ; V20      ;            ; 1        ; VREFB1                   ; power  ;              ;         ; --         ;                 ; --       ; --           ;
 ; V21      ; 74         ; 1        ; GND*                     ;        ;              ;         ; Row I/O    ;                 ; no       ; Off          ;
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -2189,7 +1971,6 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 ; W8       ;            ; 7        ; VREFB7                   ; power  ;              ;         ; --         ;                 ; --       ; --           ;
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 ; W9       ; 148        ; 10       ; GND*                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; W10      ; 142        ; 7        ; GND*                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; W11      ; 133        ; 8        ; GND*                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
@@ -2197,16 +1978,11 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 =======
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 ; W9       ; 148        ; 10       ; A[20]                    ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; W10      ; 142        ; 7        ; S[11]                    ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; W11      ; 133        ; 8        ; GND*                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; W12      ; 135        ; 8        ; GND*                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -2226,7 +2002,6 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 ; Y4       ; 189        ; 7        ; PLL_ENA                  ;        ;              ;         ; --         ;                 ; --       ; --           ;
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 ; Y5       ; 162        ; 7        ; GND*                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; Y6       ; 160        ; 7        ; GND*                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 ; Y7       ; 154        ; 7        ; GND*                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
@@ -2238,8 +2013,6 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 =======
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 ; Y5       ; 162        ; 7        ; B[18]                    ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; Y6       ; 160        ; 7        ; S[12]                    ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; Y7       ; 154        ; 7        ; A[2]                     ; input  ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
@@ -2249,9 +2022,6 @@ The pin-out file can be found in C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP
 ; Y11      ; 143        ; 7        ; S[18]                    ; output ; 3.3-V LVTTL  ;         ; Column I/O ; N               ; no       ; Off          ;
 ; Y12      ; 136        ; 8        ; GND*                     ;        ;              ;         ; Column I/O ;                 ; no       ; Off          ;
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -2307,7 +2077,6 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 Note: User assignments will override these defaults. The user specified values are listed in the Output Pins and Bidir Pins tables.
 
 
-<<<<<<< HEAD
 <<<<<<< HEAD
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 ; Fitter Resource Utilization by Entity                                                                                                                                                                                                                                                                                                                                                                            ;
@@ -2683,8 +2452,6 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Note: User assignments will override these defaults. The user specified values are listed in the Output Pins and Bidir Pins tables.
 
 
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 +------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 ; Fitter Resource Utilization by Entity                                                                                                                                                                                                                                                                                                                                                                                                                                              ;
@@ -3863,9 +3630,6 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; 35                                           ; 14                            ;
 +----------------------------------------------+-------------------------------+
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -3930,7 +3694,6 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------------+--------------+--------------+--------------+--------------+--------------+-----------+--------------+--------------+-----------+-----------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+-----------+--------------+--------------+--------------+--------------+--------------+
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 ; Total Pass         ; 0            ; 0            ; 0            ; 0            ; 0            ; 47        ; 0            ; 0            ; 47        ; 47        ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 47        ; 0            ; 0            ; 0            ; 0            ; 0            ;
 ; Total Unchecked    ; 0            ; 0            ; 0            ; 0            ; 0            ; 0         ; 0            ; 0            ; 0         ; 0         ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0         ; 0            ; 0            ; 0            ; 0            ; 0            ;
 ; Total Inapplicable ; 47           ; 47           ; 47           ; 47           ; 47           ; 0         ; 47           ; 47           ; 0         ; 0         ; 47           ; 47           ; 47           ; 47           ; 47           ; 47           ; 47           ; 47           ; 47           ; 47           ; 47           ; 47           ; 47           ; 47           ; 47           ; 0         ; 47           ; 47           ; 47           ; 47           ; 47           ;
@@ -3983,8 +3746,6 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; instruction[12]    ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
 ; instruction[11]    ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
 =======
-=======
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 ; Total Pass         ; 0            ; 0            ; 0            ; 0            ; 0            ; 101       ; 0            ; 0            ; 101       ; 101       ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 101       ; 0            ; 0            ; 0            ; 0            ; 0            ;
@@ -4093,9 +3854,6 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; A[0]               ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
 ; B[0]               ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -4244,9 +4002,6 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 
 
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -4258,11 +4013,7 @@ Info: Running Quartus II Fitter
     Info: Version 9.0 Build 132 02/25/2009 SJ Web Edition
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
     Info: Processing started: Sun Jul 12 14:54:31 2020
-=======
-    Info: Processing started: Sat Jul 11 16:26:59 2020
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
     Info: Processing started: Sat Jul 11 16:26:59 2020
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -4276,7 +4027,6 @@ Warning: Feature LogicLock is not available with your current license
 Info: Device migration not selected. If you intend to use device migration later, you may need to change the pin assignments as they may be incompatible with other devices
 Info: Fitter converted 1 user pins into dedicated programming pins
     Info: Pin ~DATA0~ is reserved at location E13
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 Warning: No exact pin location assignment(s) for 47 pins of 47 total pins
@@ -4331,8 +4081,6 @@ Warning: Some pins have incomplete I/O assignments. Refer to the I/O Assignment 
 Info: Fitter is using the Classic Timing Analyzer
 Info: Timing requirements not specified -- quality metrics such as performance and power consumption may be sacrificed to reduce compilation time.
 =======
-=======
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 Warning: No exact pin location assignment(s) for 101 pins of 101 total pins
@@ -4443,9 +4191,6 @@ Info: Timing requirements not specified -- quality metrics such as performance a
 Info: Automatically promoted node clk (placed in PIN N20 (CLK3p, Input))
     Info: Automatically promoted destinations to use location or clock signal Global Clock CLKCTRL_G3
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -4454,7 +4199,6 @@ Extra Info: Performing register packing on registers with non-logic cell locatio
 Extra Info: Completed register packing on registers with non-logic cell location assignments
 Extra Info: Started Fast Input/Output/OE register processing
 Extra Info: Finished Fast Input/Output/OE register processing
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 Extra Info: Moving registers into I/O cells, DSP blocks, and RAM blocks to improve timing and density
@@ -4468,8 +4212,6 @@ Info: I/O bank details before I/O pin placement
     Info: Statistics of I/O banks
         Info: I/O bank number 1 does not use VREF pins and has undetermined VCCIO pins. 0 total pin(s) used --  40 pins available
 =======
-=======
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 Extra Info: Start inferring scan chains for DSP blocks
@@ -4486,9 +4228,6 @@ Info: I/O bank details before I/O pin placement
     Info: Statistics of I/O banks
         Info: I/O bank number 1 does not use VREF pins and has undetermined VCCIO pins. 1 total pin(s) used --  39 pins available
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -4503,11 +4242,7 @@ Info: I/O bank details before I/O pin placement
         Info: I/O bank number 10 does not use VREF pins and has undetermined VCCIO pins. 0 total pin(s) used --  6 pins available
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 Info: Fitter preparation operations ending: elapsed time is 00:00:00
-=======
-Info: Fitter preparation operations ending: elapsed time is 00:00:01
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 Info: Fitter preparation operations ending: elapsed time is 00:00:01
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -4520,7 +4255,6 @@ Info: Fitter placement operations beginning
 Info: Fitter placement was successful
 <<<<<<< HEAD
 <<<<<<< HEAD
-<<<<<<< HEAD
 Info: Fitter placement operations ending: elapsed time is 00:00:00
 Info: Fitter routing operations beginning
 Info: Average interconnect usage is 0% of the available device resources
@@ -4529,17 +4263,12 @@ Info: Fitter routing operations ending: elapsed time is 00:00:00
 =======
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 Info: Fitter placement operations ending: elapsed time is 00:00:01
 Info: Fitter routing operations beginning
 Info: Average interconnect usage is 5% of the available device resources
     Info: Peak interconnect usage is 10% of the available device resources in the region that extends from location X27_Y14 to location X40_Y27
 Info: Fitter routing operations ending: elapsed time is 00:00:01
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -4547,7 +4276,6 @@ Info: The Fitter performed an Auto Fit compilation.  Optimizations were skipped 
     Info: Optimizations that may affect the design's routability were skipped
     Info: Optimizations that may affect the design's timing were skipped
 Info: Started post-fitting delay annotation
-<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 Warning: Found 15 output pins without output pin load capacitance assignment
@@ -4574,8 +4302,6 @@ Info: Quartus II Fitter was successful. 0 errors, 5 warnings
     Info: Elapsed time: 00:00:03
     Info: Total CPU time (on all processors): 00:00:02
 =======
-=======
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 Warning: Found 32 output pins without output pin load capacitance assignment
@@ -4619,9 +4345,6 @@ Info: Quartus II Fitter was successful. 0 errors, 5 warnings
     Info: Elapsed time: 00:00:07
     Info: Total CPU time (on all processors): 00:00:06
 <<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
