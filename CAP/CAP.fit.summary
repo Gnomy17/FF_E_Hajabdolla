@@ -1,17 +1,20 @@
-Fitter Status : Successful - Sun Jul 12 14:54:33 2020
-Quartus II Version : 9.0 Build 132 02/25/2009 SJ Web Edition
+Fitter Status : Successful - Sun Jul 12 16:25:26 2020
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Standard Edition
 Revision Name : CAP
-Top-level Entity Name : RS_decode
-Family : Stratix II
-Device : EP2S15F484C3
+Top-level Entity Name : data_MEM
+Family : Cyclone V
+Device : 5CGXFC7C7F23C8
 Timing Models : Final
-Logic utilization : < 1 %
-    Combinational ALUTs : 16 / 12,480 ( < 1 % )
-    Dedicated logic registers : 0 / 12,480 ( 0 % )
+Logic utilization (in ALMs) : 1 / 56,480 ( < 1 % )
 Total registers : 0
-Total pins : 47 / 343 ( 14 % )
+Total pins : 69 / 268 ( 26 % )
 Total virtual pins : 0
-Total block memory bits : 0 / 419,328 ( 0 % )
-DSP block 9-bit elements : 0 / 96 ( 0 % )
-Total PLLs : 0 / 6 ( 0 % )
-Total DLLs : 0 / 2 ( 0 % )
+Total block memory bits : 256 / 7,024,640 ( < 1 % )
+Total RAM Blocks : 1 / 686 ( < 1 % )
+Total DSP Blocks : 0 / 156 ( 0 % )
+Total HSSI RX PCSs : 0 / 6 ( 0 % )
+Total HSSI PMA RX Deserializers : 0 / 6 ( 0 % )
+Total HSSI TX PCSs : 0 / 6 ( 0 % )
+Total HSSI PMA TX Serializers : 0 / 6 ( 0 % )
+Total PLLs : 0 / 13 ( 0 % )
+Total DLLs : 0 / 4 ( 0 % )
