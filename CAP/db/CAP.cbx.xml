@@ -1,20 +1,8 @@
 <?xml version="1.0" ?>
 <LOG_ROOT>
 	<PROJECT NAME="CAP">
-<<<<<<< HEAD
 		<CBX_INST_ENTRY INSTANCE_NAME="|RS_decode|mux5x2x1:inst1|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_rnc.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|RS_decode|mux5x2x1:inst2|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_rnc.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|RS_decode|mux5x2x1:inst|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_rnc.tdf"/>
-=======
-		<CBX_INST_ENTRY INSTANCE_NAME="|ALU|mult32:inst3|lpm_mult:lpm_mult_component" CBX_FILE_NAME="mult_65n.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|ALU|mux32o16o4:inst2|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_3rc.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|ALU|rotate32:inst17|lpm_clshift:lpm_clshift_component" CBX_FILE_NAME="lpm_clshift_jhc.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|ALU|div32:inst7|lpm_divide:lpm_divide_component" CBX_FILE_NAME="lpm_divide_67s.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|ALU|mux32x2x1:inst18|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_bpc.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|ALU|mux32x2x1:inst5|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_bpc.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|ALU|shift32:inst15|lpm_clshift:lpm_clshift_component" CBX_FILE_NAME="lpm_clshift_vjc.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|ALU|AddSubNot:inst|lpm_add_sub:lpm_add_sub_component" CBX_FILE_NAME="add_sub_bah.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|ALU|comparator32:inst23|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_0dg.tdf"/>
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 	</PROJECT>
 </LOG_ROOT>
