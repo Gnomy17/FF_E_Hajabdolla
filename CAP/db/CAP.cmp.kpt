@@ -1,7 +1,10 @@
 <kpt_db name="CAP.cmp" kpt_version="1.1">
   <key_points_set type="reference" hier_sep="|">
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
     <key_point id="1" type="register">
       <name>ff:inst6|lpm_ff:lpm_ff_component|dffs[7]</name>
     </key_point>
@@ -194,15 +197,21 @@
     <key_point id="64" type="register">
       <name>ff:inst6|lpm_ff:lpm_ff_component|dffs[31]</name>
     </key_point>
+<<<<<<< HEAD
+>>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
+=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
   </key_points_set>
   <key_points_set type="transition" hier_sep="|">
   </key_points_set>
   <key_points_set type="transformed" hier_sep="|">
 <<<<<<< HEAD
+<<<<<<< HEAD
   </key_points_set>
   <transformations_set hier_sep="|">
 =======
+=======
+>>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
     <key_point id="65" type="register">
       <name>ff:inst6|lpm_ff:lpm_ff_component|dffs[5]</name>
     </key_point>
@@ -1677,6 +1686,9 @@
         </kp_state>
       </kp_set>
     </transformation>
+<<<<<<< HEAD
+>>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
+=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
   </transformations_set>
 </kpt_db>
