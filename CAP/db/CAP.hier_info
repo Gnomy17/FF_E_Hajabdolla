@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 |RS_decode
 Rdest[0] <= mux5x2x1:inst2.result[0]
 Rdest[1] <= mux5x2x1:inst2.result[1]
@@ -73,6 +74,8 @@ data1x[3] => sub_wire4[8].IN1
 data1x[4] => sub_wire4[9].IN1
 sel => sub_wire2.IN1
 =======
+=======
+>>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 |ALU
@@ -701,6 +704,9 @@ sel[1] => sel[1]~2.IN1
 sel[2] => sel[2]~1.IN1
 sel[3] => sel[3]~0.IN1
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
+=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -709,6 +715,7 @@ result[1] <= lpm_mux:lpm_mux_component.result
 result[2] <= lpm_mux:lpm_mux_component.result
 result[3] <= lpm_mux:lpm_mux_component.result
 result[4] <= lpm_mux:lpm_mux_component.result
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -1296,6 +1303,557 @@ sel[3] => mux_3rc:auto_generated.sel[3]
 clock => ~NO_FANOUT~
 aclr => ~NO_FANOUT~
 clken => ~NO_FANOUT~
+=======
+result[5] <= lpm_mux:lpm_mux_component.result
+result[6] <= lpm_mux:lpm_mux_component.result
+result[7] <= lpm_mux:lpm_mux_component.result
+result[8] <= lpm_mux:lpm_mux_component.result
+result[9] <= lpm_mux:lpm_mux_component.result
+result[10] <= lpm_mux:lpm_mux_component.result
+result[11] <= lpm_mux:lpm_mux_component.result
+result[12] <= lpm_mux:lpm_mux_component.result
+result[13] <= lpm_mux:lpm_mux_component.result
+result[14] <= lpm_mux:lpm_mux_component.result
+result[15] <= lpm_mux:lpm_mux_component.result
+result[16] <= lpm_mux:lpm_mux_component.result
+result[17] <= lpm_mux:lpm_mux_component.result
+result[18] <= lpm_mux:lpm_mux_component.result
+result[19] <= lpm_mux:lpm_mux_component.result
+result[20] <= lpm_mux:lpm_mux_component.result
+result[21] <= lpm_mux:lpm_mux_component.result
+result[22] <= lpm_mux:lpm_mux_component.result
+result[23] <= lpm_mux:lpm_mux_component.result
+result[24] <= lpm_mux:lpm_mux_component.result
+result[25] <= lpm_mux:lpm_mux_component.result
+result[26] <= lpm_mux:lpm_mux_component.result
+result[27] <= lpm_mux:lpm_mux_component.result
+result[28] <= lpm_mux:lpm_mux_component.result
+result[29] <= lpm_mux:lpm_mux_component.result
+result[30] <= lpm_mux:lpm_mux_component.result
+result[31] <= lpm_mux:lpm_mux_component.result
+
+
+|ALU|mux32o16o4:inst2|lpm_mux:lpm_mux_component
+data[0][0] => mux_3rc:auto_generated.data[0]
+data[0][1] => mux_3rc:auto_generated.data[1]
+data[0][2] => mux_3rc:auto_generated.data[2]
+data[0][3] => mux_3rc:auto_generated.data[3]
+data[0][4] => mux_3rc:auto_generated.data[4]
+data[0][5] => mux_3rc:auto_generated.data[5]
+data[0][6] => mux_3rc:auto_generated.data[6]
+data[0][7] => mux_3rc:auto_generated.data[7]
+data[0][8] => mux_3rc:auto_generated.data[8]
+data[0][9] => mux_3rc:auto_generated.data[9]
+data[0][10] => mux_3rc:auto_generated.data[10]
+data[0][11] => mux_3rc:auto_generated.data[11]
+data[0][12] => mux_3rc:auto_generated.data[12]
+data[0][13] => mux_3rc:auto_generated.data[13]
+data[0][14] => mux_3rc:auto_generated.data[14]
+data[0][15] => mux_3rc:auto_generated.data[15]
+data[0][16] => mux_3rc:auto_generated.data[16]
+data[0][17] => mux_3rc:auto_generated.data[17]
+data[0][18] => mux_3rc:auto_generated.data[18]
+data[0][19] => mux_3rc:auto_generated.data[19]
+data[0][20] => mux_3rc:auto_generated.data[20]
+data[0][21] => mux_3rc:auto_generated.data[21]
+data[0][22] => mux_3rc:auto_generated.data[22]
+data[0][23] => mux_3rc:auto_generated.data[23]
+data[0][24] => mux_3rc:auto_generated.data[24]
+data[0][25] => mux_3rc:auto_generated.data[25]
+data[0][26] => mux_3rc:auto_generated.data[26]
+data[0][27] => mux_3rc:auto_generated.data[27]
+data[0][28] => mux_3rc:auto_generated.data[28]
+data[0][29] => mux_3rc:auto_generated.data[29]
+data[0][30] => mux_3rc:auto_generated.data[30]
+data[0][31] => mux_3rc:auto_generated.data[31]
+data[1][0] => mux_3rc:auto_generated.data[32]
+data[1][1] => mux_3rc:auto_generated.data[33]
+data[1][2] => mux_3rc:auto_generated.data[34]
+data[1][3] => mux_3rc:auto_generated.data[35]
+data[1][4] => mux_3rc:auto_generated.data[36]
+data[1][5] => mux_3rc:auto_generated.data[37]
+data[1][6] => mux_3rc:auto_generated.data[38]
+data[1][7] => mux_3rc:auto_generated.data[39]
+data[1][8] => mux_3rc:auto_generated.data[40]
+data[1][9] => mux_3rc:auto_generated.data[41]
+data[1][10] => mux_3rc:auto_generated.data[42]
+data[1][11] => mux_3rc:auto_generated.data[43]
+data[1][12] => mux_3rc:auto_generated.data[44]
+data[1][13] => mux_3rc:auto_generated.data[45]
+data[1][14] => mux_3rc:auto_generated.data[46]
+data[1][15] => mux_3rc:auto_generated.data[47]
+data[1][16] => mux_3rc:auto_generated.data[48]
+data[1][17] => mux_3rc:auto_generated.data[49]
+data[1][18] => mux_3rc:auto_generated.data[50]
+data[1][19] => mux_3rc:auto_generated.data[51]
+data[1][20] => mux_3rc:auto_generated.data[52]
+data[1][21] => mux_3rc:auto_generated.data[53]
+data[1][22] => mux_3rc:auto_generated.data[54]
+data[1][23] => mux_3rc:auto_generated.data[55]
+data[1][24] => mux_3rc:auto_generated.data[56]
+data[1][25] => mux_3rc:auto_generated.data[57]
+data[1][26] => mux_3rc:auto_generated.data[58]
+data[1][27] => mux_3rc:auto_generated.data[59]
+data[1][28] => mux_3rc:auto_generated.data[60]
+data[1][29] => mux_3rc:auto_generated.data[61]
+data[1][30] => mux_3rc:auto_generated.data[62]
+data[1][31] => mux_3rc:auto_generated.data[63]
+data[2][0] => mux_3rc:auto_generated.data[64]
+data[2][1] => mux_3rc:auto_generated.data[65]
+data[2][2] => mux_3rc:auto_generated.data[66]
+data[2][3] => mux_3rc:auto_generated.data[67]
+data[2][4] => mux_3rc:auto_generated.data[68]
+data[2][5] => mux_3rc:auto_generated.data[69]
+data[2][6] => mux_3rc:auto_generated.data[70]
+data[2][7] => mux_3rc:auto_generated.data[71]
+data[2][8] => mux_3rc:auto_generated.data[72]
+data[2][9] => mux_3rc:auto_generated.data[73]
+data[2][10] => mux_3rc:auto_generated.data[74]
+data[2][11] => mux_3rc:auto_generated.data[75]
+data[2][12] => mux_3rc:auto_generated.data[76]
+data[2][13] => mux_3rc:auto_generated.data[77]
+data[2][14] => mux_3rc:auto_generated.data[78]
+data[2][15] => mux_3rc:auto_generated.data[79]
+data[2][16] => mux_3rc:auto_generated.data[80]
+data[2][17] => mux_3rc:auto_generated.data[81]
+data[2][18] => mux_3rc:auto_generated.data[82]
+data[2][19] => mux_3rc:auto_generated.data[83]
+data[2][20] => mux_3rc:auto_generated.data[84]
+data[2][21] => mux_3rc:auto_generated.data[85]
+data[2][22] => mux_3rc:auto_generated.data[86]
+data[2][23] => mux_3rc:auto_generated.data[87]
+data[2][24] => mux_3rc:auto_generated.data[88]
+data[2][25] => mux_3rc:auto_generated.data[89]
+data[2][26] => mux_3rc:auto_generated.data[90]
+data[2][27] => mux_3rc:auto_generated.data[91]
+data[2][28] => mux_3rc:auto_generated.data[92]
+data[2][29] => mux_3rc:auto_generated.data[93]
+data[2][30] => mux_3rc:auto_generated.data[94]
+data[2][31] => mux_3rc:auto_generated.data[95]
+data[3][0] => mux_3rc:auto_generated.data[96]
+data[3][1] => mux_3rc:auto_generated.data[97]
+data[3][2] => mux_3rc:auto_generated.data[98]
+data[3][3] => mux_3rc:auto_generated.data[99]
+data[3][4] => mux_3rc:auto_generated.data[100]
+data[3][5] => mux_3rc:auto_generated.data[101]
+data[3][6] => mux_3rc:auto_generated.data[102]
+data[3][7] => mux_3rc:auto_generated.data[103]
+data[3][8] => mux_3rc:auto_generated.data[104]
+data[3][9] => mux_3rc:auto_generated.data[105]
+data[3][10] => mux_3rc:auto_generated.data[106]
+data[3][11] => mux_3rc:auto_generated.data[107]
+data[3][12] => mux_3rc:auto_generated.data[108]
+data[3][13] => mux_3rc:auto_generated.data[109]
+data[3][14] => mux_3rc:auto_generated.data[110]
+data[3][15] => mux_3rc:auto_generated.data[111]
+data[3][16] => mux_3rc:auto_generated.data[112]
+data[3][17] => mux_3rc:auto_generated.data[113]
+data[3][18] => mux_3rc:auto_generated.data[114]
+data[3][19] => mux_3rc:auto_generated.data[115]
+data[3][20] => mux_3rc:auto_generated.data[116]
+data[3][21] => mux_3rc:auto_generated.data[117]
+data[3][22] => mux_3rc:auto_generated.data[118]
+data[3][23] => mux_3rc:auto_generated.data[119]
+data[3][24] => mux_3rc:auto_generated.data[120]
+data[3][25] => mux_3rc:auto_generated.data[121]
+data[3][26] => mux_3rc:auto_generated.data[122]
+data[3][27] => mux_3rc:auto_generated.data[123]
+data[3][28] => mux_3rc:auto_generated.data[124]
+data[3][29] => mux_3rc:auto_generated.data[125]
+data[3][30] => mux_3rc:auto_generated.data[126]
+data[3][31] => mux_3rc:auto_generated.data[127]
+data[4][0] => mux_3rc:auto_generated.data[128]
+data[4][1] => mux_3rc:auto_generated.data[129]
+data[4][2] => mux_3rc:auto_generated.data[130]
+data[4][3] => mux_3rc:auto_generated.data[131]
+data[4][4] => mux_3rc:auto_generated.data[132]
+data[4][5] => mux_3rc:auto_generated.data[133]
+data[4][6] => mux_3rc:auto_generated.data[134]
+data[4][7] => mux_3rc:auto_generated.data[135]
+data[4][8] => mux_3rc:auto_generated.data[136]
+data[4][9] => mux_3rc:auto_generated.data[137]
+data[4][10] => mux_3rc:auto_generated.data[138]
+data[4][11] => mux_3rc:auto_generated.data[139]
+data[4][12] => mux_3rc:auto_generated.data[140]
+data[4][13] => mux_3rc:auto_generated.data[141]
+data[4][14] => mux_3rc:auto_generated.data[142]
+data[4][15] => mux_3rc:auto_generated.data[143]
+data[4][16] => mux_3rc:auto_generated.data[144]
+data[4][17] => mux_3rc:auto_generated.data[145]
+data[4][18] => mux_3rc:auto_generated.data[146]
+data[4][19] => mux_3rc:auto_generated.data[147]
+data[4][20] => mux_3rc:auto_generated.data[148]
+data[4][21] => mux_3rc:auto_generated.data[149]
+data[4][22] => mux_3rc:auto_generated.data[150]
+data[4][23] => mux_3rc:auto_generated.data[151]
+data[4][24] => mux_3rc:auto_generated.data[152]
+data[4][25] => mux_3rc:auto_generated.data[153]
+data[4][26] => mux_3rc:auto_generated.data[154]
+data[4][27] => mux_3rc:auto_generated.data[155]
+data[4][28] => mux_3rc:auto_generated.data[156]
+data[4][29] => mux_3rc:auto_generated.data[157]
+data[4][30] => mux_3rc:auto_generated.data[158]
+data[4][31] => mux_3rc:auto_generated.data[159]
+data[5][0] => mux_3rc:auto_generated.data[160]
+data[5][1] => mux_3rc:auto_generated.data[161]
+data[5][2] => mux_3rc:auto_generated.data[162]
+data[5][3] => mux_3rc:auto_generated.data[163]
+data[5][4] => mux_3rc:auto_generated.data[164]
+data[5][5] => mux_3rc:auto_generated.data[165]
+data[5][6] => mux_3rc:auto_generated.data[166]
+data[5][7] => mux_3rc:auto_generated.data[167]
+data[5][8] => mux_3rc:auto_generated.data[168]
+data[5][9] => mux_3rc:auto_generated.data[169]
+data[5][10] => mux_3rc:auto_generated.data[170]
+data[5][11] => mux_3rc:auto_generated.data[171]
+data[5][12] => mux_3rc:auto_generated.data[172]
+data[5][13] => mux_3rc:auto_generated.data[173]
+data[5][14] => mux_3rc:auto_generated.data[174]
+data[5][15] => mux_3rc:auto_generated.data[175]
+data[5][16] => mux_3rc:auto_generated.data[176]
+data[5][17] => mux_3rc:auto_generated.data[177]
+data[5][18] => mux_3rc:auto_generated.data[178]
+data[5][19] => mux_3rc:auto_generated.data[179]
+data[5][20] => mux_3rc:auto_generated.data[180]
+data[5][21] => mux_3rc:auto_generated.data[181]
+data[5][22] => mux_3rc:auto_generated.data[182]
+data[5][23] => mux_3rc:auto_generated.data[183]
+data[5][24] => mux_3rc:auto_generated.data[184]
+data[5][25] => mux_3rc:auto_generated.data[185]
+data[5][26] => mux_3rc:auto_generated.data[186]
+data[5][27] => mux_3rc:auto_generated.data[187]
+data[5][28] => mux_3rc:auto_generated.data[188]
+data[5][29] => mux_3rc:auto_generated.data[189]
+data[5][30] => mux_3rc:auto_generated.data[190]
+data[5][31] => mux_3rc:auto_generated.data[191]
+data[6][0] => mux_3rc:auto_generated.data[192]
+data[6][1] => mux_3rc:auto_generated.data[193]
+data[6][2] => mux_3rc:auto_generated.data[194]
+data[6][3] => mux_3rc:auto_generated.data[195]
+data[6][4] => mux_3rc:auto_generated.data[196]
+data[6][5] => mux_3rc:auto_generated.data[197]
+data[6][6] => mux_3rc:auto_generated.data[198]
+data[6][7] => mux_3rc:auto_generated.data[199]
+data[6][8] => mux_3rc:auto_generated.data[200]
+data[6][9] => mux_3rc:auto_generated.data[201]
+data[6][10] => mux_3rc:auto_generated.data[202]
+data[6][11] => mux_3rc:auto_generated.data[203]
+data[6][12] => mux_3rc:auto_generated.data[204]
+data[6][13] => mux_3rc:auto_generated.data[205]
+data[6][14] => mux_3rc:auto_generated.data[206]
+data[6][15] => mux_3rc:auto_generated.data[207]
+data[6][16] => mux_3rc:auto_generated.data[208]
+data[6][17] => mux_3rc:auto_generated.data[209]
+data[6][18] => mux_3rc:auto_generated.data[210]
+data[6][19] => mux_3rc:auto_generated.data[211]
+data[6][20] => mux_3rc:auto_generated.data[212]
+data[6][21] => mux_3rc:auto_generated.data[213]
+data[6][22] => mux_3rc:auto_generated.data[214]
+data[6][23] => mux_3rc:auto_generated.data[215]
+data[6][24] => mux_3rc:auto_generated.data[216]
+data[6][25] => mux_3rc:auto_generated.data[217]
+data[6][26] => mux_3rc:auto_generated.data[218]
+data[6][27] => mux_3rc:auto_generated.data[219]
+data[6][28] => mux_3rc:auto_generated.data[220]
+data[6][29] => mux_3rc:auto_generated.data[221]
+data[6][30] => mux_3rc:auto_generated.data[222]
+data[6][31] => mux_3rc:auto_generated.data[223]
+data[7][0] => mux_3rc:auto_generated.data[224]
+data[7][1] => mux_3rc:auto_generated.data[225]
+data[7][2] => mux_3rc:auto_generated.data[226]
+data[7][3] => mux_3rc:auto_generated.data[227]
+data[7][4] => mux_3rc:auto_generated.data[228]
+data[7][5] => mux_3rc:auto_generated.data[229]
+data[7][6] => mux_3rc:auto_generated.data[230]
+data[7][7] => mux_3rc:auto_generated.data[231]
+data[7][8] => mux_3rc:auto_generated.data[232]
+data[7][9] => mux_3rc:auto_generated.data[233]
+data[7][10] => mux_3rc:auto_generated.data[234]
+data[7][11] => mux_3rc:auto_generated.data[235]
+data[7][12] => mux_3rc:auto_generated.data[236]
+data[7][13] => mux_3rc:auto_generated.data[237]
+data[7][14] => mux_3rc:auto_generated.data[238]
+data[7][15] => mux_3rc:auto_generated.data[239]
+data[7][16] => mux_3rc:auto_generated.data[240]
+data[7][17] => mux_3rc:auto_generated.data[241]
+data[7][18] => mux_3rc:auto_generated.data[242]
+data[7][19] => mux_3rc:auto_generated.data[243]
+data[7][20] => mux_3rc:auto_generated.data[244]
+data[7][21] => mux_3rc:auto_generated.data[245]
+data[7][22] => mux_3rc:auto_generated.data[246]
+data[7][23] => mux_3rc:auto_generated.data[247]
+data[7][24] => mux_3rc:auto_generated.data[248]
+data[7][25] => mux_3rc:auto_generated.data[249]
+data[7][26] => mux_3rc:auto_generated.data[250]
+data[7][27] => mux_3rc:auto_generated.data[251]
+data[7][28] => mux_3rc:auto_generated.data[252]
+data[7][29] => mux_3rc:auto_generated.data[253]
+data[7][30] => mux_3rc:auto_generated.data[254]
+data[7][31] => mux_3rc:auto_generated.data[255]
+data[8][0] => mux_3rc:auto_generated.data[256]
+data[8][1] => mux_3rc:auto_generated.data[257]
+data[8][2] => mux_3rc:auto_generated.data[258]
+data[8][3] => mux_3rc:auto_generated.data[259]
+data[8][4] => mux_3rc:auto_generated.data[260]
+data[8][5] => mux_3rc:auto_generated.data[261]
+data[8][6] => mux_3rc:auto_generated.data[262]
+data[8][7] => mux_3rc:auto_generated.data[263]
+data[8][8] => mux_3rc:auto_generated.data[264]
+data[8][9] => mux_3rc:auto_generated.data[265]
+data[8][10] => mux_3rc:auto_generated.data[266]
+data[8][11] => mux_3rc:auto_generated.data[267]
+data[8][12] => mux_3rc:auto_generated.data[268]
+data[8][13] => mux_3rc:auto_generated.data[269]
+data[8][14] => mux_3rc:auto_generated.data[270]
+data[8][15] => mux_3rc:auto_generated.data[271]
+data[8][16] => mux_3rc:auto_generated.data[272]
+data[8][17] => mux_3rc:auto_generated.data[273]
+data[8][18] => mux_3rc:auto_generated.data[274]
+data[8][19] => mux_3rc:auto_generated.data[275]
+data[8][20] => mux_3rc:auto_generated.data[276]
+data[8][21] => mux_3rc:auto_generated.data[277]
+data[8][22] => mux_3rc:auto_generated.data[278]
+data[8][23] => mux_3rc:auto_generated.data[279]
+data[8][24] => mux_3rc:auto_generated.data[280]
+data[8][25] => mux_3rc:auto_generated.data[281]
+data[8][26] => mux_3rc:auto_generated.data[282]
+data[8][27] => mux_3rc:auto_generated.data[283]
+data[8][28] => mux_3rc:auto_generated.data[284]
+data[8][29] => mux_3rc:auto_generated.data[285]
+data[8][30] => mux_3rc:auto_generated.data[286]
+data[8][31] => mux_3rc:auto_generated.data[287]
+data[9][0] => mux_3rc:auto_generated.data[288]
+data[9][1] => mux_3rc:auto_generated.data[289]
+data[9][2] => mux_3rc:auto_generated.data[290]
+data[9][3] => mux_3rc:auto_generated.data[291]
+data[9][4] => mux_3rc:auto_generated.data[292]
+data[9][5] => mux_3rc:auto_generated.data[293]
+data[9][6] => mux_3rc:auto_generated.data[294]
+data[9][7] => mux_3rc:auto_generated.data[295]
+data[9][8] => mux_3rc:auto_generated.data[296]
+data[9][9] => mux_3rc:auto_generated.data[297]
+data[9][10] => mux_3rc:auto_generated.data[298]
+data[9][11] => mux_3rc:auto_generated.data[299]
+data[9][12] => mux_3rc:auto_generated.data[300]
+data[9][13] => mux_3rc:auto_generated.data[301]
+data[9][14] => mux_3rc:auto_generated.data[302]
+data[9][15] => mux_3rc:auto_generated.data[303]
+data[9][16] => mux_3rc:auto_generated.data[304]
+data[9][17] => mux_3rc:auto_generated.data[305]
+data[9][18] => mux_3rc:auto_generated.data[306]
+data[9][19] => mux_3rc:auto_generated.data[307]
+data[9][20] => mux_3rc:auto_generated.data[308]
+data[9][21] => mux_3rc:auto_generated.data[309]
+data[9][22] => mux_3rc:auto_generated.data[310]
+data[9][23] => mux_3rc:auto_generated.data[311]
+data[9][24] => mux_3rc:auto_generated.data[312]
+data[9][25] => mux_3rc:auto_generated.data[313]
+data[9][26] => mux_3rc:auto_generated.data[314]
+data[9][27] => mux_3rc:auto_generated.data[315]
+data[9][28] => mux_3rc:auto_generated.data[316]
+data[9][29] => mux_3rc:auto_generated.data[317]
+data[9][30] => mux_3rc:auto_generated.data[318]
+data[9][31] => mux_3rc:auto_generated.data[319]
+data[10][0] => mux_3rc:auto_generated.data[320]
+data[10][1] => mux_3rc:auto_generated.data[321]
+data[10][2] => mux_3rc:auto_generated.data[322]
+data[10][3] => mux_3rc:auto_generated.data[323]
+data[10][4] => mux_3rc:auto_generated.data[324]
+data[10][5] => mux_3rc:auto_generated.data[325]
+data[10][6] => mux_3rc:auto_generated.data[326]
+data[10][7] => mux_3rc:auto_generated.data[327]
+data[10][8] => mux_3rc:auto_generated.data[328]
+data[10][9] => mux_3rc:auto_generated.data[329]
+data[10][10] => mux_3rc:auto_generated.data[330]
+data[10][11] => mux_3rc:auto_generated.data[331]
+data[10][12] => mux_3rc:auto_generated.data[332]
+data[10][13] => mux_3rc:auto_generated.data[333]
+data[10][14] => mux_3rc:auto_generated.data[334]
+data[10][15] => mux_3rc:auto_generated.data[335]
+data[10][16] => mux_3rc:auto_generated.data[336]
+data[10][17] => mux_3rc:auto_generated.data[337]
+data[10][18] => mux_3rc:auto_generated.data[338]
+data[10][19] => mux_3rc:auto_generated.data[339]
+data[10][20] => mux_3rc:auto_generated.data[340]
+data[10][21] => mux_3rc:auto_generated.data[341]
+data[10][22] => mux_3rc:auto_generated.data[342]
+data[10][23] => mux_3rc:auto_generated.data[343]
+data[10][24] => mux_3rc:auto_generated.data[344]
+data[10][25] => mux_3rc:auto_generated.data[345]
+data[10][26] => mux_3rc:auto_generated.data[346]
+data[10][27] => mux_3rc:auto_generated.data[347]
+data[10][28] => mux_3rc:auto_generated.data[348]
+data[10][29] => mux_3rc:auto_generated.data[349]
+data[10][30] => mux_3rc:auto_generated.data[350]
+data[10][31] => mux_3rc:auto_generated.data[351]
+data[11][0] => mux_3rc:auto_generated.data[352]
+data[11][1] => mux_3rc:auto_generated.data[353]
+data[11][2] => mux_3rc:auto_generated.data[354]
+data[11][3] => mux_3rc:auto_generated.data[355]
+data[11][4] => mux_3rc:auto_generated.data[356]
+data[11][5] => mux_3rc:auto_generated.data[357]
+data[11][6] => mux_3rc:auto_generated.data[358]
+data[11][7] => mux_3rc:auto_generated.data[359]
+data[11][8] => mux_3rc:auto_generated.data[360]
+data[11][9] => mux_3rc:auto_generated.data[361]
+data[11][10] => mux_3rc:auto_generated.data[362]
+data[11][11] => mux_3rc:auto_generated.data[363]
+data[11][12] => mux_3rc:auto_generated.data[364]
+data[11][13] => mux_3rc:auto_generated.data[365]
+data[11][14] => mux_3rc:auto_generated.data[366]
+data[11][15] => mux_3rc:auto_generated.data[367]
+data[11][16] => mux_3rc:auto_generated.data[368]
+data[11][17] => mux_3rc:auto_generated.data[369]
+data[11][18] => mux_3rc:auto_generated.data[370]
+data[11][19] => mux_3rc:auto_generated.data[371]
+data[11][20] => mux_3rc:auto_generated.data[372]
+data[11][21] => mux_3rc:auto_generated.data[373]
+data[11][22] => mux_3rc:auto_generated.data[374]
+data[11][23] => mux_3rc:auto_generated.data[375]
+data[11][24] => mux_3rc:auto_generated.data[376]
+data[11][25] => mux_3rc:auto_generated.data[377]
+data[11][26] => mux_3rc:auto_generated.data[378]
+data[11][27] => mux_3rc:auto_generated.data[379]
+data[11][28] => mux_3rc:auto_generated.data[380]
+data[11][29] => mux_3rc:auto_generated.data[381]
+data[11][30] => mux_3rc:auto_generated.data[382]
+data[11][31] => mux_3rc:auto_generated.data[383]
+data[12][0] => mux_3rc:auto_generated.data[384]
+data[12][1] => mux_3rc:auto_generated.data[385]
+data[12][2] => mux_3rc:auto_generated.data[386]
+data[12][3] => mux_3rc:auto_generated.data[387]
+data[12][4] => mux_3rc:auto_generated.data[388]
+data[12][5] => mux_3rc:auto_generated.data[389]
+data[12][6] => mux_3rc:auto_generated.data[390]
+data[12][7] => mux_3rc:auto_generated.data[391]
+data[12][8] => mux_3rc:auto_generated.data[392]
+data[12][9] => mux_3rc:auto_generated.data[393]
+data[12][10] => mux_3rc:auto_generated.data[394]
+data[12][11] => mux_3rc:auto_generated.data[395]
+data[12][12] => mux_3rc:auto_generated.data[396]
+data[12][13] => mux_3rc:auto_generated.data[397]
+data[12][14] => mux_3rc:auto_generated.data[398]
+data[12][15] => mux_3rc:auto_generated.data[399]
+data[12][16] => mux_3rc:auto_generated.data[400]
+data[12][17] => mux_3rc:auto_generated.data[401]
+data[12][18] => mux_3rc:auto_generated.data[402]
+data[12][19] => mux_3rc:auto_generated.data[403]
+data[12][20] => mux_3rc:auto_generated.data[404]
+data[12][21] => mux_3rc:auto_generated.data[405]
+data[12][22] => mux_3rc:auto_generated.data[406]
+data[12][23] => mux_3rc:auto_generated.data[407]
+data[12][24] => mux_3rc:auto_generated.data[408]
+data[12][25] => mux_3rc:auto_generated.data[409]
+data[12][26] => mux_3rc:auto_generated.data[410]
+data[12][27] => mux_3rc:auto_generated.data[411]
+data[12][28] => mux_3rc:auto_generated.data[412]
+data[12][29] => mux_3rc:auto_generated.data[413]
+data[12][30] => mux_3rc:auto_generated.data[414]
+data[12][31] => mux_3rc:auto_generated.data[415]
+data[13][0] => mux_3rc:auto_generated.data[416]
+data[13][1] => mux_3rc:auto_generated.data[417]
+data[13][2] => mux_3rc:auto_generated.data[418]
+data[13][3] => mux_3rc:auto_generated.data[419]
+data[13][4] => mux_3rc:auto_generated.data[420]
+data[13][5] => mux_3rc:auto_generated.data[421]
+data[13][6] => mux_3rc:auto_generated.data[422]
+data[13][7] => mux_3rc:auto_generated.data[423]
+data[13][8] => mux_3rc:auto_generated.data[424]
+data[13][9] => mux_3rc:auto_generated.data[425]
+data[13][10] => mux_3rc:auto_generated.data[426]
+data[13][11] => mux_3rc:auto_generated.data[427]
+data[13][12] => mux_3rc:auto_generated.data[428]
+data[13][13] => mux_3rc:auto_generated.data[429]
+data[13][14] => mux_3rc:auto_generated.data[430]
+data[13][15] => mux_3rc:auto_generated.data[431]
+data[13][16] => mux_3rc:auto_generated.data[432]
+data[13][17] => mux_3rc:auto_generated.data[433]
+data[13][18] => mux_3rc:auto_generated.data[434]
+data[13][19] => mux_3rc:auto_generated.data[435]
+data[13][20] => mux_3rc:auto_generated.data[436]
+data[13][21] => mux_3rc:auto_generated.data[437]
+data[13][22] => mux_3rc:auto_generated.data[438]
+data[13][23] => mux_3rc:auto_generated.data[439]
+data[13][24] => mux_3rc:auto_generated.data[440]
+data[13][25] => mux_3rc:auto_generated.data[441]
+data[13][26] => mux_3rc:auto_generated.data[442]
+data[13][27] => mux_3rc:auto_generated.data[443]
+data[13][28] => mux_3rc:auto_generated.data[444]
+data[13][29] => mux_3rc:auto_generated.data[445]
+data[13][30] => mux_3rc:auto_generated.data[446]
+data[13][31] => mux_3rc:auto_generated.data[447]
+data[14][0] => mux_3rc:auto_generated.data[448]
+data[14][1] => mux_3rc:auto_generated.data[449]
+data[14][2] => mux_3rc:auto_generated.data[450]
+data[14][3] => mux_3rc:auto_generated.data[451]
+data[14][4] => mux_3rc:auto_generated.data[452]
+data[14][5] => mux_3rc:auto_generated.data[453]
+data[14][6] => mux_3rc:auto_generated.data[454]
+data[14][7] => mux_3rc:auto_generated.data[455]
+data[14][8] => mux_3rc:auto_generated.data[456]
+data[14][9] => mux_3rc:auto_generated.data[457]
+data[14][10] => mux_3rc:auto_generated.data[458]
+data[14][11] => mux_3rc:auto_generated.data[459]
+data[14][12] => mux_3rc:auto_generated.data[460]
+data[14][13] => mux_3rc:auto_generated.data[461]
+data[14][14] => mux_3rc:auto_generated.data[462]
+data[14][15] => mux_3rc:auto_generated.data[463]
+data[14][16] => mux_3rc:auto_generated.data[464]
+data[14][17] => mux_3rc:auto_generated.data[465]
+data[14][18] => mux_3rc:auto_generated.data[466]
+data[14][19] => mux_3rc:auto_generated.data[467]
+data[14][20] => mux_3rc:auto_generated.data[468]
+data[14][21] => mux_3rc:auto_generated.data[469]
+data[14][22] => mux_3rc:auto_generated.data[470]
+data[14][23] => mux_3rc:auto_generated.data[471]
+data[14][24] => mux_3rc:auto_generated.data[472]
+data[14][25] => mux_3rc:auto_generated.data[473]
+data[14][26] => mux_3rc:auto_generated.data[474]
+data[14][27] => mux_3rc:auto_generated.data[475]
+data[14][28] => mux_3rc:auto_generated.data[476]
+data[14][29] => mux_3rc:auto_generated.data[477]
+data[14][30] => mux_3rc:auto_generated.data[478]
+data[14][31] => mux_3rc:auto_generated.data[479]
+data[15][0] => mux_3rc:auto_generated.data[480]
+data[15][1] => mux_3rc:auto_generated.data[481]
+data[15][2] => mux_3rc:auto_generated.data[482]
+data[15][3] => mux_3rc:auto_generated.data[483]
+data[15][4] => mux_3rc:auto_generated.data[484]
+data[15][5] => mux_3rc:auto_generated.data[485]
+data[15][6] => mux_3rc:auto_generated.data[486]
+data[15][7] => mux_3rc:auto_generated.data[487]
+data[15][8] => mux_3rc:auto_generated.data[488]
+data[15][9] => mux_3rc:auto_generated.data[489]
+data[15][10] => mux_3rc:auto_generated.data[490]
+data[15][11] => mux_3rc:auto_generated.data[491]
+data[15][12] => mux_3rc:auto_generated.data[492]
+data[15][13] => mux_3rc:auto_generated.data[493]
+data[15][14] => mux_3rc:auto_generated.data[494]
+data[15][15] => mux_3rc:auto_generated.data[495]
+data[15][16] => mux_3rc:auto_generated.data[496]
+data[15][17] => mux_3rc:auto_generated.data[497]
+data[15][18] => mux_3rc:auto_generated.data[498]
+data[15][19] => mux_3rc:auto_generated.data[499]
+data[15][20] => mux_3rc:auto_generated.data[500]
+data[15][21] => mux_3rc:auto_generated.data[501]
+data[15][22] => mux_3rc:auto_generated.data[502]
+data[15][23] => mux_3rc:auto_generated.data[503]
+data[15][24] => mux_3rc:auto_generated.data[504]
+data[15][25] => mux_3rc:auto_generated.data[505]
+data[15][26] => mux_3rc:auto_generated.data[506]
+data[15][27] => mux_3rc:auto_generated.data[507]
+data[15][28] => mux_3rc:auto_generated.data[508]
+data[15][29] => mux_3rc:auto_generated.data[509]
+data[15][30] => mux_3rc:auto_generated.data[510]
+data[15][31] => mux_3rc:auto_generated.data[511]
+sel[0] => mux_3rc:auto_generated.sel[0]
+sel[1] => mux_3rc:auto_generated.sel[1]
+sel[2] => mux_3rc:auto_generated.sel[2]
+sel[3] => mux_3rc:auto_generated.sel[3]
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+>>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 result[0] <= mux_3rc:auto_generated.result[0]
 result[1] <= mux_3rc:auto_generated.result[1]
 result[2] <= mux_3rc:auto_generated.result[2]
@@ -1802,6 +2360,7 @@ enable => dffs[0].ENA
 aset => ~NO_FANOUT~
 aload => ~NO_FANOUT~
 <<<<<<< HEAD
+<<<<<<< HEAD
 sclr => ~NO_FANOUT~
 sset => ~NO_FANOUT~
 sload => ~NO_FANOUT~
@@ -2009,6 +2568,8 @@ aset => ~NO_FANOUT~
 aload => ~NO_FANOUT~
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
+=======
+>>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 sclr => ~NO_FANOUT~
 sset => ~NO_FANOUT~
 sload => ~NO_FANOUT~
@@ -2047,7 +2608,10 @@ q[31] <= dffs[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 |ALU|ff:inst6
 aclr => aclr~0.IN1
 clock => clock~0.IN1
@@ -2253,6 +2817,9 @@ q[30] <= dffs[30].DB_MAX_OUTPUT_PORT_TYPE
 q[31] <= dffs[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
+<<<<<<< HEAD
+>>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
+=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 |ALU|shift32:inst15
 data[0] => data[0]~31.IN1
@@ -2628,6 +3195,9 @@ result[31] <= sbit_w[191].DB_MAX_OUTPUT_PORT_TYPE
 
 |ALU|mux32x2x1:inst18
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
+=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -2638,12 +3208,15 @@ data0x[3] => sub_wire4[3].IN1
 data0x[4] => sub_wire4[4].IN1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 data1x[0] => sub_wire4[5].IN1
 data1x[1] => sub_wire4[6].IN1
 data1x[2] => sub_wire4[7].IN1
 data1x[3] => sub_wire4[8].IN1
 data1x[4] => sub_wire4[9].IN1
 =======
+=======
+>>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 data0x[5] => sub_wire4[5].IN1
@@ -2706,6 +3279,9 @@ data1x[29] => sub_wire4[61].IN1
 data1x[30] => sub_wire4[62].IN1
 data1x[31] => sub_wire4[63].IN1
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
+=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -2715,6 +3291,7 @@ result[1] <= lpm_mux:lpm_mux_component.result
 result[2] <= lpm_mux:lpm_mux_component.result
 result[3] <= lpm_mux:lpm_mux_component.result
 result[4] <= lpm_mux:lpm_mux_component.result
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -2743,6 +3320,8 @@ result[4] <= mux_rnc:auto_generated.result[4]
 
 |RS_decode|mux5x2x1:inst|lpm_mux:lpm_mux_component|mux_rnc:auto_generated
 =======
+=======
+>>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 result[5] <= lpm_mux:lpm_mux_component.result
@@ -2879,6 +3458,9 @@ result[31] <= mux_bpc:auto_generated.result[31]
 
 |ALU|mux32x2x1:inst18|lpm_mux:lpm_mux_component|mux_bpc:auto_generated
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
+=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -2889,10 +3471,13 @@ result[3] <= l1_w3_n0_mux_dataout.DB_MAX_OUTPUT_PORT_TYPE
 result[4] <= l1_w4_n0_mux_dataout.DB_MAX_OUTPUT_PORT_TYPE
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 |RS_decode|mux5x2x1:inst1
 =======
+=======
+>>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 result[5] <= l1_w5_n0_mux_dataout.DB_MAX_OUTPUT_PORT_TYPE
@@ -6125,6 +6710,9 @@ remainder[31] <= StageOut[1023].DB_MAX_OUTPUT_PORT_TYPE
 
 |ALU|mux32x2x1:inst5
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
+=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -6135,12 +6723,15 @@ data0x[3] => sub_wire4[3].IN1
 data0x[4] => sub_wire4[4].IN1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 data1x[0] => sub_wire4[5].IN1
 data1x[1] => sub_wire4[6].IN1
 data1x[2] => sub_wire4[7].IN1
 data1x[3] => sub_wire4[8].IN1
 data1x[4] => sub_wire4[9].IN1
 =======
+=======
+>>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 data0x[5] => sub_wire4[5].IN1
@@ -6203,6 +6794,9 @@ data1x[29] => sub_wire4[61].IN1
 data1x[30] => sub_wire4[62].IN1
 data1x[31] => sub_wire4[63].IN1
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
+=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -6212,6 +6806,7 @@ result[1] <= lpm_mux:lpm_mux_component.result
 result[2] <= lpm_mux:lpm_mux_component.result
 result[3] <= lpm_mux:lpm_mux_component.result
 result[4] <= lpm_mux:lpm_mux_component.result
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 
@@ -6240,6 +6835,8 @@ result[4] <= mux_rnc:auto_generated.result[4]
 
 |RS_decode|mux5x2x1:inst1|lpm_mux:lpm_mux_component|mux_rnc:auto_generated
 =======
+=======
+>>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 result[5] <= lpm_mux:lpm_mux_component.result
@@ -6376,6 +6973,9 @@ result[31] <= mux_bpc:auto_generated.result[31]
 
 |ALU|mux32x2x1:inst5|lpm_mux:lpm_mux_component|mux_bpc:auto_generated
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
+=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
@@ -6386,7 +6986,10 @@ result[3] <= l1_w3_n0_mux_dataout.DB_MAX_OUTPUT_PORT_TYPE
 result[4] <= l1_w4_n0_mux_dataout.DB_MAX_OUTPUT_PORT_TYPE
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 result[5] <= l1_w5_n0_mux_dataout.DB_MAX_OUTPUT_PORT_TYPE
@@ -6953,6 +7556,9 @@ result[29] <= and_node[29][1].DB_MAX_OUTPUT_PORT_TYPE
 result[30] <= and_node[30][1].DB_MAX_OUTPUT_PORT_TYPE
 result[31] <= and_node[31][1].DB_MAX_OUTPUT_PORT_TYPE
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
+=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 =======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
