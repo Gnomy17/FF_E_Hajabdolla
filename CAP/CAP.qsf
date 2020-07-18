@@ -39,10 +39,14 @@
 set_global_assignment -name FAMILY "Stratix II"
 set_global_assignment -name DEVICE AUTO
 <<<<<<< HEAD
+<<<<<<< HEAD
 set_global_assignment -name TOP_LEVEL_ENTITY RS_decode
 =======
 set_global_assignment -name TOP_LEVEL_ENTITY ALU
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
+=======
+set_global_assignment -name TOP_LEVEL_ENTITY RS_decode
+>>>>>>> parent of 84b2708... data_mem
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 9.0
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "04:04:36  JULY 09, 2020"
 set_global_assignment -name LAST_QUARTUS_VERSION 9.0
@@ -79,9 +83,13 @@ set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
 set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
 <<<<<<< HEAD
+<<<<<<< HEAD
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
 =======
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
 set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE ALU.vwf
 set_global_assignment -name QIP_FILE div32.qip
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
+=======
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+>>>>>>> parent of 84b2708... data_mem

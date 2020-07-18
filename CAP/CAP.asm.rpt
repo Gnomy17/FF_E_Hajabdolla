@@ -1,9 +1,13 @@
 Assembler report for CAP
 <<<<<<< HEAD
+<<<<<<< HEAD
 Sun Jul 12 14:54:38 2020
 =======
 Sat Jul 11 16:27:09 2020
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
+=======
+Sun Jul 12 14:54:38 2020
+>>>>>>> parent of 84b2708... data_mem
 Quartus II Version 9.0 Build 132 02/25/2009 SJ Web Edition
 
 
@@ -15,12 +19,17 @@ Quartus II Version 9.0 Build 132 02/25/2009 SJ Web Edition
   3. Assembler Settings
   4. Assembler Generated Files
 <<<<<<< HEAD
+<<<<<<< HEAD
   5. Assembler Device Options: C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/CAP.sof
   6. Assembler Device Options: C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/CAP.pof
 =======
   5. Assembler Device Options: C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP/CAP.sof
   6. Assembler Device Options: C:/Users/Lenovo/Desktop/CAP/FF_E_Hajabdolla/CAP/CAP.pof
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
+=======
+  5. Assembler Device Options: C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/CAP.sof
+  6. Assembler Device Options: C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/CAP.pof
+>>>>>>> parent of 84b2708... data_mem
   7. Assembler Messages
 
 
@@ -48,6 +57,7 @@ applicable agreement for further details.
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
 <<<<<<< HEAD
+<<<<<<< HEAD
 ; Assembler Status      ; Successful - Sun Jul 12 14:54:38 2020 ;
 ; Revision Name         ; CAP                                   ;
 ; Top-level Entity Name ; RS_decode                             ;
@@ -56,6 +66,11 @@ applicable agreement for further details.
 ; Revision Name         ; CAP                                   ;
 ; Top-level Entity Name ; ALU                                   ;
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
+=======
+; Assembler Status      ; Successful - Sun Jul 12 14:54:38 2020 ;
+; Revision Name         ; CAP                                   ;
+; Top-level Entity Name ; RS_decode                             ;
+>>>>>>> parent of 84b2708... data_mem
 ; Family                ; Stratix II                            ;
 ; Device                ; EP2S15F484C3                          ;
 +-----------------------+---------------------------------------+
@@ -93,6 +108,9 @@ applicable agreement for further details.
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> parent of 84b2708... data_mem
 +--------------------------------------------------------+
 ; Assembler Generated Files                              ;
 +--------------------------------------------------------+
@@ -124,6 +142,7 @@ applicable agreement for further details.
 ; Checksum           ; 0x1EF4B6D9                                                  ;
 ; Compression Ratio  ; 3                                                           ;
 +--------------------+-------------------------------------------------------------+
+<<<<<<< HEAD
 =======
 +---------------------------------------------------------+
 ; Assembler Generated Files                               ;
@@ -157,6 +176,8 @@ applicable agreement for further details.
 ; Compression Ratio  ; 2                                                            ;
 +--------------------+--------------------------------------------------------------+
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
+=======
+>>>>>>> parent of 84b2708... data_mem
 
 
 +--------------------+
@@ -166,14 +187,19 @@ Info: *******************************************************************
 Info: Running Quartus II Assembler
     Info: Version 9.0 Build 132 02/25/2009 SJ Web Edition
 <<<<<<< HEAD
+<<<<<<< HEAD
     Info: Processing started: Sun Jul 12 14:54:36 2020
 =======
     Info: Processing started: Sat Jul 11 16:27:06 2020
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
+=======
+    Info: Processing started: Sun Jul 12 14:54:36 2020
+>>>>>>> parent of 84b2708... data_mem
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off CAP -c CAP
 Info: Writing out detailed assembly data for power analysis
 Info: Assembler is generating device programming files
 Info: Quartus II Assembler was successful. 0 errors, 0 warnings
+<<<<<<< HEAD
 <<<<<<< HEAD
     Info: Peak virtual memory: 250 megabytes
     Info: Processing ended: Sun Jul 12 14:54:38 2020
@@ -183,6 +209,11 @@ Info: Quartus II Assembler was successful. 0 errors, 0 warnings
     Info: Processing ended: Sat Jul 11 16:27:09 2020
     Info: Elapsed time: 00:00:03
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
+=======
+    Info: Peak virtual memory: 250 megabytes
+    Info: Processing ended: Sun Jul 12 14:54:38 2020
+    Info: Elapsed time: 00:00:02
+>>>>>>> parent of 84b2708... data_mem
     Info: Total CPU time (on all processors): 00:00:02
 
 

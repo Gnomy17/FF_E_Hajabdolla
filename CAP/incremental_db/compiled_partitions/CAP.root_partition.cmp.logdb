@@ -1,5 +1,6 @@
 v1
 <<<<<<< HEAD
+<<<<<<< HEAD
 REGISTER_PACKING,REG_PACK_TYPE_FINISHED,ADATA,0,Rdest[4],Rdest[4],
 =======
 DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,mult32:inst3|lpm_mult:lpm_mult_component|mult_65n:auto_generated|mac_out5,
@@ -134,3 +135,6 @@ REGISTER_PACKING,REG_PACK_TYPE_DSPMULT,DATAB,17,ff:inst6|lpm_ff:lpm_ff_component
 REGISTER_PACKING,REG_PACK_TYPE_FINISHED,ADATA,0,S[31],S[31],
 PORT_SWAPPING,PORT_SWAPPING_FINISHED,mult32:inst3|lpm_mult:lpm_mult_component|mult_65n:auto_generated|mac_mult1,
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
+=======
+REGISTER_PACKING,REG_PACK_TYPE_FINISHED,ADATA,0,Rdest[4],Rdest[4],
+>>>>>>> parent of 84b2708... data_mem

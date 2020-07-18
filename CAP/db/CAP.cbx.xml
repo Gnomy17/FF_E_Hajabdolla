@@ -2,6 +2,7 @@
 <LOG_ROOT>
 	<PROJECT NAME="CAP">
 <<<<<<< HEAD
+<<<<<<< HEAD
 		<CBX_INST_ENTRY INSTANCE_NAME="|RS_decode|mux5x2x1:inst1|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_rnc.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|RS_decode|mux5x2x1:inst2|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_rnc.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|RS_decode|mux5x2x1:inst|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_rnc.tdf"/>
@@ -16,5 +17,10 @@
 		<CBX_INST_ENTRY INSTANCE_NAME="|ALU|AddSubNot:inst|lpm_add_sub:lpm_add_sub_component" CBX_FILE_NAME="add_sub_bah.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|ALU|comparator32:inst23|lpm_compare:lpm_compare_component" CBX_FILE_NAME="cmpr_0dg.tdf"/>
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
+=======
+		<CBX_INST_ENTRY INSTANCE_NAME="|RS_decode|mux5x2x1:inst1|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_rnc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|RS_decode|mux5x2x1:inst2|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_rnc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|RS_decode|mux5x2x1:inst|lpm_mux:lpm_mux_component" CBX_FILE_NAME="mux_rnc.tdf"/>
+>>>>>>> parent of 84b2708... data_mem
 	</PROJECT>
 </LOG_ROOT>
