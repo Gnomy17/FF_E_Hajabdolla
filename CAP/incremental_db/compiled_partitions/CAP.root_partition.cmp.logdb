@@ -1,10 +1,7 @@
 v1
 <<<<<<< HEAD
-<<<<<<< HEAD
 REGISTER_PACKING,REG_PACK_TYPE_FINISHED,ADATA,0,Rdest[4],Rdest[4],
 =======
-=======
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,mult32:inst3|lpm_mult:lpm_mult_component|mult_65n:auto_generated|mac_out5,
 REGISTER_PACKING,REG_PACK_TYPE_DSPMULT,DATAA,4,ff:inst4|lpm_ff:lpm_ff_component|dffs[0],mult32:inst3|lpm_mult:lpm_mult_component|mult_65n:auto_generated|mac_mult1,
 REGISTER_PACKING,REG_PACK_TYPE_DSPMULT,DATAA,5,ff:inst4|lpm_ff:lpm_ff_component|dffs[1],mult32:inst3|lpm_mult:lpm_mult_component|mult_65n:auto_generated|mac_mult1,
@@ -136,7 +133,4 @@ REGISTER_PACKING,REG_PACK_TYPE_DSPMULT,DATAB,16,ff:inst6|lpm_ff:lpm_ff_component
 REGISTER_PACKING,REG_PACK_TYPE_DSPMULT,DATAB,17,ff:inst6|lpm_ff:lpm_ff_component|dffs[31]~_Duplicate_1,mult32:inst3|lpm_mult:lpm_mult_component|mult_65n:auto_generated|mac_mult4,
 REGISTER_PACKING,REG_PACK_TYPE_FINISHED,ADATA,0,S[31],S[31],
 PORT_SWAPPING,PORT_SWAPPING_FINISHED,mult32:inst3|lpm_mult:lpm_mult_component|mult_65n:auto_generated|mac_mult1,
-<<<<<<< HEAD
->>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
-=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
