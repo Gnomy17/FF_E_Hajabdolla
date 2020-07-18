@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 |RS_decode
 Rdest[0] <= mux5x2x1:inst2.result[0]
 Rdest[1] <= mux5x2x1:inst2.result[1]
@@ -72,6 +73,8 @@ data1x[3] => sub_wire4[8].IN1
 data1x[4] => sub_wire4[9].IN1
 sel => sub_wire2.IN1
 =======
+=======
+>>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 |ALU
 S[0] <= mux32o16o4:inst2.result[0]
 S[1] <= mux32o16o4:inst2.result[1]
@@ -697,12 +700,16 @@ sel[0] => sel[0]~3.IN1
 sel[1] => sel[1]~2.IN1
 sel[2] => sel[2]~1.IN1
 sel[3] => sel[3]~0.IN1
+<<<<<<< HEAD
+>>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
+=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 result[0] <= lpm_mux:lpm_mux_component.result
 result[1] <= lpm_mux:lpm_mux_component.result
 result[2] <= lpm_mux:lpm_mux_component.result
 result[3] <= lpm_mux:lpm_mux_component.result
 result[4] <= lpm_mux:lpm_mux_component.result
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 
@@ -738,6 +745,8 @@ result[4] <= l1_w4_n0_mux_dataout.DB_MAX_OUTPUT_PORT_TYPE
 
 |RS_decode|mux5x2x1:inst
 =======
+=======
+>>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 result[5] <= lpm_mux:lpm_mux_component.result
 result[6] <= lpm_mux:lpm_mux_component.result
 result[7] <= lpm_mux:lpm_mux_component.result
@@ -1792,6 +1801,7 @@ enable => dffs[1].ENA
 enable => dffs[0].ENA
 aset => ~NO_FANOUT~
 aload => ~NO_FANOUT~
+<<<<<<< HEAD
 sclr => ~NO_FANOUT~
 sset => ~NO_FANOUT~
 sload => ~NO_FANOUT~
@@ -1997,6 +2007,8 @@ enable => dffs[1].ENA
 enable => dffs[0].ENA
 aset => ~NO_FANOUT~
 aload => ~NO_FANOUT~
+=======
+>>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 sclr => ~NO_FANOUT~
 sset => ~NO_FANOUT~
 sload => ~NO_FANOUT~
@@ -2034,6 +2046,214 @@ q[30] <= dffs[30].DB_MAX_OUTPUT_PORT_TYPE
 q[31] <= dffs[31].DB_MAX_OUTPUT_PORT_TYPE
 
 
+<<<<<<< HEAD
+=======
+|ALU|ff:inst6
+aclr => aclr~0.IN1
+clock => clock~0.IN1
+data[0] => data[0]~31.IN1
+data[1] => data[1]~30.IN1
+data[2] => data[2]~29.IN1
+data[3] => data[3]~28.IN1
+data[4] => data[4]~27.IN1
+data[5] => data[5]~26.IN1
+data[6] => data[6]~25.IN1
+data[7] => data[7]~24.IN1
+data[8] => data[8]~23.IN1
+data[9] => data[9]~22.IN1
+data[10] => data[10]~21.IN1
+data[11] => data[11]~20.IN1
+data[12] => data[12]~19.IN1
+data[13] => data[13]~18.IN1
+data[14] => data[14]~17.IN1
+data[15] => data[15]~16.IN1
+data[16] => data[16]~15.IN1
+data[17] => data[17]~14.IN1
+data[18] => data[18]~13.IN1
+data[19] => data[19]~12.IN1
+data[20] => data[20]~11.IN1
+data[21] => data[21]~10.IN1
+data[22] => data[22]~9.IN1
+data[23] => data[23]~8.IN1
+data[24] => data[24]~7.IN1
+data[25] => data[25]~6.IN1
+data[26] => data[26]~5.IN1
+data[27] => data[27]~4.IN1
+data[28] => data[28]~3.IN1
+data[29] => data[29]~2.IN1
+data[30] => data[30]~1.IN1
+data[31] => data[31]~0.IN1
+q[0] <= lpm_ff:lpm_ff_component.q
+q[1] <= lpm_ff:lpm_ff_component.q
+q[2] <= lpm_ff:lpm_ff_component.q
+q[3] <= lpm_ff:lpm_ff_component.q
+q[4] <= lpm_ff:lpm_ff_component.q
+q[5] <= lpm_ff:lpm_ff_component.q
+q[6] <= lpm_ff:lpm_ff_component.q
+q[7] <= lpm_ff:lpm_ff_component.q
+q[8] <= lpm_ff:lpm_ff_component.q
+q[9] <= lpm_ff:lpm_ff_component.q
+q[10] <= lpm_ff:lpm_ff_component.q
+q[11] <= lpm_ff:lpm_ff_component.q
+q[12] <= lpm_ff:lpm_ff_component.q
+q[13] <= lpm_ff:lpm_ff_component.q
+q[14] <= lpm_ff:lpm_ff_component.q
+q[15] <= lpm_ff:lpm_ff_component.q
+q[16] <= lpm_ff:lpm_ff_component.q
+q[17] <= lpm_ff:lpm_ff_component.q
+q[18] <= lpm_ff:lpm_ff_component.q
+q[19] <= lpm_ff:lpm_ff_component.q
+q[20] <= lpm_ff:lpm_ff_component.q
+q[21] <= lpm_ff:lpm_ff_component.q
+q[22] <= lpm_ff:lpm_ff_component.q
+q[23] <= lpm_ff:lpm_ff_component.q
+q[24] <= lpm_ff:lpm_ff_component.q
+q[25] <= lpm_ff:lpm_ff_component.q
+q[26] <= lpm_ff:lpm_ff_component.q
+q[27] <= lpm_ff:lpm_ff_component.q
+q[28] <= lpm_ff:lpm_ff_component.q
+q[29] <= lpm_ff:lpm_ff_component.q
+q[30] <= lpm_ff:lpm_ff_component.q
+q[31] <= lpm_ff:lpm_ff_component.q
+
+
+|ALU|ff:inst6|lpm_ff:lpm_ff_component
+data[0] => dffs[0].DATAIN
+data[1] => dffs[1].DATAIN
+data[2] => dffs[2].DATAIN
+data[3] => dffs[3].DATAIN
+data[4] => dffs[4].DATAIN
+data[5] => dffs[5].DATAIN
+data[6] => dffs[6].DATAIN
+data[7] => dffs[7].DATAIN
+data[8] => dffs[8].DATAIN
+data[9] => dffs[9].DATAIN
+data[10] => dffs[10].DATAIN
+data[11] => dffs[11].DATAIN
+data[12] => dffs[12].DATAIN
+data[13] => dffs[13].DATAIN
+data[14] => dffs[14].DATAIN
+data[15] => dffs[15].DATAIN
+data[16] => dffs[16].DATAIN
+data[17] => dffs[17].DATAIN
+data[18] => dffs[18].DATAIN
+data[19] => dffs[19].DATAIN
+data[20] => dffs[20].DATAIN
+data[21] => dffs[21].DATAIN
+data[22] => dffs[22].DATAIN
+data[23] => dffs[23].DATAIN
+data[24] => dffs[24].DATAIN
+data[25] => dffs[25].DATAIN
+data[26] => dffs[26].DATAIN
+data[27] => dffs[27].DATAIN
+data[28] => dffs[28].DATAIN
+data[29] => dffs[29].DATAIN
+data[30] => dffs[30].DATAIN
+data[31] => dffs[31].DATAIN
+clock => dffs[31].CLK
+clock => dffs[30].CLK
+clock => dffs[29].CLK
+clock => dffs[28].CLK
+clock => dffs[27].CLK
+clock => dffs[26].CLK
+clock => dffs[25].CLK
+clock => dffs[24].CLK
+clock => dffs[23].CLK
+clock => dffs[22].CLK
+clock => dffs[21].CLK
+clock => dffs[20].CLK
+clock => dffs[19].CLK
+clock => dffs[18].CLK
+clock => dffs[17].CLK
+clock => dffs[16].CLK
+clock => dffs[15].CLK
+clock => dffs[14].CLK
+clock => dffs[13].CLK
+clock => dffs[12].CLK
+clock => dffs[11].CLK
+clock => dffs[10].CLK
+clock => dffs[9].CLK
+clock => dffs[8].CLK
+clock => dffs[7].CLK
+clock => dffs[6].CLK
+clock => dffs[5].CLK
+clock => dffs[4].CLK
+clock => dffs[3].CLK
+clock => dffs[2].CLK
+clock => dffs[1].CLK
+clock => dffs[0].CLK
+enable => dffs[31].ENA
+enable => dffs[30].ENA
+enable => dffs[29].ENA
+enable => dffs[28].ENA
+enable => dffs[27].ENA
+enable => dffs[26].ENA
+enable => dffs[25].ENA
+enable => dffs[24].ENA
+enable => dffs[23].ENA
+enable => dffs[22].ENA
+enable => dffs[21].ENA
+enable => dffs[20].ENA
+enable => dffs[19].ENA
+enable => dffs[18].ENA
+enable => dffs[17].ENA
+enable => dffs[16].ENA
+enable => dffs[15].ENA
+enable => dffs[14].ENA
+enable => dffs[13].ENA
+enable => dffs[12].ENA
+enable => dffs[11].ENA
+enable => dffs[10].ENA
+enable => dffs[9].ENA
+enable => dffs[8].ENA
+enable => dffs[7].ENA
+enable => dffs[6].ENA
+enable => dffs[5].ENA
+enable => dffs[4].ENA
+enable => dffs[3].ENA
+enable => dffs[2].ENA
+enable => dffs[1].ENA
+enable => dffs[0].ENA
+aset => ~NO_FANOUT~
+aload => ~NO_FANOUT~
+sclr => ~NO_FANOUT~
+sset => ~NO_FANOUT~
+sload => ~NO_FANOUT~
+q[0] <= dffs[0].DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= dffs[1].DB_MAX_OUTPUT_PORT_TYPE
+q[2] <= dffs[2].DB_MAX_OUTPUT_PORT_TYPE
+q[3] <= dffs[3].DB_MAX_OUTPUT_PORT_TYPE
+q[4] <= dffs[4].DB_MAX_OUTPUT_PORT_TYPE
+q[5] <= dffs[5].DB_MAX_OUTPUT_PORT_TYPE
+q[6] <= dffs[6].DB_MAX_OUTPUT_PORT_TYPE
+q[7] <= dffs[7].DB_MAX_OUTPUT_PORT_TYPE
+q[8] <= dffs[8].DB_MAX_OUTPUT_PORT_TYPE
+q[9] <= dffs[9].DB_MAX_OUTPUT_PORT_TYPE
+q[10] <= dffs[10].DB_MAX_OUTPUT_PORT_TYPE
+q[11] <= dffs[11].DB_MAX_OUTPUT_PORT_TYPE
+q[12] <= dffs[12].DB_MAX_OUTPUT_PORT_TYPE
+q[13] <= dffs[13].DB_MAX_OUTPUT_PORT_TYPE
+q[14] <= dffs[14].DB_MAX_OUTPUT_PORT_TYPE
+q[15] <= dffs[15].DB_MAX_OUTPUT_PORT_TYPE
+q[16] <= dffs[16].DB_MAX_OUTPUT_PORT_TYPE
+q[17] <= dffs[17].DB_MAX_OUTPUT_PORT_TYPE
+q[18] <= dffs[18].DB_MAX_OUTPUT_PORT_TYPE
+q[19] <= dffs[19].DB_MAX_OUTPUT_PORT_TYPE
+q[20] <= dffs[20].DB_MAX_OUTPUT_PORT_TYPE
+q[21] <= dffs[21].DB_MAX_OUTPUT_PORT_TYPE
+q[22] <= dffs[22].DB_MAX_OUTPUT_PORT_TYPE
+q[23] <= dffs[23].DB_MAX_OUTPUT_PORT_TYPE
+q[24] <= dffs[24].DB_MAX_OUTPUT_PORT_TYPE
+q[25] <= dffs[25].DB_MAX_OUTPUT_PORT_TYPE
+q[26] <= dffs[26].DB_MAX_OUTPUT_PORT_TYPE
+q[27] <= dffs[27].DB_MAX_OUTPUT_PORT_TYPE
+q[28] <= dffs[28].DB_MAX_OUTPUT_PORT_TYPE
+q[29] <= dffs[29].DB_MAX_OUTPUT_PORT_TYPE
+q[30] <= dffs[30].DB_MAX_OUTPUT_PORT_TYPE
+q[31] <= dffs[31].DB_MAX_OUTPUT_PORT_TYPE
+
+
+>>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 |ALU|shift32:inst15
 data[0] => data[0]~31.IN1
 data[1] => data[1]~30.IN1
@@ -2407,6 +2627,9 @@ result[31] <= sbit_w[191].DB_MAX_OUTPUT_PORT_TYPE
 
 
 |ALU|mux32x2x1:inst18
+<<<<<<< HEAD
+>>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
+=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 data0x[0] => sub_wire4[0].IN1
 data0x[1] => sub_wire4[1].IN1
@@ -2414,12 +2637,15 @@ data0x[2] => sub_wire4[2].IN1
 data0x[3] => sub_wire4[3].IN1
 data0x[4] => sub_wire4[4].IN1
 <<<<<<< HEAD
+<<<<<<< HEAD
 data1x[0] => sub_wire4[5].IN1
 data1x[1] => sub_wire4[6].IN1
 data1x[2] => sub_wire4[7].IN1
 data1x[3] => sub_wire4[8].IN1
 data1x[4] => sub_wire4[9].IN1
 =======
+=======
+>>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 data0x[5] => sub_wire4[5].IN1
 data0x[6] => sub_wire4[6].IN1
 data0x[7] => sub_wire4[7].IN1
@@ -2479,6 +2705,9 @@ data1x[28] => sub_wire4[60].IN1
 data1x[29] => sub_wire4[61].IN1
 data1x[30] => sub_wire4[62].IN1
 data1x[31] => sub_wire4[63].IN1
+<<<<<<< HEAD
+>>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
+=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 sel => sub_wire2.IN1
 result[0] <= lpm_mux:lpm_mux_component.result
@@ -2486,6 +2715,7 @@ result[1] <= lpm_mux:lpm_mux_component.result
 result[2] <= lpm_mux:lpm_mux_component.result
 result[3] <= lpm_mux:lpm_mux_component.result
 result[4] <= lpm_mux:lpm_mux_component.result
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 
@@ -2513,6 +2743,8 @@ result[4] <= mux_rnc:auto_generated.result[4]
 
 |RS_decode|mux5x2x1:inst|lpm_mux:lpm_mux_component|mux_rnc:auto_generated
 =======
+=======
+>>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 result[5] <= lpm_mux:lpm_mux_component.result
 result[6] <= lpm_mux:lpm_mux_component.result
 result[7] <= lpm_mux:lpm_mux_component.result
@@ -2646,6 +2878,9 @@ result[31] <= mux_bpc:auto_generated.result[31]
 
 
 |ALU|mux32x2x1:inst18|lpm_mux:lpm_mux_component|mux_bpc:auto_generated
+<<<<<<< HEAD
+>>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
+=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 result[0] <= l1_w0_n0_mux_dataout.DB_MAX_OUTPUT_PORT_TYPE
 result[1] <= l1_w1_n0_mux_dataout.DB_MAX_OUTPUT_PORT_TYPE
@@ -2653,10 +2888,13 @@ result[2] <= l1_w2_n0_mux_dataout.DB_MAX_OUTPUT_PORT_TYPE
 result[3] <= l1_w3_n0_mux_dataout.DB_MAX_OUTPUT_PORT_TYPE
 result[4] <= l1_w4_n0_mux_dataout.DB_MAX_OUTPUT_PORT_TYPE
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 |RS_decode|mux5x2x1:inst1
 =======
+=======
+>>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 result[5] <= l1_w5_n0_mux_dataout.DB_MAX_OUTPUT_PORT_TYPE
 result[6] <= l1_w6_n0_mux_dataout.DB_MAX_OUTPUT_PORT_TYPE
 result[7] <= l1_w7_n0_mux_dataout.DB_MAX_OUTPUT_PORT_TYPE
@@ -5886,6 +6124,9 @@ remainder[31] <= StageOut[1023].DB_MAX_OUTPUT_PORT_TYPE
 
 
 |ALU|mux32x2x1:inst5
+<<<<<<< HEAD
+>>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
+=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 data0x[0] => sub_wire4[0].IN1
 data0x[1] => sub_wire4[1].IN1
@@ -5893,12 +6134,15 @@ data0x[2] => sub_wire4[2].IN1
 data0x[3] => sub_wire4[3].IN1
 data0x[4] => sub_wire4[4].IN1
 <<<<<<< HEAD
+<<<<<<< HEAD
 data1x[0] => sub_wire4[5].IN1
 data1x[1] => sub_wire4[6].IN1
 data1x[2] => sub_wire4[7].IN1
 data1x[3] => sub_wire4[8].IN1
 data1x[4] => sub_wire4[9].IN1
 =======
+=======
+>>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 data0x[5] => sub_wire4[5].IN1
 data0x[6] => sub_wire4[6].IN1
 data0x[7] => sub_wire4[7].IN1
@@ -5958,6 +6202,9 @@ data1x[28] => sub_wire4[60].IN1
 data1x[29] => sub_wire4[61].IN1
 data1x[30] => sub_wire4[62].IN1
 data1x[31] => sub_wire4[63].IN1
+<<<<<<< HEAD
+>>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
+=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 sel => sub_wire2.IN1
 result[0] <= lpm_mux:lpm_mux_component.result
@@ -5965,6 +6212,7 @@ result[1] <= lpm_mux:lpm_mux_component.result
 result[2] <= lpm_mux:lpm_mux_component.result
 result[3] <= lpm_mux:lpm_mux_component.result
 result[4] <= lpm_mux:lpm_mux_component.result
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 
@@ -5992,6 +6240,8 @@ result[4] <= mux_rnc:auto_generated.result[4]
 
 |RS_decode|mux5x2x1:inst1|lpm_mux:lpm_mux_component|mux_rnc:auto_generated
 =======
+=======
+>>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 result[5] <= lpm_mux:lpm_mux_component.result
 result[6] <= lpm_mux:lpm_mux_component.result
 result[7] <= lpm_mux:lpm_mux_component.result
@@ -6125,6 +6375,9 @@ result[31] <= mux_bpc:auto_generated.result[31]
 
 
 |ALU|mux32x2x1:inst5|lpm_mux:lpm_mux_component|mux_bpc:auto_generated
+<<<<<<< HEAD
+>>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
+=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 result[0] <= l1_w0_n0_mux_dataout.DB_MAX_OUTPUT_PORT_TYPE
 result[1] <= l1_w1_n0_mux_dataout.DB_MAX_OUTPUT_PORT_TYPE
@@ -6132,7 +6385,10 @@ result[2] <= l1_w2_n0_mux_dataout.DB_MAX_OUTPUT_PORT_TYPE
 result[3] <= l1_w3_n0_mux_dataout.DB_MAX_OUTPUT_PORT_TYPE
 result[4] <= l1_w4_n0_mux_dataout.DB_MAX_OUTPUT_PORT_TYPE
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 result[5] <= l1_w5_n0_mux_dataout.DB_MAX_OUTPUT_PORT_TYPE
 result[6] <= l1_w6_n0_mux_dataout.DB_MAX_OUTPUT_PORT_TYPE
 result[7] <= l1_w7_n0_mux_dataout.DB_MAX_OUTPUT_PORT_TYPE
@@ -6696,6 +6952,9 @@ result[28] <= and_node[28][1].DB_MAX_OUTPUT_PORT_TYPE
 result[29] <= and_node[29][1].DB_MAX_OUTPUT_PORT_TYPE
 result[30] <= and_node[30][1].DB_MAX_OUTPUT_PORT_TYPE
 result[31] <= and_node[31][1].DB_MAX_OUTPUT_PORT_TYPE
+<<<<<<< HEAD
+>>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
+=======
 >>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 
 
