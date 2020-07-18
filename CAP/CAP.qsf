@@ -37,23 +37,26 @@
 
 
 set_global_assignment -name FAMILY "Stratix II"
-set_global_assignment -name DEVICE 5CGXFC7C7F23C8
+set_global_assignment -name DEVICE AUTO
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
 set_global_assignment -name TOP_LEVEL_ENTITY RS_decode
+=======
+set_global_assignment -name TOP_LEVEL_ENTITY ALU
+>>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
+=======
+set_global_assignment -name TOP_LEVEL_ENTITY ALU
+>>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
+=======
+set_global_assignment -name TOP_LEVEL_ENTITY ALU
+>>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 9.0
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "04:04:36  JULY 09, 2020"
 set_global_assignment -name LAST_QUARTUS_VERSION 9.0
 set_global_assignment -name USE_GENERATED_PHYSICAL_CONSTRAINTS OFF -section_id eda_blast_fpga
 set_global_assignment -name DEVICE_FILTER_SPEED_GRADE FASTEST
 set_global_assignment -name QIP_FILE ram.qip
-set_global_assignment -name IP_TOOL_NAME "RAM: 2-PORT" -qip ram.qip
-set_global_assignment -name IP_TOOL_VERSION 9.0 -qip ram.qip
-set_global_assignment -name VERILOG_FILE ram.v -qip ram.qip
-set_global_assignment -name MISC_FILE ram.bsf -qip ram.qip
-set_global_assignment -name MISC_FILE ram_inst.v -qip ram.qip
-set_global_assignment -name MISC_FILE ram_bb.v -qip ram.qip
-set_global_assignment -name MISC_FILE ram.inc -qip ram.qip
-set_global_assignment -name MISC_FILE ram.cmp -qip ram.qip
-set_global_assignment -name MISC_FILE ram_syn.v -qip ram.qip
 set_global_assignment -name BDF_FILE CAP.bdf
 set_global_assignment -name BDF_FILE fetch.bdf
 set_global_assignment -name VECTOR_WAVEFORM_FILE CAP.vwf
@@ -62,159 +65,43 @@ set_global_assignment -name BDF_FILE ALU.bdf
 set_global_assignment -name BDF_FILE sign_extend.bdf
 set_global_assignment -name BDF_FILE Register_File.bdf
 set_global_assignment -name QIP_FILE ff.qip
-set_global_assignment -name IP_TOOL_NAME LPM_FF -qip ff.qip
-set_global_assignment -name IP_TOOL_VERSION 9.0 -qip ff.qip
-set_global_assignment -name VERILOG_FILE ff.v -qip ff.qip
-set_global_assignment -name MISC_FILE ff.bsf -qip ff.qip
-set_global_assignment -name MISC_FILE ff_inst.v -qip ff.qip
-set_global_assignment -name MISC_FILE ff_bb.v -qip ff.qip
-set_global_assignment -name MISC_FILE ff.inc -qip ff.qip
-set_global_assignment -name MISC_FILE ff.cmp -qip ff.qip
-set_global_assignment -name MISC_FILE ff_syn.v -qip ff.qip
 set_global_assignment -name QIP_FILE mux32x2x1.qip
-set_global_assignment -name IP_TOOL_NAME LPM_MUX -qip mux32x2x1.qip
-set_global_assignment -name IP_TOOL_VERSION 9.0 -qip mux32x2x1.qip
-set_global_assignment -name MISC_FILE mux32x2x1.tdf -qip mux32x2x1.qip
-set_global_assignment -name MISC_FILE mux32x2x1.bsf -qip mux32x2x1.qip
-set_global_assignment -name MISC_FILE mux32x2x1.inc -qip mux32x2x1.qip
 set_global_assignment -name QIP_FILE adder.qip
-set_global_assignment -name IP_TOOL_NAME LPM_ADD_SUB -qip adder.qip
-set_global_assignment -name IP_TOOL_VERSION 9.0 -qip adder.qip
-set_global_assignment -name VERILOG_FILE adder.v -qip adder.qip
-set_global_assignment -name MISC_FILE adder.bsf -qip adder.qip
-set_global_assignment -name MISC_FILE adder_inst.v -qip adder.qip
-set_global_assignment -name MISC_FILE adder_bb.v -qip adder.qip
-set_global_assignment -name MISC_FILE adder.inc -qip adder.qip
-set_global_assignment -name MISC_FILE adder.cmp -qip adder.qip
-set_global_assignment -name MISC_FILE adder_syn.v -qip adder.qip
 set_global_assignment -name BDF_FILE shift2.bdf
 set_global_assignment -name QIP_FILE ff5.qip
-set_global_assignment -name IP_TOOL_NAME LPM_FF -qip ff5.qip
-set_global_assignment -name IP_TOOL_VERSION 9.0 -qip ff5.qip
-set_global_assignment -name VERILOG_FILE ff5.v -qip ff5.qip
-set_global_assignment -name MISC_FILE ff5.bsf -qip ff5.qip
-set_global_assignment -name MISC_FILE ff5_inst.v -qip ff5.qip
-set_global_assignment -name MISC_FILE ff5_bb.v -qip ff5.qip
-set_global_assignment -name MISC_FILE ff5.inc -qip ff5.qip
-set_global_assignment -name MISC_FILE ff5.cmp -qip ff5.qip
-set_global_assignment -name MISC_FILE ff5_syn.v -qip ff5.qip
 set_global_assignment -name QIP_FILE mux5x2x1.qip
-set_global_assignment -name IP_TOOL_NAME LPM_MUX -qip mux5x2x1.qip
-set_global_assignment -name IP_TOOL_VERSION 9.0 -qip mux5x2x1.qip
-set_global_assignment -name VERILOG_FILE mux5x2x1.v -qip mux5x2x1.qip
-set_global_assignment -name MISC_FILE mux5x2x1.bsf -qip mux5x2x1.qip
-set_global_assignment -name MISC_FILE mux5x2x1_inst.v -qip mux5x2x1.qip
-set_global_assignment -name MISC_FILE mux5x2x1_bb.v -qip mux5x2x1.qip
-set_global_assignment -name MISC_FILE mux5x2x1.inc -qip mux5x2x1.qip
-set_global_assignment -name MISC_FILE mux5x2x1.cmp -qip mux5x2x1.qip
-set_global_assignment -name MISC_FILE mux5x2x1_syn.v -qip mux5x2x1.qip
 set_global_assignment -name BDF_FILE RS_decode.bdf
 set_global_assignment -name QIP_FILE PCAdd.qip
-set_global_assignment -name IP_TOOL_NAME LPM_ADD_SUB -qip PCAdd.qip
-set_global_assignment -name IP_TOOL_VERSION 9.0 -qip PCAdd.qip
-set_global_assignment -name VERILOG_FILE PCAdd.v -qip PCAdd.qip
-set_global_assignment -name MISC_FILE PCAdd.bsf -qip PCAdd.qip
-set_global_assignment -name MISC_FILE PCAdd_inst.v -qip PCAdd.qip
-set_global_assignment -name MISC_FILE PCAdd_bb.v -qip PCAdd.qip
-set_global_assignment -name MISC_FILE PCAdd.inc -qip PCAdd.qip
-set_global_assignment -name MISC_FILE PCAdd.cmp -qip PCAdd.qip
 set_global_assignment -name BDF_FILE Instruction_MEM.bdf
 set_global_assignment -name BDF_FILE data_MEM.bdf
 set_global_assignment -name VECTOR_WAVEFORM_FILE ALU.vwf
 set_global_assignment -name QIP_FILE comparator32.qip
-set_global_assignment -name IP_TOOL_NAME LPM_COMPARE -qip comparator32.qip
-set_global_assignment -name IP_TOOL_VERSION 9.0 -qip comparator32.qip
-set_global_assignment -name VERILOG_FILE comparator32.v -qip comparator32.qip
-set_global_assignment -name MISC_FILE comparator32.bsf -qip comparator32.qip
-set_global_assignment -name MISC_FILE comparator32_inst.v -qip comparator32.qip
-set_global_assignment -name MISC_FILE comparator32_bb.v -qip comparator32.qip
-set_global_assignment -name MISC_FILE comparator32.inc -qip comparator32.qip
-set_global_assignment -name MISC_FILE comparator32.cmp -qip comparator32.qip
 set_global_assignment -name QIP_FILE xor32.qip
-set_global_assignment -name IP_TOOL_NAME LPM_XOR -qip xor32.qip
-set_global_assignment -name IP_TOOL_VERSION 9.0 -qip xor32.qip
-set_global_assignment -name VERILOG_FILE xor32.v -qip xor32.qip
-set_global_assignment -name MISC_FILE xor32.bsf -qip xor32.qip
-set_global_assignment -name MISC_FILE xor32_inst.v -qip xor32.qip
-set_global_assignment -name MISC_FILE xor32_bb.v -qip xor32.qip
-set_global_assignment -name MISC_FILE xor32.inc -qip xor32.qip
-set_global_assignment -name MISC_FILE xor32.cmp -qip xor32.qip
 set_global_assignment -name QIP_FILE not32.qip
-set_global_assignment -name IP_TOOL_NAME LPM_INV -qip not32.qip
-set_global_assignment -name IP_TOOL_VERSION 9.0 -qip not32.qip
-set_global_assignment -name VERILOG_FILE not32.v -qip not32.qip
-set_global_assignment -name MISC_FILE not32.bsf -qip not32.qip
-set_global_assignment -name MISC_FILE not32_inst.v -qip not32.qip
-set_global_assignment -name MISC_FILE not32_bb.v -qip not32.qip
-set_global_assignment -name MISC_FILE not32.inc -qip not32.qip
-set_global_assignment -name MISC_FILE not32.cmp -qip not32.qip
 set_global_assignment -name QIP_FILE and32.qip
-set_global_assignment -name IP_TOOL_NAME LPM_AND -qip and32.qip
-set_global_assignment -name IP_TOOL_VERSION 9.0 -qip and32.qip
-set_global_assignment -name VERILOG_FILE and32.v -qip and32.qip
-set_global_assignment -name MISC_FILE and32.bsf -qip and32.qip
-set_global_assignment -name MISC_FILE and32_inst.v -qip and32.qip
-set_global_assignment -name MISC_FILE and32_bb.v -qip and32.qip
-set_global_assignment -name MISC_FILE and32.inc -qip and32.qip
-set_global_assignment -name MISC_FILE and32.cmp -qip and32.qip
 set_global_assignment -name QIP_FILE shift32.qip
-set_global_assignment -name IP_TOOL_NAME LPM_CLSHIFT -qip shift32.qip
-set_global_assignment -name IP_TOOL_VERSION 9.0 -qip shift32.qip
-set_global_assignment -name VERILOG_FILE shift32.v -qip shift32.qip
-set_global_assignment -name MISC_FILE shift32.bsf -qip shift32.qip
-set_global_assignment -name MISC_FILE shift32_inst.v -qip shift32.qip
-set_global_assignment -name MISC_FILE shift32_bb.v -qip shift32.qip
-set_global_assignment -name MISC_FILE shift32.inc -qip shift32.qip
-set_global_assignment -name MISC_FILE shift32.cmp -qip shift32.qip
 set_global_assignment -name QIP_FILE rotate32.qip
-set_global_assignment -name IP_TOOL_NAME LPM_CLSHIFT -qip rotate32.qip
-set_global_assignment -name IP_TOOL_VERSION 9.0 -qip rotate32.qip
-set_global_assignment -name VERILOG_FILE rotate32.v -qip rotate32.qip
-set_global_assignment -name MISC_FILE rotate32.bsf -qip rotate32.qip
-set_global_assignment -name MISC_FILE rotate32_inst.v -qip rotate32.qip
-set_global_assignment -name MISC_FILE rotate32_bb.v -qip rotate32.qip
-set_global_assignment -name MISC_FILE rotate32.inc -qip rotate32.qip
-set_global_assignment -name MISC_FILE rotate32.cmp -qip rotate32.qip
 set_global_assignment -name QIP_FILE const32.qip
-set_global_assignment -name IP_TOOL_NAME LPM_CONSTANT -qip const32.qip
-set_global_assignment -name IP_TOOL_VERSION 9.0 -qip const32.qip
-set_global_assignment -name VERILOG_FILE const32.v -qip const32.qip
-set_global_assignment -name MISC_FILE const32.bsf -qip const32.qip
-set_global_assignment -name MISC_FILE const32_inst.v -qip const32.qip
-set_global_assignment -name MISC_FILE const32_bb.v -qip const32.qip
-set_global_assignment -name MISC_FILE const32.inc -qip const32.qip
-set_global_assignment -name MISC_FILE const32.cmp -qip const32.qip
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+=======
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE ALU.vwf
 set_global_assignment -name QIP_FILE div32.qip
-set_global_assignment -name IP_TOOL_NAME LPM_DIVIDE -qip div32.qip
-set_global_assignment -name IP_TOOL_VERSION 9.0 -qip div32.qip
-set_global_assignment -name VERILOG_FILE div32.v -qip div32.qip
-set_global_assignment -name MISC_FILE div32.bsf -qip div32.qip
-set_global_assignment -name MISC_FILE div32_inst.v -qip div32.qip
-set_global_assignment -name MISC_FILE div32_bb.v -qip div32.qip
-set_global_assignment -name MISC_FILE div32.inc -qip div32.qip
-set_global_assignment -name MISC_FILE div32.cmp -qip div32.qip
-set_global_assignment -name QIP_FILE decoder.qip
-set_global_assignment -name IP_TOOL_NAME LPM_DECODE -qip decoder.qip
-set_global_assignment -name IP_TOOL_VERSION 9.0 -qip decoder.qip
-set_global_assignment -name VERILOG_FILE decoder.v -qip decoder.qip
-set_global_assignment -name MISC_FILE decoder.bsf -qip decoder.qip
-set_global_assignment -name MISC_FILE decoder_bb.v -qip decoder.qip
-set_global_assignment -name MISC_FILE decoder.inc -qip decoder.qip
-set_global_assignment -name VECTOR_WAVEFORM_FILE sign_extend.vwf
-set_global_assignment -name MISC_FILE "C:/Users/Masih/Desktop/CAP/FF_E_Hajabdolla/CAP/CAP.dpf"
-set_global_assignment -name VECTOR_WAVEFORM_FILE shift2.vwf
-set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE shift2.vwf
-set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -entity data_MEM -section_id Top
-set_global_assignment -name PARTITION_COLOR 16764057 -entity data_MEM -section_id Top
-set_global_assignment -name LL_ROOT_REGION ON -entity data_MEM -section_id "Root Region"
-set_global_assignment -name LL_MEMBER_STATE LOCKED -entity data_MEM -section_id "Root Region"
-set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -entity data_MEM -section_id Top
-set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -entity data_MEM -section_id Top
-set_global_assignment -name VECTOR_WAVEFORM_FILE data_MEM.vwf
-set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform.vwf
-set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -entity RS_decode -section_id Top
-set_global_assignment -name PARTITION_COLOR 16764057 -entity RS_decode -section_id Top
-set_global_assignment -name LL_ROOT_REGION ON -entity RS_decode -section_id "Root Region"
-set_global_assignment -name LL_MEMBER_STATE LOCKED -entity RS_decode -section_id "Root Region"
-set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -entity RS_decode -section_id Top
-set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -entity RS_decode -section_id Top
+>>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
+=======
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE ALU.vwf
+set_global_assignment -name QIP_FILE div32.qip
+>>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
+=======
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE ALU.vwf
+set_global_assignment -name QIP_FILE div32.qip
+>>>>>>> parent of 6a74088... Merge branch 'master' of https://github.com/Gnomy17/FF_E_Hajabdolla
