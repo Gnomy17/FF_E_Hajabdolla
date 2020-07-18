@@ -20,7 +20,7 @@ applicable agreement for further details.
 */
 (header "symbol" (version "1.1"))
 (symbol
-	(rect 16 16 224 112)
+	(rect 16 16 216 112)
 	(text "RS_decode" (rect 5 0 71 14)(font "Arial" (font_size 8)))
 	(text "inst" (rect 8 80 25 92)(font "Arial" ))
 	(port
@@ -31,27 +31,20 @@ applicable agreement for further details.
 		(line (pt 0 32)(pt 16 32)(line_width 3))
 	)
 	(port
-		(pt 208 32)
+		(pt 200 32)
 		(output)
 		(text "RS1[4..0]" (rect 0 0 51 14)(font "Arial" (font_size 8)))
-		(text "RS1[4..0]" (rect 136 27 187 41)(font "Arial" (font_size 8)))
-		(line (pt 208 32)(pt 192 32)(line_width 3))
+		(text "RS1[4..0]" (rect 128 27 179 41)(font "Arial" (font_size 8)))
+		(line (pt 200 32)(pt 184 32)(line_width 3))
 	)
 	(port
-		(pt 208 48)
+		(pt 200 48)
 		(output)
 		(text "RS2[4..0]" (rect 0 0 51 14)(font "Arial" (font_size 8)))
-		(text "RS2[4..0]" (rect 136 43 187 57)(font "Arial" (font_size 8)))
-		(line (pt 208 48)(pt 192 48)(line_width 3))
-	)
-	(port
-		(pt 208 64)
-		(output)
-		(text "Rdest[4..0]" (rect 0 0 61 14)(font "Arial" (font_size 8)))
-		(text "Rdest[4..0]" (rect 126 59 187 73)(font "Arial" (font_size 8)))
-		(line (pt 208 64)(pt 192 64)(line_width 3))
+		(text "RS2[4..0]" (rect 128 43 179 57)(font "Arial" (font_size 8)))
+		(line (pt 200 48)(pt 184 48)(line_width 3))
 	)
 	(drawing
-		(rectangle (rect 16 16 192 80)(line_width 1))
+		(rectangle (rect 16 16 184 80)(line_width 1))
 	)
 )
