@@ -13,19 +13,3 @@
 Quartus II Version 9.0 Build 132 02/25/2009 SJ Web Edition </full_error>
 </internal_error>
 
-<internal_error>
-	<executable>quartus.exe</executable>
-	<sub_system>HDB</sub_system>
-	<file>/quartus/db/hdb/hdb_cmp_action_pt_inst.cpp</file>
-	<line>5598</line>
-	<callstack>
-	0x017dd89a: DB_HDB + 0x6d89a (?clear_timegroup_visited_flag@HDB_CMP_ACTION_PT_INSTANCE@@AAIXPAV?$vector@IV?$MEM_STL_ALLOCATOR@I@@@_Dinkum_std@@@Z + 0x53a)
-	0x017e2a24: DB_HDB + 0x72a24 (?read_pdb@HDB_CMP_ACTION_PT_INSTANCE@@SIPAV1@ABVFIO_PATH@@ABV?$basic_string@DU?$char_traits@D@_Dinkum_std@@V?$MEM_STL_ALLOCATOR@D@@@_Dinkum_std@@W4PDB_FILE_TYPE@HDB_ACTION_PT_INSTANCE@@PA_N@Z + 0x2c4)
-	</callstack>
-	<error>cap_inst</error>
-	<date>Tue Jul 14 11:28:05 2020</date>
-	<version>Quartus II Version 9.0 Build 132 02/25/2009 SJ Web Edition</version>
-	<full_error>cap_inst
-Quartus II Version 9.0 Build 132 02/25/2009 SJ Web Edition </full_error>
-</internal_error>
-
